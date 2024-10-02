@@ -4,7 +4,18 @@ import (
 	"context"
 )
 
-func (p *pipe) PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartial) <-chan ItemNode {
+func (p *service) partialItemToItemNode(item ItemPartial) ItemNode {
+	url := formatUrlToItem(item.Identifier)
+
+	p.logger.Infow("Started item partial", "url", url)
+	doc, err := loadHtmlDocument(p.client, url)
+	if err != nil {
+		panic(err)
+	}
+	return ItemNode{Node: doc, Identifier: item.Identifier}
+}
+
+func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartial) <-chan ItemNode {
 
 	itemNodes := make(chan ItemNode, 100)
 
@@ -22,15 +33,7 @@ func (p *pipe) PipePartialItemToItemNode(ctx context.Context, partialItems <-cha
 					return
 				}
 
-				url := formatUrlToItem(item.Identifier)
-
-				p.logger.Infow("Started item partial", "url", url)
-				doc, err := loadHtmlDocument(p.client, url)
-				if err != nil {
-					panic(err)
-				}
-
-				itemNodes <- ItemNode{Node: doc, Identifier: item.Identifier}
+				itemNodes <- p.partialItemToItemNode(item)
 			}
 		}
 	}()

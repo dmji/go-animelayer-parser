@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func (p *pipe) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan PageNode) <-chan ItemPartial {
+func (p *service) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan PageNode) <-chan ItemPartial {
 	items := make(chan ItemPartial, 100)
 
 	go func() {

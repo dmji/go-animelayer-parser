@@ -32,9 +32,17 @@ func formatUrlToItemsPage(category category, iPage int) string {
 	return baseUrl + string(category) + "?page=" + strconv.FormatInt(int64(iPage), 10)
 }
 
-func formatUrlToItem(guid string) string {
-	return baseUrl + "/torrent/" + guid
+func formatUrlToItem(identifier string) string {
+	return baseUrl + "/torrent/" + identifier
 }
-func formatUrlToItemDownload(guid string) string {
-	return baseUrl + "/torrent/" + guid + "/download"
+func formatUrlToItemDownload(identifier string) string {
+	return baseUrl + "/torrent/" + identifier + "/download"
+}
+
+func (m *ItemPartial) GetTorrentUrl() string {
+	return formatUrlToItem(m.Identifier)
+}
+
+func (m *ItemDetailed) GetTorrentUrl() string {
+	return formatUrlToItem(m.Identifier)
 }

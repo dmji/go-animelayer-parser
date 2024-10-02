@@ -21,7 +21,7 @@ func parseTitle(n *html.Node) (string, bool, error) {
 
 func parseNodeWithTitle(n *html.Node) *ItemPartial {
 
-	guid, bOk := parseGuidFromStyleAttr(n, "title")
+	identifier, bOk := parseIdentifierFromStyleAttr(n, "title")
 	if !bOk {
 		return nil
 	}
@@ -37,7 +37,7 @@ func parseNodeWithTitle(n *html.Node) *ItemPartial {
 	}
 
 	return &ItemPartial{
-		Identifier:  guid,
+		Identifier:  identifier,
 		Title:       title,
 		IsCompleted: bCompleted,
 	}

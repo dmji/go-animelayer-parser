@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func parseGuidFromStyleAttr(n *html.Node, prefix string) (string, bool) {
+func parseIdentifierFromStyleAttr(n *html.Node, prefix string) (string, bool) {
 	for _, a := range n.Attr {
 		if a.Key == "style" {
 			return strings.CutPrefix(a.Val, fmt.Sprintf("view-transition-name: %s-", prefix))
@@ -18,12 +18,12 @@ func parseGuidFromStyleAttr(n *html.Node, prefix string) (string, bool) {
 
 func (p *parser) parseItemNotes(n *html.Node, item *ItemDetailed) {
 
-	guid, bFound := parseGuidFromStyleAttr(n, "description")
+	identifier, bFound := parseIdentifierFromStyleAttr(n, "description")
 	if !bFound {
 		return
 	}
 
-	item.Identifier = guid
+	item.Identifier = identifier
 
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 		t, bOk := getFirstChildTextData(c)

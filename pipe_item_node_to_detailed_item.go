@@ -4,7 +4,7 @@ import (
 	"context"
 )
 
-func (p *pipe) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan ItemNode) <-chan ItemDetailed {
+func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan ItemNode) <-chan ItemDetailed {
 	items := make(chan ItemDetailed, 100)
 
 	go func() {

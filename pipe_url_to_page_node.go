@@ -4,25 +4,34 @@ import (
 	"context"
 )
 
-func (p *pipe) loadHtmlToChan(category category, iPage int, pageNodes chan<- PageNode) bool {
-
+func (p *service) pageTargetToHtmlNode(category category, iPage int) (*PageNode, error) {
 	url := formatUrlToItemsPage(category, iPage)
 	p.logger.Infow("Started reading form", "url", url)
 
 	doc, err := loadHtmlDocument(p.client, url)
 	if err != nil {
+		return nil, err
+	}
+
+	return &PageNode{
+		Node: doc,
+		Page: iPage,
+	}, nil
+}
+
+func (p *service) loadHtmlToChan(category category, iPage int, pageNodes chan<- PageNode) bool {
+
+	item, err := p.pageTargetToHtmlNode(category, iPage)
+	if err != nil {
 		p.logger.Errorw("Error:", err)
 		return false
 	}
 
-	pageNodes <- PageNode{
-		Node: doc,
-		Page: iPage,
-	}
+	pageNodes <- *item
 	return true
 }
 
-func (p *pipe) PipeTargetPagessFromCategoryToPageNode(ctx context.Context, category category, pages []int) <-chan PageNode {
+func (p *service) PipePagesTargetFromCategoryToPageNode(ctx context.Context, category category, pages []int) <-chan PageNode {
 	pageNodes := make(chan PageNode, 10)
 
 	go func() {
@@ -44,7 +53,7 @@ func (p *pipe) PipeTargetPagessFromCategoryToPageNode(ctx context.Context, categ
 	return pageNodes
 }
 
-func (p *pipe) PipeAllPagessFromCategoryToPageNode(ctx context.Context, category category) <-chan PageNode {
+func (p *service) PipePagesAllFromCategoryToPageNode(ctx context.Context, category category) <-chan PageNode {
 	documents := make(chan PageNode, 10)
 
 	go func() {
