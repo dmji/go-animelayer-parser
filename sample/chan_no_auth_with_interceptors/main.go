@@ -1,15 +1,18 @@
 package main
 
 import (
+	"bytes"
 	"context"
-	"flag"
+	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"os/signal"
 	"strconv"
 	"syscall"
 
 	"github.com/dmji/go-animelayer-parser"
+	"golang.org/x/net/html"
 )
 
 type loggerBasic struct{}
@@ -33,7 +36,6 @@ func (l *loggerBasic) kts(keys ...interface{}) string {
 }
 
 func (l *loggerBasic) Infow(msg string, keys ...interface{}) {
-
 	log.Print("Info  | ", msg, l.kts(keys))
 }
 func (l *loggerBasic) Errorw(msg string, keys ...interface{}) {
@@ -41,46 +43,64 @@ func (l *loggerBasic) Errorw(msg string, keys ...interface{}) {
 }
 
 func main() {
-	var login, password string
-	flag.StringVar(&login, "l", "", "login for credentials")
-	flag.StringVar(&password, "p", "", "password for credentials")
-	flag.Parse()
-
-	log.Print(login, nil, password)
-
 	ctx, cancel := context.WithCancel(context.Background())
 	go func() {
 		exit := make(chan os.Signal, 1)
 		signal.Notify(exit, os.Interrupt, syscall.SIGTERM)
-		<-exit
+		sig := <-exit
+		log.Printf("Catched signal: %s", sig.String())
 		cancel()
 	}()
 
-	cred := animelayer.Credentials{
-		Login:    login,
-		Password: password,
-	}
-
-	client, err := animelayer.HttpClientWithAuth(cred)
-	if err != nil {
-		panic(err)
-	}
-
-	p := animelayer.New(client)
+	p := animelayer.New(&http.Client{})
 	p.SetLogger(&loggerBasic{})
 	pages := []int{1, 2, 3}
 
 	// get first 3 anime pages
-	pageNodes := p.PipeTargetPagessFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), pages)
+	pageNodes := p.PipePagesTargetFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), pages)
+
+	// intercept page html result to files
+	pageNodes2 := animelayer.PipeGenericInterceptor(ctx, pageNodes, func(pageNode *animelayer.PageNode) {
+
+		var b bytes.Buffer
+		err := html.Render(&b, pageNode.Node)
+		if err != nil {
+			panic(err)
+		}
+
+		os.Mkdir("~category_anime", 0700)
+		err = os.WriteFile(fmt.Sprintf("~category_anime/page_%.3d.html", pageNode.Page), b.Bytes(), 0644)
+		if err != nil {
+			panic(err)
+		}
+
+	})
 
 	// parse partial items
-	partialItems := p.PipePageNodesToPartialItems(ctx, pageNodes)
+	partialItems := p.PipePageNodesToPartialItems(ctx, pageNodes2)
 
 	// got from partial items url to detailed html nodes
 	itemNodes := p.PipePartialItemToItemNode(ctx, partialItems)
 
+	// intercept page html result to files
+	itemNodes2 := animelayer.PipeGenericInterceptor(ctx, itemNodes, func(itemNode *animelayer.ItemNode) {
+
+		var b bytes.Buffer
+		err := html.Render(&b, itemNode.Node)
+		if err != nil {
+			panic(err)
+		}
+
+		os.Mkdir("~item_anime", 0700)
+		err = os.WriteFile(fmt.Sprintf("~item_anime/item_%s.html", itemNode.Identifier), b.Bytes(), 0644)
+		if err != nil {
+			panic(err)
+		}
+
+	})
+
 	// get detailed items form item nodes
-	detailedItems := p.PipeItemNodesToDetailedItems(ctx, itemNodes)
+	detailedItems := p.PipeItemNodesToDetailedItems(ctx, itemNodes2)
 
 	for {
 
