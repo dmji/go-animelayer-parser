@@ -1,13 +1,7 @@
 package animelayer
 
 import (
-	"bytes"
-	"context"
-	"fmt"
 	"net/http"
-	"os"
-
-	"golang.org/x/net/html"
 )
 
 type logger interface {
@@ -35,35 +29,4 @@ func New(client *http.Client) *pipe {
 		logger: &loggerPlaceholder{},
 	}
 
-}
-
-func (p *pipe) pipeDocumentToDescription(ctx context.Context, documents <-chan PageNode) {
-
-	items := p.PipePageNodesToPartialItems(ctx, documents)
-	descriptionNodes := p.PipePartialItemToItemNode(ctx, items)
-
-	for descriptionNode := range descriptionNodes {
-
-		var b bytes.Buffer
-		err := html.Render(&b, descriptionNode.Node)
-		if err != nil {
-			panic(err)
-		}
-
-		err = os.WriteFile(fmt.Sprintf("items/%s.html", descriptionNode.Identifier), b.Bytes(), 0644)
-		if err != nil {
-			panic(err)
-		}
-
-	}
-}
-
-func (p *pipe) StartPipeForAllPages(ctx context.Context, category category) {
-	documents := p.PipeAllPagessFromCategoryToPageNode(ctx, category)
-	p.pipeDocumentToDescription(ctx, documents)
-}
-
-func (p *pipe) StartPipeForTargetPages(ctx context.Context, category category, pages []int) {
-	documents := p.PipeTargetPagessFromCategoryToPageNode(ctx, category, pages)
-	p.pipeDocumentToDescription(ctx, documents)
 }
