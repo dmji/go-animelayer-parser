@@ -1,6 +1,10 @@
 package animelayer
 
-import "golang.org/x/net/html"
+import (
+	"time"
+
+	"golang.org/x/net/html"
+)
 
 type ItemPartial struct {
 	Identifier  string
@@ -18,8 +22,8 @@ type ItemDetailed struct {
 	RefImagePreview string
 	RefImageCover   string
 
-	UpdatedDate string
-	CreatedDate string
+	UpdatedDate *time.Time
+	CreatedDate *time.Time
 
 	Notes string
 }

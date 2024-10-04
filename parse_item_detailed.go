@@ -5,9 +5,56 @@ import (
 	"context"
 	"errors"
 	"slices"
+	"strconv"
+	"strings"
+	"time"
 
 	"golang.org/x/net/html"
 )
+
+func dateFromAnimelayerDate(t string) *time.Time {
+
+	t = strings.ReplaceAll(t, "января", "01")
+	t = strings.ReplaceAll(t, "февраля", "02")
+	t = strings.ReplaceAll(t, "марта", "03")
+	t = strings.ReplaceAll(t, "апреля", "04")
+	t = strings.ReplaceAll(t, "мая", "05")
+	t = strings.ReplaceAll(t, "июня", "06")
+	t = strings.ReplaceAll(t, "июля", "07")
+	t = strings.ReplaceAll(t, "августа", "08")
+	t = strings.ReplaceAll(t, "сентября", "09")
+	t = strings.ReplaceAll(t, "октября", "10")
+	t = strings.ReplaceAll(t, "ноября", "11")
+	t = strings.ReplaceAll(t, "декабря", "12")
+	t = strings.ReplaceAll(t, " в ", " ")
+	t = strings.ReplaceAll(t, ":", " ")
+
+	numbers := strings.Split(t, " ")
+	if len(numbers) == 4 {
+
+		day, _ := strconv.ParseInt(numbers[0], 10, 64)
+		month, _ := strconv.ParseInt(numbers[1], 10, 64)
+		hour, _ := strconv.ParseInt(numbers[2], 10, 64)
+		minute, _ := strconv.ParseInt(numbers[3], 10, 64)
+
+		d := time.Date(time.Now().Year(), time.Month(month), int(day), int(hour), int(minute), 0, 0, time.UTC)
+		return &d
+
+	} else if len(numbers) == 5 {
+
+		day, _ := strconv.ParseInt(numbers[0], 10, 64)
+		month, _ := strconv.ParseInt(numbers[1], 10, 64)
+		year, _ := strconv.ParseInt(numbers[2], 10, 64)
+		hour, _ := strconv.ParseInt(numbers[3], 10, 64)
+		minute, _ := strconv.ParseInt(numbers[4], 10, 64)
+
+		d := time.Date(int(year), time.Month(month), int(day), int(hour), int(minute), 0, 0, time.UTC)
+		return &d
+
+	}
+
+	return nil
+}
 
 func parseItemNotes(n *html.Node, item *ItemDetailed) {
 
@@ -113,19 +160,19 @@ func tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, 
 			// clearTexts[3]: Created date
 			// clearTexts[4]: Seeder last presence
 			// clearTexts[5]: Seed last presence date
-			item.UpdatedDate = clearTexts[1]
-			item.CreatedDate = clearTexts[3]
+			item.UpdatedDate = dateFromAnimelayerDate(clearTexts[1])
+			item.CreatedDate = dateFromAnimelayerDate(clearTexts[3])
 		} else if nText == 4 {
 			// clearTexts[0]: Updated
 			// clearTexts[1]: Updated date
 			// clearTexts[2]: Created
 			// clearTexts[3]: created date
-			item.UpdatedDate = clearTexts[1]
-			item.CreatedDate = clearTexts[3]
+			item.UpdatedDate = dateFromAnimelayerDate(clearTexts[1])
+			item.CreatedDate = dateFromAnimelayerDate(clearTexts[3])
 		} else if nText == 2 {
 			// clearTexts[0]: Created
 			// clearTexts[1]: created date
-			item.CreatedDate = clearTexts[1]
+			item.CreatedDate = dateFromAnimelayerDate(clearTexts[1])
 		}
 
 		return true, nil
