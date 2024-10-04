@@ -34,13 +34,22 @@ func parseTitle(n *html.Node) (string, bool, error) {
 
 func parseNodeWithTitle(n *html.Node) *ItemPartial {
 
-	identifier, bOk := parseIdentifierFromStyleAttr(n, "title")
-	if !bOk {
+	ref := getFirstChildHrefNode(n)
+	if ref == nil {
 		return nil
 	}
 
-	ref := getFirstChildHrefNode(n)
-	if ref == nil {
+	identifier, bFound := getAttrByKey(ref, "href")
+	if !bFound {
+		return nil
+	}
+
+	identifier, bFound = strings.CutPrefix(identifier, "/torrent/")
+	if !bFound {
+		return nil
+	}
+	identifier, bFound = strings.CutSuffix(identifier, "/")
+	if !bFound {
 		return nil
 	}
 

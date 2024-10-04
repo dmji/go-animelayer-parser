@@ -25,5 +25,5 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 
 func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) *ItemDetailed {
 	detailedItemNode := p.partialItemToItemNode(identifier)
-	return parseItem(ctx, detailedItemNode.Node)
+	return parseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
 }

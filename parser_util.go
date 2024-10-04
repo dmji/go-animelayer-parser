@@ -69,13 +69,21 @@ func isExistAttrWithTargetKeyValue(n *html.Node, elem, key, value string) bool {
 		return false
 	}
 
-	for _, a := range n.Attr {
-		if a.Key == key && a.Val == value {
-			return true
-		}
+	val, bFound := getAttrByKey(n, key)
+	if !bFound {
+		return false
 	}
 
-	return false
+	return val == value
+}
+
+func getAttrByKey(n *html.Node, key string) (string, bool) {
+	for _, a := range n.Attr {
+		if a.Key == key {
+			return a.Val, true
+		}
+	}
+	return "", false
 }
 
 func isElementNodeData(n *html.Node, data string) bool {
