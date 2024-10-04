@@ -10,13 +10,15 @@ type logger interface {
 	Errorw(msg string, keys ...interface{})
 }
 
-type Parser interface {
+type ParserPipeline interface {
 	PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan PageHtmlNode) <-chan ItemDetailedWithError
 	PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan CategoryHtml) <-chan ItemPartialWithError
 	PipePagesFromCategoryToPageNode(ctx context.Context, category Category, pages ...int) <-chan CategoryHtml
 	PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartialWithError) <-chan PageHtmlNode
+}
 
-	PartialItemToDetailedItem(ctx context.Context, partialItem ItemPartial) *ItemDetailed
+type Parser interface {
+	PartialItemToDetailedItem(ctx context.Context, identifier string) *ItemDetailed
 	CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartialWithError, error)
 }
 
@@ -31,10 +33,10 @@ func New(client *http.Client) *service {
 
 }
 
-func (p *service) partialItemToItemNode(item ItemPartial) *PageHtmlNode {
-	url := formatUrlToItem(item.Identifier)
+func (p *service) partialItemToItemNode(identifier string) *PageHtmlNode {
+	url := formatUrlToItem(identifier)
 	doc, err := loadHtmlDocument(p.client, url)
-	return &PageHtmlNode{Node: doc, Identifier: item.Identifier, Error: err}
+	return &PageHtmlNode{Node: doc, Identifier: identifier, Error: err}
 }
 
 func (p *service) pageTargetToHtmlNode(category Category, iPage int) (*CategoryHtml, error) {

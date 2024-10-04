@@ -70,6 +70,7 @@ func PipeGenericWg[TIn, TOut any](ctx context.Context, inT <-chan TIn, capacity 
 	go func() {
 		defer close(outT)
 		wg := &sync.WaitGroup{}
+		defer wg.Wait()
 
 		for {
 
