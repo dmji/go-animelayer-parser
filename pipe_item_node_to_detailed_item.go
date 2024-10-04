@@ -2,14 +2,14 @@ package animelayer
 
 import (
 	"context"
+	"fmt"
 )
 
-func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan ItemNode) <-chan ItemDetailed {
-	items := make(chan ItemDetailed, 100)
+func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan PageHtmlNode) <-chan ItemDetailedWithError {
+	items := make(chan ItemDetailedWithError, 100)
 
 	go func() {
 		defer close(items)
-		parser := newParser(p.logger)
 		for {
 
 			select {
@@ -21,12 +21,11 @@ func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-
 					return
 				}
 
-				p.logger.Infow("Started item node", "identifier", itemNode.Identifier)
-				item := parser.ParseItem(ctx, itemNode.Node)
+				item := parseItem(ctx, itemNode.Node)
 				if item == nil {
-					p.logger.Errorw("Pipe Item Node To Completed Item Error", "error", "got nil item")
+					items <- ItemDetailedWithError{Item: nil, Error: fmt.Errorf("got nil item from identifier='%s'", itemNode.Identifier)}
 				} else {
-					items <- *item
+					items <- ItemDetailedWithError{Item: item, Error: nil}
 				}
 			}
 

@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"errors"
+	"fmt"
 	"strings"
 
 	"golang.org/x/net/html"
@@ -55,28 +56,26 @@ func parseNodeWithTitle(n *html.Node) *ItemPartial {
 	}
 }
 
-func (p *parser) ParsePartialItemsToChan(ctx context.Context, n *html.Node, chItems chan<- ItemPartial) {
+func parseCategoryPageToChan(ctx context.Context, n *html.Node, chItems chan<- ItemPartialWithError) {
 
 	// cart title
-	if isElementNodeData(n, "h3") {
+	if isExistAttrWithTargetKeyValue(n, "h3", "class", "h2 m0") {
 
-		if isExistAttrWithTargetKeyValue(n, "class", "h2 m0") {
-
-			item := parseNodeWithTitle(n)
-			if item != nil {
-				chItems <- (*item)
-			} else {
-				var b bytes.Buffer
-				err := html.Render(&b, n)
-				if err == nil {
-					p.logger.Errorw("AnimeLayer ParseCategoryToChan | Warning: Got nil item", "node", b.String())
-				} else {
-					p.logger.Errorw("AnimeLayer ParseCategoryToChan | Warning: Got nil item but error on html.Render: ", "error", err)
-				}
+		item := parseNodeWithTitle(n)
+		if item != nil {
+			chItems <- ItemPartialWithError{
+				Item:  item,
+				Error: nil,
 			}
-			return
+		} else {
+			var b bytes.Buffer
+			_ = html.Render(&b, n)
+			chItems <- ItemPartialWithError{
+				Item:  nil,
+				Error: fmt.Errorf("got nil item from parse string: %s", b.String()),
+			}
 		}
-
+		return
 	}
 
 	// traverses the HTML of the webpage from the first child node
@@ -85,7 +84,7 @@ func (p *parser) ParsePartialItemsToChan(ctx context.Context, n *html.Node, chIt
 		case <-ctx.Done():
 			return
 		default:
-			p.ParsePartialItemsToChan(ctx, c, chItems)
+			parseCategoryPageToChan(ctx, c, chItems)
 		}
 	}
 }

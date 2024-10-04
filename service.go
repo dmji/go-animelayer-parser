@@ -10,35 +10,43 @@ type logger interface {
 	Errorw(msg string, keys ...interface{})
 }
 
-type loggerPlaceholder struct{}
+type Parser interface {
+	PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan PageHtmlNode) <-chan ItemDetailedWithError
+	PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan CategoryHtml) <-chan ItemPartialWithError
+	PipePagesFromCategoryToPageNode(ctx context.Context, category Category, pages ...int) <-chan CategoryHtml
+	PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartialWithError) <-chan PageHtmlNode
 
-func (l *loggerPlaceholder) Infow(msg string, keys ...interface{})  {}
-func (l *loggerPlaceholder) Errorw(msg string, keys ...interface{}) {}
-
-func (s *service) SetLogger(l logger) {
-	s.logger = l
+	PartialItemToDetailedItem(ctx context.Context, partialItem ItemPartial) *ItemDetailed
+	CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartialWithError, error)
 }
 
 type service struct {
 	client *http.Client
-	logger logger
 }
 
 func New(client *http.Client) *service {
 	return &service{
 		client: client,
-		logger: &loggerPlaceholder{},
 	}
 
 }
 
-type Parser interface {
-	PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan ItemNode) <-chan ItemDetailed
-	PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan PageNode) <-chan ItemPartial
-	PipePagesTargetFromCategoryToPageNode(ctx context.Context, category category, pages []int) <-chan PageNode
-	PipePagesAllFromCategoryToPageNode(ctx context.Context, category category) <-chan PageNode
-	PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartial) <-chan ItemNode
+func (p *service) partialItemToItemNode(item ItemPartial) PageHtmlNode {
+	url := formatUrlToItem(item.Identifier)
+	doc, err := loadHtmlDocument(p.client, url)
+	return PageHtmlNode{Node: doc, Identifier: item.Identifier, Error: err}
+}
 
-	PartialItemToDetailedItem(ctx context.Context, partialItem ItemPartial) *ItemDetailed
-	CategoryPageToPartialItems(ctx context.Context, category category, iPage int) ([]ItemPartial, error)
+func (p *service) pageTargetToHtmlNode(category Category, iPage int) (*CategoryHtml, error) {
+	url := formatUrlToItemsPage(category, iPage)
+
+	doc, err := loadHtmlDocument(p.client, url)
+	if err != nil {
+		return nil, err
+	}
+
+	return &CategoryHtml{
+		Node: doc,
+		Page: iPage,
+	}, nil
 }

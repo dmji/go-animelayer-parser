@@ -4,20 +4,9 @@ import (
 	"context"
 )
 
-func (p *service) partialItemToItemNode(item ItemPartial) ItemNode {
-	url := formatUrlToItem(item.Identifier)
+func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartialWithError) <-chan PageHtmlNode {
 
-	p.logger.Infow("Started item partial", "url", url)
-	doc, err := loadHtmlDocument(p.client, url)
-	if err != nil {
-		panic(err)
-	}
-	return ItemNode{Node: doc, Identifier: item.Identifier}
-}
-
-func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartial) <-chan ItemNode {
-
-	itemNodes := make(chan ItemNode, 100)
+	itemNodes := make(chan PageHtmlNode, 100)
 
 	go func() {
 		defer close(itemNodes)
@@ -27,13 +16,13 @@ func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-
 			select {
 			case <-ctx.Done():
 				return
-			case item, bOpen := <-partialItems:
+			case prop, bOpen := <-partialItems:
 
 				if !bOpen && len(partialItems) == 0 {
 					return
 				}
 
-				itemNodes <- p.partialItemToItemNode(item)
+				itemNodes <- p.partialItemToItemNode(*prop.Item)
 			}
 		}
 	}()

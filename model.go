@@ -8,11 +8,6 @@ type ItemPartial struct {
 	IsCompleted bool
 }
 
-type Note struct {
-	Name string
-	Text string
-}
-
 type ItemDetailed struct {
 	Identifier  string
 	Title       string
@@ -26,17 +21,26 @@ type ItemDetailed struct {
 	UpdatedDate string
 	CreatedDate string
 
-	LastCheckedDate string
-
-	Notes []Note
+	Notes string
 }
 
-type PageNode struct {
+type CategoryHtml struct {
 	Node *html.Node
 	Page int
 }
 
-type ItemNode struct {
+type PageHtmlNode struct {
 	Node       *html.Node
 	Identifier string
+	Error      error
+}
+
+type ItemPartialWithError struct {
+	Item  *ItemPartial
+	Error error
+}
+
+type ItemDetailedWithError struct {
+	Item  *ItemDetailed
+	Error error
 }

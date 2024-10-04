@@ -7,6 +7,7 @@ import (
 )
 
 func cleanStringFromHtmlSymbols(t string) string {
+	t = html.UnescapeString(t)
 	t = strings.ReplaceAll(t, "\n", "")
 	t = strings.ReplaceAll(t, "\t", "")
 	t = strings.ReplaceAll(t, "\u00a0", " ")
@@ -62,7 +63,12 @@ func getAllChildTextData(n *html.Node) []string {
 	return res
 }
 
-func isExistAttrWithTargetKeyValue(n *html.Node, key, value string) bool {
+func isExistAttrWithTargetKeyValue(n *html.Node, elem, key, value string) bool {
+
+	if !isElementNodeData(n, elem) {
+		return false
+	}
+
 	for _, a := range n.Attr {
 		if a.Key == key && a.Val == value {
 			return true

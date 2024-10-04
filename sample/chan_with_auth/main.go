@@ -67,11 +67,9 @@ func main() {
 	}
 
 	p := animelayer.New(client)
-	p.SetLogger(&loggerBasic{})
-	pages := []int{1, 2, 3}
 
 	// get first 3 anime pages
-	pageNodes := p.PipePagesTargetFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), pages)
+	pageNodes := p.PipePagesFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), 1, 2, 3)
 
 	// parse partial items
 	partialItems := p.PipePageNodesToPartialItems(ctx, pageNodes)
@@ -87,13 +85,13 @@ func main() {
 		select {
 		case <-ctx.Done():
 			return
-		case item, bOpen := <-detailedItems:
+		case prop, bOpen := <-detailedItems:
 
 			if !bOpen && len(detailedItems) == 0 {
 				return
 			}
 
-			log.Printf("Title: %s (%s)", item.Title, item.Identifier)
+			log.Printf("Title: %s (%s)", prop.Item.Title, prop.Item.Identifier)
 		}
 
 	}

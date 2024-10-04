@@ -1,6 +1,7 @@
 package animelayer
 
 import (
+	"bytes"
 	"fmt"
 	"strings"
 
@@ -16,7 +17,7 @@ func parseIdentifierFromStyleAttr(n *html.Node, prefix string) (string, bool) {
 	return "", false
 }
 
-func (p *parser) parseItemNotes(n *html.Node, item *ItemDetailed) {
+func parseItemNotes(n *html.Node, item *ItemDetailed) {
 
 	identifier, bFound := parseIdentifierFromStyleAttr(n, "description")
 	if !bFound {
@@ -25,39 +26,16 @@ func (p *parser) parseItemNotes(n *html.Node, item *ItemDetailed) {
 
 	item.Identifier = identifier
 
+	var b bytes.Buffer
+
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		t, bOk := getFirstChildTextData(c)
-		if !bOk {
-			continue
+
+		err := html.Render(&b, c)
+		if err != nil {
+			panic(err)
 		}
 
-		t = cleanStringFromHtmlSymbols(t)
-		if len(t) <= 0 {
-			continue
-		}
-
-		switch c.Data {
-		case "u":
-		case "strong":
-			t, _ = strings.CutSuffix(t, ":")
-			item.Notes = append(item.Notes, Note{Name: t})
-		default:
-			n := len(item.Notes) - 1
-			if n < 0 {
-				p.logger.Errorw("ParseDescriptionNode", "error", "description bold part not found")
-			}
-
-			if len(item.Notes[n].Name) == 0 {
-				p.logger.Errorw("ParseDescriptionNode", "error", "description bold part not found")
-			}
-
-			value := item.Notes[n].Text
-			if len(value) > 0 {
-				value += "\n"
-			}
-			value += t
-
-			item.Notes[n].Text = value
-		}
 	}
+
+	item.Notes = cleanStringFromHtmlSymbols(b.String())
 }

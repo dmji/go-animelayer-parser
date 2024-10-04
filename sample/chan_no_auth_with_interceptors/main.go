@@ -53,14 +53,12 @@ func main() {
 	}()
 
 	p := animelayer.New(&http.Client{})
-	p.SetLogger(&loggerBasic{})
-	pages := []int{1, 2, 3}
 
 	// get first 3 anime pages
-	pageNodes := p.PipePagesTargetFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), pages)
+	pageNodes := p.PipePagesFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), 1, 2, 3)
 
 	// intercept page html result to files
-	pageNodes2 := animelayer.PipeGenericInterceptor(ctx, pageNodes, func(pageNode *animelayer.PageNode) {
+	pageNodes2 := animelayer.PipeGenericInterceptor(ctx, pageNodes, func(pageNode *animelayer.CategoryHtml) {
 
 		var b bytes.Buffer
 		err := html.Render(&b, pageNode.Node)
@@ -83,7 +81,7 @@ func main() {
 	itemNodes := p.PipePartialItemToItemNode(ctx, partialItems)
 
 	// intercept page html result to files
-	itemNodes2 := animelayer.PipeGenericInterceptor(ctx, itemNodes, func(itemNode *animelayer.ItemNode) {
+	itemNodes2 := animelayer.PipeGenericInterceptor(ctx, itemNodes, func(itemNode *animelayer.PageHtmlNode) {
 
 		var b bytes.Buffer
 		err := html.Render(&b, itemNode.Node)
@@ -100,20 +98,20 @@ func main() {
 	})
 
 	// get detailed items form item nodes
-	detailedItems := p.PipeItemNodesToDetailedItems(ctx, itemNodes2)
+	detailedItemProps := p.PipeItemNodesToDetailedItems(ctx, itemNodes2)
 
 	for {
 
 		select {
 		case <-ctx.Done():
 			return
-		case item, bOpen := <-detailedItems:
+		case prop, bOpen := <-detailedItemProps:
 
-			if !bOpen && len(detailedItems) == 0 {
+			if !bOpen && len(detailedItemProps) == 0 {
 				return
 			}
 
-			log.Printf("Title: %s (%s)", item.Title, item.Identifier)
+			log.Printf("Title: %s (%s)", prop.Item.Title, prop.Item.Identifier)
 		}
 
 	}

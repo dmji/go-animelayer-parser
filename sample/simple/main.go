@@ -28,7 +28,11 @@ func main() {
 		panic(err)
 	}
 
-	detailedFirstItem := p.PartialItemToDetailedItem(ctx, partialItems[0])
+	if err := partialItems[0].Error; err != nil {
+		panic(err)
+	}
+
+	detailedFirstItem := p.PartialItemToDetailedItem(ctx, *partialItems[0].Item)
 	for i, partialItem := range partialItems {
 
 		log.Printf("%d: %v", i, partialItem)

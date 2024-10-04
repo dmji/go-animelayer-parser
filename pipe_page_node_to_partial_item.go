@@ -5,13 +5,12 @@ import (
 	"sync"
 )
 
-func (p *service) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan PageNode) <-chan ItemPartial {
-	items := make(chan ItemPartial, 100)
+func (p *service) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan CategoryHtml) <-chan ItemPartialWithError {
+	items := make(chan ItemPartialWithError, 100)
 
 	go func() {
 		wg := &sync.WaitGroup{}
 		defer close(items)
-		parser := newParser(p.logger)
 
 	loop:
 		for {
@@ -28,8 +27,7 @@ func (p *service) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-c
 				wg.Add(1)
 				go func() {
 					defer wg.Done()
-					p.logger.Infow("Started page node", "page", pageNode.Page)
-					parser.ParsePartialItemsToChan(ctx, pageNode.Node, items)
+					parseCategoryPageToChan(ctx, pageNode.Node, items)
 				}()
 			}
 		}
