@@ -56,7 +56,9 @@ func parseNodeWithTitle(n *html.Node) *ItemPartial {
 	}
 }
 
-func parseCategoryPageToChan(ctx context.Context, n *html.Node, chItems chan<- ItemPartialWithError) {
+func parseCategoryPageToChan(ctx context.Context, category *CategoryHtml, chItems chan<- ItemPartialWithError) {
+
+	n := category.Node
 
 	// cart title
 	if isExistAttrWithTargetKeyValue(n, "h3", "class", "h2 m0") {
@@ -84,7 +86,7 @@ func parseCategoryPageToChan(ctx context.Context, n *html.Node, chItems chan<- I
 		case <-ctx.Done():
 			return
 		default:
-			parseCategoryPageToChan(ctx, c, chItems)
+			parseCategoryPageToChan(ctx, &CategoryHtml{c}, chItems)
 		}
 	}
 }

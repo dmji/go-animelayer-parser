@@ -26,7 +26,6 @@ type ItemDetailed struct {
 
 type CategoryHtml struct {
 	Node *html.Node
-	Page int
 }
 
 type PageHtmlNode struct {

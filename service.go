@@ -31,10 +31,10 @@ func New(client *http.Client) *service {
 
 }
 
-func (p *service) partialItemToItemNode(item ItemPartial) PageHtmlNode {
+func (p *service) partialItemToItemNode(item ItemPartial) *PageHtmlNode {
 	url := formatUrlToItem(item.Identifier)
 	doc, err := loadHtmlDocument(p.client, url)
-	return PageHtmlNode{Node: doc, Identifier: item.Identifier, Error: err}
+	return &PageHtmlNode{Node: doc, Identifier: item.Identifier, Error: err}
 }
 
 func (p *service) pageTargetToHtmlNode(category Category, iPage int) (*CategoryHtml, error) {
@@ -45,8 +45,5 @@ func (p *service) pageTargetToHtmlNode(category Category, iPage int) (*CategoryH
 		return nil, err
 	}
 
-	return &CategoryHtml{
-		Node: doc,
-		Page: iPage,
-	}, nil
+	return &CategoryHtml{doc}, nil
 }

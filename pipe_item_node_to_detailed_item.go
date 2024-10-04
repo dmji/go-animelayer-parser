@@ -6,31 +6,16 @@ import (
 )
 
 func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan PageHtmlNode) <-chan ItemDetailedWithError {
-	items := make(chan ItemDetailedWithError, 100)
 
-	go func() {
-		defer close(items)
-		for {
+	return PipeGeneric(ctx, itemNodes, 100, func(itemNode *PageHtmlNode) *ItemDetailedWithError {
 
-			select {
-			case <-ctx.Done():
-				return
-			case itemNode, bOpen := <-itemNodes:
-
-				if !bOpen && len(itemNodes) == 0 {
-					return
-				}
-
-				item := parseItem(ctx, itemNode.Node)
-				if item == nil {
-					items <- ItemDetailedWithError{Item: nil, Error: fmt.Errorf("got nil item from identifier='%s'", itemNode.Identifier)}
-				} else {
-					items <- ItemDetailedWithError{Item: item, Error: nil}
-				}
-			}
-
+		item := parseItem(ctx, itemNode.Node)
+		if item == nil {
+			return &ItemDetailedWithError{Item: nil, Error: fmt.Errorf("got nil item from identifier='%s'", itemNode.Identifier)}
+		} else {
+			return &ItemDetailedWithError{Item: item, Error: nil}
 		}
-	}()
 
-	return items
+	})
+
 }

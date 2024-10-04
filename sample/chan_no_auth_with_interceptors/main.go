@@ -58,16 +58,16 @@ func main() {
 	pageNodes := p.PipePagesFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), 1, 2, 3)
 
 	// intercept page html result to files
-	pageNodes2 := animelayer.PipeGenericInterceptor(ctx, pageNodes, func(pageNode *animelayer.CategoryHtml) {
+	pageNodes2 := animelayer.PipeGenericInterceptor(ctx, pageNodes, 100, func(pageNode **animelayer.CategoryHtml) {
 
 		var b bytes.Buffer
-		err := html.Render(&b, pageNode.Node)
+		err := html.Render(&b, (**pageNode).Node)
 		if err != nil {
 			panic(err)
 		}
 
 		os.Mkdir("~category_anime", 0700)
-		err = os.WriteFile(fmt.Sprintf("~category_anime/page_%.3d.html", pageNode.Page), b.Bytes(), 0644)
+		err = os.WriteFile(fmt.Sprintf("~category_anime/page_%.3d.html", pageNode), b.Bytes(), 0644)
 		if err != nil {
 			panic(err)
 		}
@@ -81,7 +81,7 @@ func main() {
 	itemNodes := p.PipePartialItemToItemNode(ctx, partialItems)
 
 	// intercept page html result to files
-	itemNodes2 := animelayer.PipeGenericInterceptor(ctx, itemNodes, func(itemNode *animelayer.PageHtmlNode) {
+	itemNodes2 := animelayer.PipeGenericInterceptor(ctx, itemNodes, 100, func(itemNode *animelayer.PageHtmlNode) {
 
 		var b bytes.Buffer
 		err := html.Render(&b, itemNode.Node)

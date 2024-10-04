@@ -4,8 +4,9 @@ import (
 	"context"
 )
 
-func (p *service) PipePagesFromCategoryToPageNode(ctx context.Context, category Category, pages ...int) <-chan CategoryHtml {
-	documents := make(chan CategoryHtml, 10)
+func (p *service) PipePagesFromCategoryToPageNode(ctx context.Context, category Category, pages ...int) <-chan *CategoryHtml {
+
+	documents := make(chan *CategoryHtml, 10)
 
 	getPageIndex := func(i int) (int, bool) {
 		if len(pages) == 0 {
@@ -39,7 +40,7 @@ func (p *service) PipePagesFromCategoryToPageNode(ctx context.Context, category 
 				break
 			}
 
-			documents <- *doc
+			documents <- doc
 		}
 
 	}()

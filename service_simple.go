@@ -12,7 +12,7 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 	items := make(chan ItemPartialWithError, 100)
 	go func() {
 		defer close(items)
-		parseCategoryPageToChan(ctx, pageNode.Node, items)
+		parseCategoryPageToChan(ctx, pageNode, items)
 	}()
 
 	res := make([]ItemPartialWithError, 0, 100)
