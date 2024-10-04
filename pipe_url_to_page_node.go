@@ -37,6 +37,7 @@ func (p *service) PipePagesTargetFromCategoryToPageNode(ctx context.Context, cat
 	go func() {
 		defer close(pageNodes)
 
+	loop:
 		for _, i := range pages {
 			select {
 			case <-ctx.Done():
@@ -44,7 +45,7 @@ func (p *service) PipePagesTargetFromCategoryToPageNode(ctx context.Context, cat
 			default:
 				ok := p.loadHtmlToChan(category, i, pageNodes)
 				if !ok {
-					break
+					break loop
 				}
 			}
 		}
@@ -59,6 +60,8 @@ func (p *service) PipePagesAllFromCategoryToPageNode(ctx context.Context, catego
 	go func() {
 		defer close(documents)
 		i := 0
+
+	loop:
 		for {
 			select {
 			case <-ctx.Done():
@@ -67,7 +70,7 @@ func (p *service) PipePagesAllFromCategoryToPageNode(ctx context.Context, catego
 				i++
 				ok := p.loadHtmlToChan(category, i, documents)
 				if !ok {
-					break
+					break loop
 				}
 			}
 		}
