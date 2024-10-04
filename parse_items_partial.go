@@ -15,8 +15,20 @@ func parseTitle(n *html.Node) (string, bool, error) {
 		return "", false, errors.New("failed to get title")
 	}
 
-	title, bFound := strings.CutSuffix(cleanStringFromHtmlSymbols(name), " Complete")
-	return title, bFound, nil
+	title := cleanStringFromHtmlSymbols(name)
+	bCompleted := false
+
+	if titleCuted, bFound := strings.CutSuffix(title, " Complete"); bFound {
+		title = titleCuted
+		bCompleted = true
+	} else {
+		bFound := strings.Contains(title, ") Complete")
+		if bFound {
+			strings.ReplaceAll(title, ") Complete", ") ")
+			bCompleted = true
+		}
+	}
+	return title, bCompleted, nil
 }
 
 func parseNodeWithTitle(n *html.Node) *ItemPartial {
