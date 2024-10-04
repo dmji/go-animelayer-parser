@@ -80,12 +80,21 @@ func (p *parser) traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *
 			}
 
 			nText := len(clearTexts)
-			if nText != 4 && nText != 2 {
+			if nText != 2 && nText != 4 && nText != 6 {
 				p.logger.Errorw("unexpected info in pd20 b0")
 				return nil
 			}
 
-			if nText == 4 {
+			if nText == 6 {
+				// clearTexts[0]: Updated
+				// clearTexts[1]: Updated date
+				// clearTexts[2]: Created
+				// clearTexts[3]: Created date
+				// clearTexts[4]: Seeder last presence
+				// clearTexts[5]: Seed last presence date
+				item.UpdatedDate = clearTexts[1]
+				item.CreatedDate = clearTexts[3]
+			} else if nText == 4 {
 				// clearTexts[0]: Updated
 				// clearTexts[1]: Updated date
 				// clearTexts[2]: Created
