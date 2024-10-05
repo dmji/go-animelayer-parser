@@ -117,7 +117,7 @@ func (p *parserDetailedItems) parseItemNotes(n *html.Node, item *ItemDetailed) {
 				}
 				sib2 := sib.NextSibling
 
-				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode {
+				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode && len(cleanStringFromHtmlSymbols(sib2.Data)) > 0 {
 					n.RemoveChild(sib)
 					n.RemoveChild(sib2)
 					//div.AppendChild(sib)
