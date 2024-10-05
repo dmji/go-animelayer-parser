@@ -56,9 +56,58 @@ func dateFromAnimelayerDate(t string) *time.Time {
 	return nil
 }
 
+type nodeWithParent struct {
+	parent *html.Node
+	item   *html.Node
+	next   *html.Node
+}
+
+func collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
+
+	for c := root.FirstChild; c != nil; c = c.NextSibling {
+		if c.FirstChild == nil && c.Type == html.TextNode && c.Parent.Data == "div" {
+			childsToReplace <- nodeWithParent{
+				parent: c.Parent,
+				item:   c,
+				next:   c.NextSibling,
+			}
+
+		}
+
+		collectTextWithoudTags(c, childsToReplace)
+	}
+
+}
+
 func parseItemNotes(n *html.Node, item *ItemDetailed) {
 
 	var b bytes.Buffer
+
+	childsToReplaceChan := make(chan nodeWithParent, 10)
+	go func() {
+		defer close(childsToReplaceChan)
+		collectTextWithoudTags(n, childsToReplaceChan)
+	}()
+	childsToReplace := make([]nodeWithParent, 0, 20)
+	for i := range childsToReplaceChan {
+		childsToReplace = append(childsToReplace, i)
+	}
+
+	for _, nodeToReplace := range childsToReplace {
+
+		data := &html.Node{
+			Type: html.TextNode,
+			Data: nodeToReplace.item.Data,
+		}
+		div := &html.Node{
+			Type:       html.ElementNode,
+			Data:       "p",
+			FirstChild: data,
+		}
+
+		nodeToReplace.parent.RemoveChild(nodeToReplace.item)
+		nodeToReplace.parent.InsertBefore(div, nodeToReplace.next)
+	}
 
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 
