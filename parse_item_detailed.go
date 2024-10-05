@@ -120,8 +120,9 @@ func (p *parserDetailedItems) parseItemNotes(n *html.Node, item *ItemDetailed) {
 				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode {
 					n.RemoveChild(sib)
 					n.RemoveChild(sib2)
-					div.AppendChild(sib)
-					div.AppendChild(sib2)
+					//div.AppendChild(sib)
+					//div.AppendChild(sib2)
+					data.Data = data.Data + "\n" + sib2.Data
 					childsToReplace = slices.DeleteFunc(childsToReplace, func(e nodeWithParent) bool { return e.item == sib || e.item == sib2 })
 				} else {
 					break
