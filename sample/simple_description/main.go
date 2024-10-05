@@ -23,13 +23,8 @@ func main() {
 
 	p := animelayer.New(&http.Client{}, animelayer.WithNoteClassOverride("i", ""))
 
-	partialItems, err := p.CategoryPageToPartialItems(ctx, animelayer.Categories.Anime(), 1)
-	if err != nil {
-		panic(err)
-	}
+	id := "56c1b194e1cf6851038b493b"
+	detailedFirstItem := p.PartialItemToDetailedItem(ctx, id)
 
-	for i, partialItem := range partialItems {
-		log.Printf("%d: %v", i, *partialItem.Item)
-	}
-
+	log.Printf("%v", detailedFirstItem)
 }
