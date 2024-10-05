@@ -57,9 +57,8 @@ func dateFromAnimelayerDate(t string) *time.Time {
 }
 
 type nodeWithParent struct {
-	parent *html.Node
-	item   *html.Node
-	next   *html.Node
+	item *html.Node
+	next *html.Node
 }
 
 func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
@@ -67,13 +66,12 @@ func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToRe
 	for c := root.FirstChild; c != nil; c = c.NextSibling {
 		if c.FirstChild == nil && c.Type == html.TextNode && c.Parent.Data == "div" {
 			childsToReplace <- nodeWithParent{
-				parent: c.Parent,
-				item:   c,
-				next:   c.NextSibling,
+				item: c,
+				next: c.NextSibling,
 			}
 		}
 
-		p.collectTextWithoudTags(c, childsToReplace)
+		//p.collectTextWithoudTags(c, childsToReplace)
 	}
 
 }
@@ -91,24 +89,44 @@ func (p *parserDetailedItems) parseItemNotes(n *html.Node, item *ItemDetailed) {
 			childsToReplace = append(childsToReplace, i)
 		}
 
-		for _, nodeToReplace := range childsToReplace {
+		for i := 0; i < len(childsToReplace); i++ {
+
+			nodeToReplace := childsToReplace[i]
 
 			data := &html.Node{
 				Type: html.TextNode,
 				Data: nodeToReplace.item.Data,
 			}
 			div := &html.Node{
-				Type:       html.ElementNode,
-				Data:       p.NotePlaintTextElementInterceptor,
-				FirstChild: data,
+				Type: html.ElementNode,
+				Data: p.NotePlaintTextElementInterceptor,
 			}
+			div.AppendChild(data)
 
 			if len(p.NotePlaintTextElementClassInterceptor) > 0 {
 				div.Attr = append(div.Attr, html.Attribute{Key: "class", Val: p.NotePlaintTextElementClassInterceptor})
 			}
 
-			nodeToReplace.parent.RemoveChild(nodeToReplace.item)
-			nodeToReplace.parent.InsertBefore(div, nodeToReplace.next)
+			n.RemoveChild(nodeToReplace.item)
+			n.InsertBefore(div, nodeToReplace.next)
+
+			for {
+				sib := div.NextSibling
+				if sib == nil {
+					break
+				}
+				sib2 := sib.NextSibling
+
+				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode {
+					n.RemoveChild(sib)
+					n.RemoveChild(sib2)
+					div.AppendChild(sib)
+					div.AppendChild(sib2)
+					childsToReplace = slices.DeleteFunc(childsToReplace, func(e nodeWithParent) bool { return e.item == sib || e.item == sib2 })
+				} else {
+					break
+				}
+			}
 		}
 	}
 
