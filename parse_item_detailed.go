@@ -62,7 +62,7 @@ type nodeWithParent struct {
 	next   *html.Node
 }
 
-func collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
+func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
 
 	for c := root.FirstChild; c != nil; c = c.NextSibling {
 		if c.FirstChild == nil && c.Type == html.TextNode && c.Parent.Data == "div" {
@@ -71,44 +71,48 @@ func collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithPare
 				item:   c,
 				next:   c.NextSibling,
 			}
-
 		}
 
-		collectTextWithoudTags(c, childsToReplace)
+		p.collectTextWithoudTags(c, childsToReplace)
 	}
 
 }
 
-func parseItemNotes(n *html.Node, item *ItemDetailed) {
+func (p *parserDetailedItems) parseItemNotes(n *html.Node, item *ItemDetailed) {
+
+	if len(p.NotePlaintTextElementInterceptor) > 0 {
+		childsToReplaceChan := make(chan nodeWithParent, 10)
+		go func() {
+			defer close(childsToReplaceChan)
+			p.collectTextWithoudTags(n, childsToReplaceChan)
+		}()
+		childsToReplace := make([]nodeWithParent, 0, 20)
+		for i := range childsToReplaceChan {
+			childsToReplace = append(childsToReplace, i)
+		}
+
+		for _, nodeToReplace := range childsToReplace {
+
+			data := &html.Node{
+				Type: html.TextNode,
+				Data: nodeToReplace.item.Data,
+			}
+			div := &html.Node{
+				Type:       html.ElementNode,
+				Data:       p.NotePlaintTextElementInterceptor,
+				FirstChild: data,
+			}
+
+			if len(p.NotePlaintTextElementClassInterceptor) > 0 {
+				div.Attr = append(div.Attr, html.Attribute{Key: "class", Val: p.NotePlaintTextElementClassInterceptor})
+			}
+
+			nodeToReplace.parent.RemoveChild(nodeToReplace.item)
+			nodeToReplace.parent.InsertBefore(div, nodeToReplace.next)
+		}
+	}
 
 	var b bytes.Buffer
-
-	childsToReplaceChan := make(chan nodeWithParent, 10)
-	go func() {
-		defer close(childsToReplaceChan)
-		collectTextWithoudTags(n, childsToReplaceChan)
-	}()
-	childsToReplace := make([]nodeWithParent, 0, 20)
-	for i := range childsToReplaceChan {
-		childsToReplace = append(childsToReplace, i)
-	}
-
-	for _, nodeToReplace := range childsToReplace {
-
-		data := &html.Node{
-			Type: html.TextNode,
-			Data: nodeToReplace.item.Data,
-		}
-		div := &html.Node{
-			Type:       html.ElementNode,
-			Data:       "p",
-			FirstChild: data,
-		}
-
-		nodeToReplace.parent.RemoveChild(nodeToReplace.item)
-		nodeToReplace.parent.InsertBefore(div, nodeToReplace.next)
-	}
-
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 
 		err := html.Render(&b, c)
@@ -144,7 +148,7 @@ func parseHeaderTitle(n *html.Node, item *ItemDetailed) bool {
 	return false
 }
 
-func tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, error) {
+func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, error) {
 
 	if !slices.Contains([]string{"info pd20",
 		"info pd20 b0",
@@ -237,7 +241,7 @@ func tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, 
 	// cart description
 	if val == "description pd20 panel widget" {
 
-		parseItemNotes(n, item)
+		p.parseItemNotes(n, item)
 		return true, nil
 	}
 
@@ -265,13 +269,13 @@ func tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, 
 	return false, nil
 }
 
-func traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *ItemDetailed) error {
+func (p *parserDetailedItems) traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *ItemDetailed) error {
 
 	if isElementNodeData(n, "div") {
 		divClassValue, bFound := getAttrByKey(n, "class")
 
 		if bFound {
-			bFinish, err := tryReadNodeAsDivClass(n, item, divClassValue)
+			bFinish, err := p.tryReadNodeAsDivClass(n, item, divClassValue)
 			if err != nil {
 				return err
 			}
@@ -287,16 +291,21 @@ func traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *ItemDetailed
 		case <-ctx.Done():
 			return ctx.Err()
 		default:
-			traverseHtmlItemNodes(ctx, c, item)
+			p.traverseHtmlItemNodes(ctx, c, item)
 		}
 	}
 
 	return nil
 }
 
-func parseItem(ctx context.Context, doc *html.Node, identifier string) *ItemDetailed {
+func (p *parserDetailedItems) parseItem(ctx context.Context, doc *html.Node, identifier string) *ItemDetailed {
 
 	item := &ItemDetailed{Identifier: identifier}
-	traverseHtmlItemNodes(ctx, doc, item)
+	p.traverseHtmlItemNodes(ctx, doc, item)
 	return item
+}
+
+type parserDetailedItems struct {
+	NotePlaintTextElementInterceptor      string
+	NotePlaintTextElementClassInterceptor string
 }

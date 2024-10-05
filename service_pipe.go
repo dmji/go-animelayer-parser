@@ -62,7 +62,7 @@ func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-
 func (p *service) PipeItemNodesToDetailedItems(ctx context.Context, itemNodes <-chan PageHtmlNode) <-chan ItemDetailedWithError {
 	return PipeGeneric(ctx, itemNodes, 100, func(itemNode *PageHtmlNode) *ItemDetailedWithError {
 
-		item := parseItem(ctx, itemNode.Node, itemNode.Identifier)
+		item := p.parserDetailedItems.parseItem(ctx, itemNode.Node, itemNode.Identifier)
 		if item == nil {
 			return &ItemDetailedWithError{
 				Item:  nil,

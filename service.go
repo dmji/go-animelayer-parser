@@ -23,14 +23,29 @@ type Parser interface {
 }
 
 type service struct {
-	client *http.Client
+	client              *http.Client
+	parserDetailedItems parserDetailedItems
 }
 
-func New(client *http.Client) *service {
-	return &service{
+type ServiceOptionsApplier func(s *service)
+
+func WithNoteClassOverride(noteElem, noteClass string) ServiceOptionsApplier {
+	return func(s *service) {
+		s.parserDetailedItems.NotePlaintTextElementInterceptor = noteElem
+		s.parserDetailedItems.NotePlaintTextElementClassInterceptor = noteClass
+	}
+}
+
+func New(client *http.Client, ServiceOptionsApplier ...ServiceOptionsApplier) *service {
+	s := &service{
 		client: client,
 	}
 
+	for _, apply := range ServiceOptionsApplier {
+		apply(s)
+	}
+
+	return s
 }
 
 func (p *service) partialItemToItemNode(identifier string) *PageHtmlNode {
