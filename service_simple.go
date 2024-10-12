@@ -3,7 +3,6 @@ package animelayer
 import (
 	"context"
 	"errors"
-	"fmt"
 )
 
 func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartial, error) {
@@ -23,7 +22,7 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 	res := make([]ItemPartial, 0, 100)
 	for item := range items {
 		if item.Error != nil {
-			errs = append(errs, fmt.Errorf("identifier '%s': %v", item.Item.Identifier, item.Error))
+			errs = append(errs, item.Error)
 			continue
 		}
 
