@@ -1,8 +1,12 @@
 package animelayer
 
-import "context"
+import (
+	"context"
+	"errors"
+	"fmt"
+)
 
-func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartialWithError, error) {
+func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartial, error) {
 
 	pageNode, err := p.pageTargetToHtmlNode(category, iPage)
 	if err != nil {
@@ -15,15 +19,25 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 		parseCategoryPageToChan(ctx, pageNode, items)
 	}()
 
-	res := make([]ItemPartialWithError, 0, 100)
+	errs := make([]error, 0, 100)
+	res := make([]ItemPartial, 0, 100)
 	for item := range items {
-		res = append(res, item)
+		if item.Error != nil {
+			errs = append(errs, fmt.Errorf("identifier '%s': %v", item.Item.Identifier, item.Error))
+			continue
+		}
+
+		res = append(res, *item.Item)
+	}
+
+	if len(errs) > 0 {
+		return nil, errors.Join(errs...)
 	}
 
 	return res, nil
 }
 
-func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) *ItemDetailed {
+func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) (*ItemDetailed, error) {
 	detailedItemNode := p.partialItemToItemNode(identifier)
 	return p.parserDetailedItems.parseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
 }

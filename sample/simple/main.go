@@ -29,7 +29,7 @@ func main() {
 	}
 
 	for i, partialItem := range partialItems {
-		log.Printf("%d: %v", i, *partialItem.Item)
+		log.Printf("%d: %v", i, partialItem)
 	}
 
 }

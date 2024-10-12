@@ -70,8 +70,6 @@ func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToRe
 				next: c.NextSibling,
 			}
 		}
-
-		//p.collectTextWithoudTags(c, childsToReplace)
 	}
 
 }
@@ -169,23 +167,12 @@ func parseHeaderTitle(n *html.Node, item *ItemDetailed) bool {
 
 func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDetailed, val string) (bool, error) {
 
-	if !slices.Contains([]string{"info pd20",
-		"info pd20 b0",
-		"pd20",
-		"description pd20 panel widget",
-		"cover",
-		"panel widget pd20",
-	}, val) {
-		return false, nil
-	}
+	switch val {
 
-	// cart status
-	if val == "info pd20" {
-
+	case "info pd20": // cart status
 		clearTexts := make([]string, 0, 10)
 		texts := getAllChildTextData(n)
 		for _, t := range texts {
-
 			t = cleanStringFromHtmlSymbols(t)
 			if len(t) > 0 {
 				clearTexts = append(clearTexts, t)
@@ -196,20 +183,19 @@ func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDeta
 			return true, nil
 		}
 
-		// clearTexts[0]: Uploads
-		// clearTexts[1]: Downloads
-		// clearTexts[2]: Files size
-		// clearTexts[3]: Author
-		// clearTexts[4]: Visitor counter
-		// clearTexts[5]: Approved counter
-		item.TorrentFilesSize = clearTexts[2]
+		item.Metrics = ItemMetrics{
+			Uploads:         clearTexts[0],
+			Downloads:       clearTexts[1],
+			FilesSize:       clearTexts[2],
+			Author:          clearTexts[3],
+			VisitorCounter:  clearTexts[4],
+			ApprovedCounter: clearTexts[5],
+
+			ReadFromHtmlKey: "info pd20",
+		}
 
 		return true, nil
-	}
-
-	// cart status date
-	if val == "info pd20 b0" {
-
+	case "info pd20 b0": // cart status date
 		clearTexts := make([]string, 0, 10)
 		texts := getAllChildTextData(n)
 		for _, t := range texts {
@@ -221,63 +207,54 @@ func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDeta
 		}
 
 		nText := len(clearTexts)
-		if nText != 2 && nText != 4 && nText != 6 {
-			return false, errors.New("unexpected info in pd20 b0")
-		}
-
-		if nText == 6 {
+		switch nText {
+		case 6:
 			// clearTexts[0]: Updated
 			// clearTexts[1]: Updated date
 			// clearTexts[2]: Created
 			// clearTexts[3]: Created date
 			// clearTexts[4]: Seeder last presence
 			// clearTexts[5]: Seed last presence date
-			item.UpdatedDate = dateFromAnimelayerDate(clearTexts[1])
-			item.CreatedDate = dateFromAnimelayerDate(clearTexts[3])
-		} else if nText == 4 {
+			item.Updated = ItemUpdate{
+				UpdatedDate:          dateFromAnimelayerDate(clearTexts[1]),
+				CreatedDate:          dateFromAnimelayerDate(clearTexts[3]),
+				SeedLastPresenceDate: dateFromAnimelayerDate(clearTexts[5]),
+			}
+		case 4:
 			// clearTexts[0]: Updated
 			// clearTexts[1]: Updated date
 			// clearTexts[2]: Created
 			// clearTexts[3]: created date
-			item.UpdatedDate = dateFromAnimelayerDate(clearTexts[1])
-			item.CreatedDate = dateFromAnimelayerDate(clearTexts[3])
-		} else if nText == 2 {
+			item.Updated = ItemUpdate{
+				UpdatedDate: dateFromAnimelayerDate(clearTexts[1]),
+				CreatedDate: dateFromAnimelayerDate(clearTexts[3]),
+			}
+		case 2:
 			// clearTexts[0]: Created
 			// clearTexts[1]: created date
-			item.CreatedDate = dateFromAnimelayerDate(clearTexts[1])
+			item.Updated = ItemUpdate{
+				UpdatedDate: dateFromAnimelayerDate(clearTexts[1]),
+			}
+		default:
+			return false, errors.New("unexpected info in pd20 b0")
 		}
 
+		item.Updated.ReadFromHtmlKey = "info pd20 b0"
 		return true, nil
-	}
-
-	// cart title
-	if val == "pd20" {
-
+	case "pd20": // cart title
 		parseHeaderTitle(n, item)
 		return true, nil
-	}
-
-	// cart description
-	if val == "description pd20 panel widget" {
-
+	case "description pd20 panel widget": // cart description
 		p.parseItemNotes(n, item)
 		return true, nil
-	}
-
-	// cart cover image
-	if val == "cover" {
-
+	case "cover": // cart cover image
 		ref := getFirstChildImgNode(n)
 		val, bFound := getAttrByKey(ref, "src")
 		if bFound {
 			item.RefImageCover = val
 			return true, nil
 		}
-	}
-
-	// cart additional image
-	if val == "panel widget pd20" {
-
+	case "panel widget pd20": // cart additional image
 		ref := getFirstChildHrefNode(n)
 		val, bFound := getAttrByKey(ref, "href")
 		if bFound {
@@ -285,6 +262,7 @@ func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDeta
 			return true, nil
 		}
 	}
+
 	return false, nil
 }
 
@@ -317,11 +295,11 @@ func (p *parserDetailedItems) traverseHtmlItemNodes(ctx context.Context, n *html
 	return nil
 }
 
-func (p *parserDetailedItems) parseItem(ctx context.Context, doc *html.Node, identifier string) *ItemDetailed {
+func (p *parserDetailedItems) parseItem(ctx context.Context, doc *html.Node, identifier string) (*ItemDetailed, error) {
 
 	item := &ItemDetailed{Identifier: identifier}
-	p.traverseHtmlItemNodes(ctx, doc, item)
-	return item
+	err := p.traverseHtmlItemNodes(ctx, doc, item)
+	return item, err
 }
 
 type parserDetailedItems struct {

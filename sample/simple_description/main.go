@@ -24,7 +24,11 @@ func main() {
 	p := animelayer.New(&http.Client{}, animelayer.WithNoteClassOverride("i", ""))
 
 	id := "56c1b194e1cf6851038b493b"
-	detailedFirstItem := p.PartialItemToDetailedItem(ctx, id)
+	detailedFirstItem, err := p.PartialItemToDetailedItem(ctx, id)
 
-	log.Printf("%v", detailedFirstItem)
+	if err != nil {
+		panic(err)
+	}
+
+	log.Printf("%v", *detailedFirstItem)
 }

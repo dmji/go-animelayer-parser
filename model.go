@@ -12,18 +12,35 @@ type ItemPartial struct {
 	IsCompleted bool
 }
 
+type ItemUpdate struct {
+	UpdatedDate          *time.Time
+	CreatedDate          *time.Time
+	SeedLastPresenceDate *time.Time
+
+	ReadFromHtmlKey string
+}
+
+type ItemMetrics struct {
+	Uploads         string
+	Downloads       string
+	FilesSize       string
+	Author          string
+	VisitorCounter  string
+	ApprovedCounter string
+
+	ReadFromHtmlKey string
+}
+
 type ItemDetailed struct {
 	Identifier  string
 	Title       string
 	IsCompleted bool
 
-	TorrentFilesSize string
+	Metrics ItemMetrics
+	Updated ItemUpdate
 
 	RefImagePreview string
 	RefImageCover   string
-
-	UpdatedDate *time.Time
-	CreatedDate *time.Time
 
 	Notes string
 }
