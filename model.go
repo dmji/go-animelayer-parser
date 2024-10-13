@@ -49,17 +49,20 @@ type CategoryHtml struct {
 	Node *html.Node
 }
 
+// ItemPartial for Pipeline
 type PageHtmlNode struct {
 	Node       *html.Node
 	Identifier string
 	Error      error
 }
 
+// ItemPartial for Pipeline
 type ItemPartialWithError struct {
 	Item  *ItemPartial
 	Error error
 }
 
+// ItemDetailed for Pipeline
 type ItemDetailedWithError struct {
 	Item  *ItemDetailed
 	Error error

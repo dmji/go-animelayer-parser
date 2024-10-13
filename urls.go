@@ -7,22 +7,22 @@ type categories struct{}
 
 var Categories = categories{}
 
-func (_ categories) Anime() Category {
+func (categories) Anime() Category {
 	return "/torrents/anime/"
 }
-func (_ categories) AnimeHentai() Category {
+func (categories) AnimeHentai() Category {
 	return "/torrents/anime/hentai/"
 }
-func (_ categories) Manga() Category {
+func (categories) Manga() Category {
 	return "/torrents/manga/"
 }
-func (_ categories) MangaHentai() Category {
+func (categories) MangaHentai() Category {
 	return "/torrents/manga/hentai/"
 }
-func (_ categories) Music() Category {
+func (categories) Music() Category {
 	return "/torrents/music/"
 }
-func (_ categories) Dorama() Category {
+func (categories) Dorama() Category {
 	return "/torrents/dorama/"
 }
 
