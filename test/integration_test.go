@@ -66,7 +66,7 @@ func TestGetFirstPageOfCategory(t *testing.T) {
 		},
 		{
 			Category: animelayer.Categories.Manga(),
-			Page:     1,
+			Page:     2,
 		},
 		{
 			Category:      animelayer.Categories.Anime(),
