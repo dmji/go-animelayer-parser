@@ -6,39 +6,10 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"strconv"
 	"syscall"
 
 	"github.com/dmji/go-animelayer-parser"
 )
-
-type loggerBasic struct{}
-
-func (l *loggerBasic) kts(keys ...interface{}) string {
-	args := ""
-	for _, key := range keys {
-
-		switch key.(type) {
-
-		case string:
-			args += " " + key.(string)
-		case int:
-			args += " " + strconv.FormatInt(int64(key.(int)), 10)
-		case []interface{}:
-			args += l.kts(key.([]interface{})...)
-		}
-
-	}
-	return args
-}
-
-func (l *loggerBasic) Infow(msg string, keys ...interface{}) {
-
-	log.Print("Info  | ", msg, l.kts(keys))
-}
-func (l *loggerBasic) Errorw(msg string, keys ...interface{}) {
-	log.Print("Error | ", msg, l.kts(keys))
-}
 
 func main() {
 	var login, password string
