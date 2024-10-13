@@ -78,8 +78,8 @@ func TestGetFirstPageOfCategory(t *testing.T) {
 	ctx := context.Background()
 
 	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
-		Login:    os.Getenv("AnimeLayerLogin"),
-		Password: os.Getenv("AnimeLayerPassword"),
+		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
+		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
 
 	if err != nil {
@@ -242,8 +242,8 @@ func TestGetDetailedItem(t *testing.T) {
 	ctx := context.Background()
 
 	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
-		Login:    os.Getenv("AnimeLayerLogin"),
-		Password: os.Getenv("AnimeLayerPassword"),
+		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
+		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
 
 	if err != nil {

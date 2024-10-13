@@ -1,0 +1,31 @@
+name: integration
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 10 * * 6"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v5.0.2
+        with:
+          go-version: 1.23.1
+
+      - name: Checkout code
+        uses: actions/checkout@v4.2.1
+
+      - name: Mod verify
+        run: go mod verify
+
+      - name: Run all tests including integration tests
+        run: |
+          cd test
+          go test -v .
+        env:
+          ANIME_LAYER_LOGIN: ${{ secrets.ANIME_LAYER_LOGIN }}
+          ANIME_LAYER_PASSWORD: ${{ secrets.ANIME_LAYER_PASSWORD }}
