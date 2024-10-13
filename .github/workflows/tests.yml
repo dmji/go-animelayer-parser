@@ -8,6 +8,9 @@ on:
 
 jobs:
   test:
+    environment:
+      name: integration
+
     strategy:
       matrix:
         go-version: [1.x]
@@ -56,6 +59,9 @@ jobs:
       - name: Run go test
         run: |
           go test ./test/... -coverpkg='./mal/...' -coverprofile=coverage.out github.com/dmji/go-myanimelist/mal/...
+        env:
+          ANIME_LAYER_LOGIN: ${{ secrets.ANIME_LAYER_LOGIN }}
+          ANIME_LAYER_PASSWORD: ${{ secrets.ANIME_LAYER_PASSWORD }}
 
       - name: Upload test coverage to Coveralls
         if: ${{ matrix.upload-coverage }}
