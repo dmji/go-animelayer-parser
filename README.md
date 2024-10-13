@@ -1,6 +1,7 @@
 # go-animelayer-parser
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/dmji/go-animelayer-parser.svg)](https://pkg.go.dev/github.com/dmji/go-animelayer-parser)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dmji/go-animelayer-parser)](https://goreportcard.com/report/github.com/dmji/go-animelayer-parser)
 [![Coverage Status](https://coveralls.io/repos/github/dmji/go-animelayer-parser/badge.svg)](https://coveralls.io/github/dmji/go-animelayer-parser)
 [![tests](https://github.com/dmji/go-animelayer-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/dmji/go-animelayer-parser/actions/workflows/tests.yml)
 [![integration](https://github.com/dmji/go-animelayer-parser/actions/workflows/integration.yml/badge.svg)](https://github.com/dmji/go-animelayer-parser/actions/workflows/integration.yml)
