@@ -8,6 +8,9 @@ on:
 
 jobs:
   test:
+    environment:
+      name: integration
+
     runs-on: ubuntu-latest
 
     steps:
