@@ -128,35 +128,35 @@ func nameForTestDataFile(p TestGetDetailedItemParams) string {
 func isEqualDetailedItem(got, expected *animelayer.ItemDetailed) error {
 
 	if got.Identifier != expected.Identifier {
-		return fmt.Errorf("expected Identifier='%s', but got='%s'", got.Identifier, expected.Identifier)
+		return fmt.Errorf("expected Identifier='%s', but got='%s'", expected.Identifier, got.Identifier)
 	}
 
 	if got.Title != expected.Title {
-		return fmt.Errorf("expected Title='%s', but got='%s", got.Title, expected.Title)
+		return fmt.Errorf("expected Title='%s', but got='%s", expected.Title, got.Title)
 	}
 
 	if got.IsCompleted != expected.IsCompleted {
-		return fmt.Errorf("expected IsCompleted='%v', but got='%v", got.IsCompleted, expected.IsCompleted)
+		return fmt.Errorf("expected IsCompleted='%v', but got='%v", expected.IsCompleted, got.IsCompleted)
 	}
 
 	if got.Metrics.ReadFromHtmlKey != expected.Metrics.ReadFromHtmlKey {
-		return fmt.Errorf("expected Metrics.ReadFromHtmlKey='%s', but got='%s", got.Metrics.ReadFromHtmlKey, expected.Metrics.ReadFromHtmlKey)
+		return fmt.Errorf("expected Metrics.ReadFromHtmlKey='%s', but got='%s", expected.Metrics.ReadFromHtmlKey, got.Metrics.ReadFromHtmlKey)
 	}
 
 	if got.Updated.ReadFromHtmlKey != expected.Updated.ReadFromHtmlKey {
-		return fmt.Errorf("expected Updated.ReadFromHtmlKey='%s', but got='%s", got.Updated.ReadFromHtmlKey, expected.Updated.ReadFromHtmlKey)
+		return fmt.Errorf("expected Updated.ReadFromHtmlKey='%s', but got='%s", expected.Updated.ReadFromHtmlKey, got.Updated.ReadFromHtmlKey)
 	}
 
 	if got.RefImagePreview != expected.RefImagePreview {
-		return fmt.Errorf("expected RefImagePreview='%s', but got='%s", got.RefImagePreview, expected.RefImagePreview)
+		return fmt.Errorf("expected RefImagePreview='%s', but got='%s", expected.RefImagePreview, got.RefImagePreview)
 	}
 
 	if got.RefImageCover != expected.RefImageCover {
-		return fmt.Errorf("expected RefImageCover='%s', but got='%s", got.RefImageCover, expected.RefImageCover)
+		return fmt.Errorf("expected RefImageCover='%s', but got='%s", expected.RefImageCover, got.RefImageCover)
 	}
 
 	if got.Notes != expected.Notes {
-		return fmt.Errorf("expected Notes='%s', but got='%s", got.Notes, expected.Notes)
+		return fmt.Errorf("expected Notes='%s', but got='%s", expected.Notes, got.Notes)
 	}
 
 	return nil
@@ -178,7 +178,7 @@ func TestGetDetailedItem(t *testing.T) {
 			Identifier: "5e0f28ecfd89782ceb562a12",
 		},
 		{
-			Identifier: "56f552a0e1cf689b078b4567",
+			Identifier: "5786907de1cf68975f8b4568",
 		},
 		{
 			Identifier: "65966cf587060e43aa1f3366",
@@ -200,7 +200,7 @@ func TestGetDetailedItem(t *testing.T) {
 			NoteElem:   "i",
 		},
 		{
-			Identifier: "56f552a0e1cf689b078b4567",
+			Identifier: "5786907de1cf68975f8b4568",
 			NoteElem:   "i",
 		},
 		{
@@ -228,7 +228,7 @@ func TestGetDetailedItem(t *testing.T) {
 			NoteClass:  "test",
 		},
 		{
-			Identifier: "56f552a0e1cf689b078b4567",
+			Identifier: "5786907de1cf68975f8b4568",
 			NoteElem:   "i",
 			NoteClass:  "test",
 		},
