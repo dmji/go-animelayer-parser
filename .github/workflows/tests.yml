@@ -58,7 +58,7 @@ jobs:
 
       - name: Run go test
         run: |
-          go test ./test/... -coverpkg='./mal/...' -coverprofile=coverage.out github.com/dmji/go-myanimelist/mal/...
+          go test ./test/... -coverpkg='./...' -coverprofile=coverage.out github.com/dmji/go-animelayer-parser/...
         env:
           ANIME_LAYER_LOGIN: ${{ secrets.ANIME_LAYER_LOGIN }}
           ANIME_LAYER_PASSWORD: ${{ secrets.ANIME_LAYER_PASSWORD }}
