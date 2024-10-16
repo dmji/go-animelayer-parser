@@ -39,10 +39,6 @@ func formatUrlToItemDownload(identifier string) string {
 	return baseUrl + "/torrent/" + identifier + "/download"
 }
 
-func (m *ItemPartial) GetTorrentUrl() string {
-	return formatUrlToItem(m.Identifier)
-}
-
-func (m *ItemDetailed) GetTorrentUrl() string {
+func (m *Item) GetTorrentUrl() string {
 	return formatUrlToItem(m.Identifier)
 }

@@ -17,8 +17,8 @@ type ParserPipeline interface {
 }
 
 type Parser interface {
-	PartialItemToDetailedItem(ctx context.Context, identifier string) (*ItemDetailed, error)
-	CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartial, error)
+	PartialItemToDetailedItem(ctx context.Context, identifier string) (*Item, error)
+	CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]Item, error)
 }
 
 type service struct {

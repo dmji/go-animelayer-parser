@@ -50,7 +50,7 @@ func (p *service) PipePagesFromCategoryToPageNode(ctx context.Context, category 
 }
 
 func (p *service) PipePageNodesToPartialItems(ctx context.Context, pageNodes <-chan *CategoryHtml) <-chan ItemPartialWithError {
-	return PipeGenericWg(ctx, pageNodes, 100, parseCategoryPageToChan)
+	return PipeGenericWg(ctx, pageNodes, 100, p.parserDetailedItems.ParseCategoryPageToChan)
 }
 
 func (p *service) PipePartialItemToItemNode(ctx context.Context, partialItems <-chan ItemPartialWithError) <-chan PageHtmlNode {

@@ -44,7 +44,7 @@ func isSameError(got, expected error) bool {
 	return false
 }
 
-func isValidPartialItem(item *animelayer.ItemPartial) error {
+func isValidPartialItem(item *animelayer.Item) error {
 
 	if len(item.Identifier) == 0 {
 		return errors.New("got empty identifier")
@@ -125,7 +125,7 @@ func nameForTestDataFile(p TestGetDetailedItemParams) string {
 	return fmt.Sprintf("%s_%s#%s", p.Identifier, p.NoteElem, p.NoteClass)
 }
 
-func isEqualDetailedItem(got, expected *animelayer.ItemDetailed) error {
+func isEqualDetailedItem(got, expected *animelayer.Item) error {
 
 	if got.Identifier != expected.Identifier {
 		return fmt.Errorf("expected Identifier='%s', but got='%s'", expected.Identifier, got.Identifier)
@@ -278,7 +278,7 @@ func TestGetDetailedItem(t *testing.T) {
 		if err != nil {
 			t.Fatalf("error on read exam item: %v", err)
 		}
-		var expectedItem animelayer.ItemDetailed
+		var expectedItem animelayer.Item
 		err = json.Unmarshal(data, &expectedItem)
 		if err != nil {
 			t.Fatalf("error on unmarshal exam item: %v", err)

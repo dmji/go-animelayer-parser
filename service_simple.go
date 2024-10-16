@@ -5,7 +5,7 @@ import (
 	"errors"
 )
 
-func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]ItemPartial, error) {
+func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]Item, error) {
 
 	pageNode, err := p.pageTargetToHtmlNode(category, iPage)
 	if err != nil {
@@ -15,11 +15,11 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 	items := make(chan ItemPartialWithError, 100)
 	go func() {
 		defer close(items)
-		parseCategoryPageToChan(ctx, pageNode, items)
+		p.parserDetailedItems.ParseCategoryPageToChan(ctx, pageNode, items)
 	}()
 
 	errs := make([]error, 0, 100)
-	res := make([]ItemPartial, 0, 100)
+	res := make([]Item, 0, 100)
 	for item := range items {
 		if item.Error != nil {
 			errs = append(errs, item.Error)
@@ -36,7 +36,7 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 	return res, nil
 }
 
-func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) (*ItemDetailed, error) {
+func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) (*Item, error) {
 	detailedItemNode := p.partialItemToItemNode(identifier)
 	return p.parserDetailedItems.parseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
 }

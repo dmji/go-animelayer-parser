@@ -6,12 +6,6 @@ import (
 	"golang.org/x/net/html"
 )
 
-type ItemPartial struct {
-	Identifier  string
-	Title       string
-	IsCompleted bool
-}
-
 type ItemUpdate struct {
 	UpdatedDate          *time.Time
 	CreatedDate          *time.Time
@@ -31,7 +25,7 @@ type ItemMetrics struct {
 	ReadFromHtmlKey string
 }
 
-type ItemDetailed struct {
+type Item struct {
 	Identifier  string
 	Title       string
 	IsCompleted bool
@@ -58,12 +52,12 @@ type PageHtmlNode struct {
 
 // ItemPartial for Pipeline
 type ItemPartialWithError struct {
-	Item  *ItemPartial
+	Item  *Item
 	Error error
 }
 
 // ItemDetailed for Pipeline
 type ItemDetailedWithError struct {
-	Item  *ItemDetailed
+	Item  *Item
 	Error error
 }
