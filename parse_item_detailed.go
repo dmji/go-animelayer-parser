@@ -233,7 +233,7 @@ func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *ItemDeta
 			// clearTexts[0]: Created
 			// clearTexts[1]: created date
 			item.Updated = ItemUpdate{
-				UpdatedDate: dateFromAnimelayerDate(clearTexts[1]),
+				CreatedDate: dateFromAnimelayerDate(clearTexts[1]),
 			}
 		default:
 			return false, errors.New("unexpected info in pd20 b0")
