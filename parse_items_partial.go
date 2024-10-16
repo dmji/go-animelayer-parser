@@ -32,7 +32,7 @@ func parseTitle(n *html.Node) (string, bool, error) {
 	return title, bCompleted, nil
 }
 
-func parseNodeWithTitle(n *html.Node) *ItemPartial {
+func parseNodeWithTitle(n *html.Node) *Item {
 
 	ref := getFirstChildHrefNode(n)
 	if ref == nil {
@@ -58,7 +58,7 @@ func parseNodeWithTitle(n *html.Node) *ItemPartial {
 		return nil
 	}
 
-	return &ItemPartial{
+	return &Item{
 		Identifier:  identifier,
 		Title:       title,
 		IsCompleted: bCompleted,
