@@ -37,7 +37,7 @@ func main() {
 		panic(err)
 	}
 
-	p := animelayer.New(client)
+	p := animelayer.New(animelayer.NewHttpClientWrapper(client))
 
 	// get first 3 anime pages
 	pageNodes := p.PipePagesFromCategoryToPageNode(ctx, animelayer.Categories.Anime(), 1, 2, 3)

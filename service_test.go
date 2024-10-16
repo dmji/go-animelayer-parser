@@ -17,7 +17,7 @@ func toParserPipeline(p animelayer.ParserPipeline) animelayer.ParserPipeline {
 
 func TestServiceInterfaces(t *testing.T) {
 
-	client := animelayer.New(&http.Client{})
+	client := animelayer.New(animelayer.NewHttpClientWrapper(&http.Client{}))
 
 	_ = toParser(client)
 	_ = toParserPipeline(client)

@@ -2,7 +2,6 @@ package animelayer
 
 import (
 	"context"
-	"net/http"
 )
 
 type logger interface {
@@ -23,7 +22,7 @@ type Parser interface {
 }
 
 type service struct {
-	client              *http.Client
+	client              HtmlDocGetter
 	parserDetailedItems parserDetailedItems
 }
 
@@ -36,7 +35,7 @@ func WithNoteClassOverride(noteElem, noteClass string) ServiceOptionsApplier {
 	}
 }
 
-func New(client *http.Client, ServiceOptionsApplier ...ServiceOptionsApplier) *service {
+func New(client HtmlDocGetter, ServiceOptionsApplier ...ServiceOptionsApplier) *service {
 	s := &service{
 		client: client,
 	}

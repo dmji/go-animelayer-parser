@@ -21,7 +21,7 @@ func main() {
 		cancel()
 	}()
 
-	p := animelayer.New(&http.Client{}, animelayer.WithNoteClassOverride("i", ""))
+	p := animelayer.New(animelayer.NewHttpClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
 	partialItems, err := p.CategoryPageToPartialItems(ctx, animelayer.Categories.Anime(), 1)
 	if err != nil {

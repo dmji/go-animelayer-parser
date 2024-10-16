@@ -86,7 +86,7 @@ func TestGetFirstPageOfCategory(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	p := animelayer.New(client)
+	p := animelayer.New(animelayer.NewHttpClientWrapper(client))
 
 	for _, params := range testParamss {
 
@@ -252,7 +252,7 @@ func TestGetDetailedItem(t *testing.T) {
 
 	for _, params := range testParamss {
 
-		p := animelayer.New(client, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
+		p := animelayer.New(animelayer.NewHttpClientWrapper(client), animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
 		// generate initial result
 		/*
 			   {

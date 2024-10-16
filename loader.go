@@ -8,9 +8,16 @@ import (
 	"golang.org/x/net/html"
 )
 
-func loadHtmlDocument(client *http.Client, urlString string) (*html.Node, error) {
+type HtmlDocGetter interface {
+	Get(utl string) (*html.Node, error)
+}
 
-	resp, err := client.Get(urlString)
+type HttpClientWrapper struct {
+	client *http.Client
+}
+
+func (c *HttpClientWrapper) Get(utl string) (*html.Node, error) {
+	resp, err := c.client.Get(utl)
 
 	if err != nil {
 		return nil, err
@@ -18,6 +25,20 @@ func loadHtmlDocument(client *http.Client, urlString string) (*html.Node, error)
 	defer resp.Body.Close()
 
 	doc, err := html.Parse(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	return doc, nil
+}
+
+func NewHttpClientWrapper(client *http.Client) *HttpClientWrapper {
+	return &HttpClientWrapper{client}
+}
+
+func loadHtmlDocument(client HtmlDocGetter, urlString string) (*html.Node, error) {
+
+	doc, err := client.Get(urlString)
 	if err != nil {
 		return nil, err
 	}
