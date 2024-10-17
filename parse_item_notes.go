@@ -12,7 +12,7 @@ type nodeWithParent struct {
 	next *html.Node
 }
 
-func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
+func (p *parserHtml) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
 
 	for c := root.FirstChild; c != nil; c = c.NextSibling {
 		if c.FirstChild == nil && c.Type == html.TextNode && c.Parent.Data == "div" {
@@ -25,7 +25,7 @@ func (p *parserDetailedItems) collectTextWithoudTags(root *html.Node, childsToRe
 
 }
 
-func (p *parserDetailedItems) parseItemNotes(n *html.Node) (string, error) {
+func (p *parserHtml) parseItemNotes(n *html.Node) (string, error) {
 
 	if len(p.NotePlaintTextElementInterceptor) > 0 {
 		childsToReplaceChan := make(chan nodeWithParent, 10)

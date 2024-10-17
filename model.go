@@ -2,8 +2,6 @@ package animelayer
 
 import (
 	"time"
-
-	"golang.org/x/net/html"
 )
 
 type ItemUpdate struct {
@@ -37,14 +35,4 @@ type Item struct {
 	RefImageCover   string
 
 	Notes string
-}
-
-type CategoryHtml struct {
-	Node *html.Node
-}
-
-// ItemPartial for Pipeline
-type ItemPartialWithError struct {
-	Item  *Item
-	Error error
 }

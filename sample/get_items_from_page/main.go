@@ -23,13 +23,13 @@ func main() {
 
 	p := animelayer.New(animelayer.NewHttpClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
-	partialItems, err := p.GetItemsFromCategoryPages(ctx, animelayer.Categories.Anime(), 1)
+	items, err := p.GetItemsFromCategoryPages(ctx, animelayer.Categories.Anime(), 1)
 	if err != nil {
 		panic(err)
 	}
 
-	for i, partialItem := range partialItems {
-		log.Printf("%d: %v", i, partialItem)
+	for i, item := range items {
+		log.Printf("%d: %v", i, item)
 	}
 
 }

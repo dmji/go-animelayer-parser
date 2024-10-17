@@ -6,7 +6,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
+func (p *parserHtml) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
 
 	switch val {
 
@@ -54,7 +54,7 @@ func (p *parserDetailedItems) tryReadNodeAsDivClass(n *html.Node, item *Item, va
 	return false, nil
 }
 
-func (p *parserDetailedItems) traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *Item) error {
+func (p *parserHtml) traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *Item) error {
 
 	if isExistAttrWithTargetKeyValue(n, "meta", "property", "og:title") {
 		val, bFound := getAttrByKey(n, "content")
@@ -93,7 +93,7 @@ func (p *parserDetailedItems) traverseHtmlItemNodes(ctx context.Context, n *html
 	return nil
 }
 
-func (p *parserDetailedItems) ParseItem(ctx context.Context, doc *html.Node, identifier string) (*Item, error) {
+func (p *parserHtml) ParseItem(ctx context.Context, doc *html.Node, identifier string) (*Item, error) {
 
 	item := &Item{Identifier: identifier}
 	err := p.traverseHtmlItemNodes(ctx, doc, item)

@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserDetailedItems) parseItemMetrics(n *html.Node) (*ItemMetrics, error) {
+func (p *parserHtml) parseItemMetrics(n *html.Node) (*ItemMetrics, error) {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {
@@ -33,7 +33,7 @@ func (p *parserDetailedItems) parseItemMetrics(n *html.Node) (*ItemMetrics, erro
 	}, nil
 }
 
-func (p *parserDetailedItems) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) error {
+func (p *parserHtml) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) error {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {

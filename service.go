@@ -10,8 +10,8 @@ type Parser interface {
 }
 
 type service struct {
-	client              HtmlDocGetter
-	parserDetailedItems parserDetailedItems
+	client HtmlDocGetter
+	parser parserHtml
 }
 
 func New(client HtmlDocGetter, ServiceOptionsApplier ...ServiceOptionsApplier) *service {

@@ -2,12 +2,12 @@ package animelayer
 
 import "strings"
 
-type parserDetailedItems struct {
+type parserHtml struct {
 	NotePlaintTextElementInterceptor      string
 	NotePlaintTextElementClassInterceptor string
 }
 
-func (p *parserDetailedItems) grabTitleWithCompletedStatus(name string) (string, bool) {
+func (p *parserHtml) grabTitleWithCompletedStatus(name string) (string, bool) {
 	title := cleanStringFromHtmlSymbols(name)
 	bCompleted := false
 

@@ -6,7 +6,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserDetailedItems) parseItemUpdate(n *html.Node) (*ItemUpdate, error) {
+func (p *parserHtml) parseItemUpdate(n *html.Node) (*ItemUpdate, error) {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {

@@ -9,7 +9,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserDetailedItems) parseItemTitle(n *html.Node, item *Item) error {
+func (p *parserHtml) parseItemTitle(n *html.Node, item *Item) error {
 
 	ref := getFirstChildHrefNode(n)
 	if ref == nil {
@@ -42,7 +42,7 @@ func (p *parserDetailedItems) parseItemTitle(n *html.Node, item *Item) error {
 	return nil
 }
 
-func (p *parserDetailedItems) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
+func (p *parserHtml) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
 
 	switch val {
 
@@ -73,7 +73,7 @@ func (p *parserDetailedItems) tryReadCardNodeAsDivClass(n *html.Node, item *Item
 	return false, nil
 }
 
-func (p *parserDetailedItems) traverseHtmlCardNodes(ctx context.Context, n *html.Node, item *Item) error {
+func (p *parserHtml) traverseHtmlCardNodes(ctx context.Context, n *html.Node, item *Item) error {
 
 	// cart title
 	if isExistAttrWithTargetKeyValue(n, "h3", "class", "h2 m0") {
@@ -114,7 +114,12 @@ func (p *parserDetailedItems) traverseHtmlCardNodes(ctx context.Context, n *html
 	return nil
 }
 
-func (p *parserDetailedItems) parseCategoryPage(ctx context.Context, n *html.Node, chItems chan<- ItemPartialWithError, wg *sync.WaitGroup) {
+type itemWithError struct {
+	Item  *Item
+	Error error
+}
+
+func (p *parserHtml) parseCategoryPageChans(ctx context.Context, n *html.Node, chItems chan<- itemWithError, wg *sync.WaitGroup) {
 
 	if isExistAttrWithTargetKeyValue(n, "li", "class", "torrent-item torrent-item-medium panel") {
 
@@ -126,13 +131,13 @@ func (p *parserDetailedItems) parseCategoryPage(ctx context.Context, n *html.Nod
 			err := p.traverseHtmlCardNodes(ctx, n, item)
 
 			if err != nil {
-				chItems <- ItemPartialWithError{
+				chItems <- itemWithError{
 					Item:  nil,
 					Error: err,
 				}
 			}
 
-			chItems <- ItemPartialWithError{
+			chItems <- itemWithError{
 				Item:  item,
 				Error: nil,
 			}
@@ -147,15 +152,32 @@ func (p *parserDetailedItems) parseCategoryPage(ctx context.Context, n *html.Nod
 		case <-ctx.Done():
 			return
 		default:
-			p.parseCategoryPage(ctx, c, chItems, wg)
+			p.parseCategoryPageChans(ctx, c, chItems, wg)
 		}
 	}
 }
 
-func (p *parserDetailedItems) ParseCategoryPageToChan(ctx context.Context, category *CategoryHtml, chItems chan<- ItemPartialWithError) {
+func (p *parserHtml) ParseCategoryPage(ctx context.Context, category *html.Node) ([]Item, error) {
 
-	wg := &sync.WaitGroup{}
-	p.parseCategoryPage(ctx, category.Node, chItems, wg)
-	wg.Wait()
+	chItems := make(chan itemWithError, 20)
 
+	go func() {
+		defer close(chItems)
+		wg := &sync.WaitGroup{}
+		p.parseCategoryPageChans(ctx, category, chItems, wg)
+		wg.Wait()
+	}()
+
+	items := make([]Item, 0, 10)
+	errs := make([]error, 0, 10)
+	for it := range chItems {
+		if it.Error != nil {
+			errs = append(errs, it.Error)
+			continue
+		}
+
+		items = append(items, *it.Item)
+	}
+
+	return items, errors.Join(errs...)
 }

@@ -23,11 +23,11 @@ func GenerateInitialItemExams(testFileHtml, testFileExam string, ctx context.Con
 
 	pReal := animelayer.New(&ClientHtmlSaveToFile{File: testFileHtml, Client: animelayer.NewHttpClientWrapper(client)}, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
 
-	itemDetailed, err := pReal.GetItemByIdentifier(ctx, params.Identifier)
+	item, err := pReal.GetItemByIdentifier(ctx, params.Identifier)
 	if err != nil {
 		return err
 	}
-	data, err := json.Marshal(&itemDetailed)
+	data, err := json.Marshal(&item)
 	if err != nil {
 		return err
 	}

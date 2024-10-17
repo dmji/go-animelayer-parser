@@ -8,7 +8,9 @@ func (p *service) GetItemByIdentifier(ctx context.Context, identifier string) (*
 
 	url := formatUrlToItem(identifier)
 	doc, err := loadHtmlDocument(p.client, url)
-	detailedItemNode := &PageHtmlNode{Node: doc, Identifier: identifier, Error: err}
+	if err != nil {
+		return nil, err
+	}
 
-	return p.parserDetailedItems.ParseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
+	return p.parser.ParseItem(ctx, doc, identifier)
 }
