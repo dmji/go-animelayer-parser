@@ -1,5 +1,6 @@
 package animelayer
 
+/*
 import (
 	"bytes"
 	"context"
@@ -99,3 +100,4 @@ func parseCategoryPageToChan(ctx context.Context, category *CategoryHtml, chItem
 		}
 	}
 }
+*/

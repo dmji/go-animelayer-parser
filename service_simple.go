@@ -5,7 +5,7 @@ import (
 	"errors"
 )
 
-func (p *service) CategoryPageToPartialItems(ctx context.Context, category Category, iPage int) ([]Item, error) {
+func (p *service) GetItemsFromCategoryPages(ctx context.Context, category Category, iPage int) ([]Item, error) {
 
 	pageNode, err := p.pageTargetToHtmlNode(category, iPage)
 	if err != nil {
@@ -36,7 +36,7 @@ func (p *service) CategoryPageToPartialItems(ctx context.Context, category Categ
 	return res, nil
 }
 
-func (p *service) PartialItemToDetailedItem(ctx context.Context, identifier string) (*Item, error) {
+func (p *service) GetItemByIdentifier(ctx context.Context, identifier string) (*Item, error) {
 	detailedItemNode := p.partialItemToItemNode(identifier)
-	return p.parserDetailedItems.parseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
+	return p.parserDetailedItems.ParseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
 }

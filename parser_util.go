@@ -17,19 +17,33 @@ func cleanStringFromHtmlSymbols(t string) string {
 }
 
 func getFirstChildHrefNode(n *html.Node) *html.Node {
+	if isElementNodeData(n, "a") {
+		return n
+	}
+
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		if isElementNodeData(c, "a") {
-			return c
+
+		res := getFirstChildHrefNode(c)
+		if res != nil {
+			return res
 		}
+
 	}
 	return nil
 }
 
 func getFirstChildImgNode(n *html.Node) *html.Node {
+	if isElementNodeData(n, "img") {
+		return n
+	}
+
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		if isElementNodeData(c, "img") {
-			return c
+
+		res := getFirstChildImgNode(c)
+		if res != nil {
+			return res
 		}
+
 	}
 	return nil
 }

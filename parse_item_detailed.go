@@ -1,5 +1,6 @@
 package animelayer
 
+/*
 import (
 	"context"
 	"errors"
@@ -146,3 +147,4 @@ type parserDetailedItems struct {
 	NotePlaintTextElementInterceptor      string
 	NotePlaintTextElementClassInterceptor string
 }
+*/
