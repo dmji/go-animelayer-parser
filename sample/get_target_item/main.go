@@ -23,7 +23,7 @@ func main() {
 
 	p := animelayer.New(animelayer.NewClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
-	id := "56c1b194e1cf6851038b493b"
+	id := "60ddae82fd89780039313044"
 	firstItem, err := p.GetItemByIdentifier(ctx, id)
 
 	if err != nil {
