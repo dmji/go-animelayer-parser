@@ -7,7 +7,9 @@ import (
 
 func (p *service) GetItemsFromCategoryPages(ctx context.Context, category Category, iPage int) ([]Item, error) {
 
-	pageNode, err := p.pageTargetToHtmlNode(category, iPage)
+	url := formatUrlToItemsPage(category, iPage)
+
+	doc, err := loadHtmlDocument(p.client, url)
 	if err != nil {
 		return nil, err
 	}
@@ -15,7 +17,7 @@ func (p *service) GetItemsFromCategoryPages(ctx context.Context, category Catego
 	items := make(chan ItemPartialWithError, 100)
 	go func() {
 		defer close(items)
-		p.parserDetailedItems.ParseCategoryPageToChan(ctx, pageNode, items)
+		p.parserDetailedItems.ParseCategoryPageToChan(ctx, &CategoryHtml{doc}, items)
 	}()
 
 	errs := make([]error, 0, 100)
@@ -34,9 +36,4 @@ func (p *service) GetItemsFromCategoryPages(ctx context.Context, category Catego
 	}
 
 	return res, nil
-}
-
-func (p *service) GetItemByIdentifier(ctx context.Context, identifier string) (*Item, error) {
-	detailedItemNode := p.partialItemToItemNode(identifier)
-	return p.parserDetailedItems.ParseItem(ctx, detailedItemNode.Node, detailedItemNode.Identifier)
 }
