@@ -55,7 +55,7 @@ func loadDocument(client DocGetter, urlString string) (*html.Node, error) {
 	}
 
 	if fc.NextSibling == nil {
-		return nil, fmt.Errorf("empty document")
+		return nil, ErrorEmptyPage
 	}
 
 	return doc, nil
