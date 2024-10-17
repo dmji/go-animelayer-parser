@@ -44,20 +44,7 @@ type CategoryHtml struct {
 }
 
 // ItemPartial for Pipeline
-type PageHtmlNode struct {
-	Node       *html.Node
-	Identifier string
-	Error      error
-}
-
-// ItemPartial for Pipeline
 type ItemPartialWithError struct {
-	Item  *Item
-	Error error
-}
-
-// ItemDetailed for Pipeline
-type ItemDetailedWithError struct {
 	Item  *Item
 	Error error
 }
