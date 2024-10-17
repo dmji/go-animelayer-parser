@@ -30,7 +30,7 @@ func TestParseItem(t *testing.T) {
 	for _, params := range testParamss {
 
 		testFileExam := fmt.Sprintf("test_data/%s.json", nameForTestItemDataFile(params))
-		testFileHtml := fmt.Sprintf("test_data/%s.html", nameForTestItemDataFile(params))
+		testFileHtml := fmt.Sprintf("test_data/%s", nameForTestItemDataFile(params))
 
 		if err := GenerateInitialItemExams(testFileHtml, testFileExam, ctx, params); err != nil {
 			panic(err)

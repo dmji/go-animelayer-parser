@@ -32,7 +32,7 @@ func TestParsePage(t *testing.T) {
 	for _, params := range testParamss {
 
 		testFileExam := fmt.Sprintf("test_data/%s.json", nameForTestPageDataFile(params))
-		testFileHtml := fmt.Sprintf("test_data/%s.html", nameForTestPageDataFile(params))
+		testFileHtml := fmt.Sprintf("test_data/%s", nameForTestPageDataFile(params))
 
 		GenerateInitialPageExams(testFileHtml, testFileExam, ctx, params)
 
