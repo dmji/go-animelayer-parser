@@ -6,12 +6,12 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserHtml) parseItemUpdate(n *html.Node) (*ItemUpdate, error) {
+func (p *parser) parseItemUpdate(n *html.Node) (*ItemUpdate, error) {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {
 
-		t = cleanStringFromHtmlSymbols(t)
+		t = cleanStringFromSpecialSymbols(t)
 		if len(t) > 0 {
 			clearTexts = append(clearTexts, t)
 		}

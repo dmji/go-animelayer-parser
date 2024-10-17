@@ -2,9 +2,11 @@ package animelayer
 
 import "strconv"
 
+// Category - animelayer category
 type Category string
 type categories struct{}
 
+// Categories - object to emulate enum class
 var Categories = categories{}
 
 func (categories) Anime() Category {
@@ -26,19 +28,20 @@ func (categories) Dorama() Category {
 	return "/torrents/dorama/"
 }
 
-const baseUrl = "https://animelayer.ru"
+const baseURL = "https://animelayer.ru"
 
-func formatUrlToItemsPage(category Category, iPage int) string {
-	return baseUrl + string(category) + "?page=" + strconv.FormatInt(int64(iPage), 10)
+func formatToItemsPageURL(category Category, iPage int) string {
+	return baseURL + string(category) + "?page=" + strconv.FormatInt(int64(iPage), 10)
 }
 
-func formatUrlToItem(identifier string) string {
-	return baseUrl + "/torrent/" + identifier
+func formatToItemURL(identifier string) string {
+	return baseURL + "/torrent/" + identifier
 }
-func formatUrlToItemDownload(identifier string) string {
-	return baseUrl + "/torrent/" + identifier + "/download"
+func formatToItemDownloadURL(identifier string) string {
+	return baseURL + "/torrent/" + identifier + "/download"
 }
 
-func (m *Item) GetTorrentUrl() string {
-	return formatUrlToItem(m.Identifier)
+// GetTorrentURL - direct download link
+func (m *Item) GetTorrentURL() string {
+	return formatToItemURL(m.Identifier)
 }

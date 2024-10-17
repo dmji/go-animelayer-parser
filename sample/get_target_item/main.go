@@ -21,7 +21,7 @@ func main() {
 		cancel()
 	}()
 
-	p := animelayer.New(animelayer.NewHttpClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
+	p := animelayer.New(animelayer.NewClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
 	id := "56c1b194e1cf6851038b493b"
 	firstItem, err := p.GetItemByIdentifier(ctx, id)

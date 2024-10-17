@@ -6,8 +6,8 @@ import (
 
 func (p *service) GetItemByIdentifier(ctx context.Context, identifier string) (*Item, error) {
 
-	url := formatUrlToItem(identifier)
-	doc, err := loadHtmlDocument(p.client, url)
+	url := formatToItemURL(identifier)
+	doc, err := loadDocument(p.client, url)
 	if err != nil {
 		return nil, err
 	}

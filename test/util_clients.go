@@ -30,7 +30,7 @@ func (f *ClientHtmlGetFromFile) Get(url string) (*html.Node, error) {
 
 type ClientHtmlSaveToFile struct {
 	File   string
-	Client animelayer.HtmlDocGetter
+	Client animelayer.DocGetter
 }
 
 func (f *ClientHtmlSaveToFile) Get(url string) (*html.Node, error) {

@@ -6,9 +6,8 @@ import (
 
 func (p *service) GetItemsFromCategoryPages(ctx context.Context, category Category, iPage int) ([]Item, error) {
 
-	url := formatUrlToItemsPage(category, iPage)
-
-	doc, err := loadHtmlDocument(p.client, url)
+	url := formatToItemsPageURL(category, iPage)
+	doc, err := loadDocument(p.client, url)
 	if err != nil {
 		return nil, err
 	}

@@ -7,11 +7,11 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserHtml) parseItemMetrics(n *html.Node) (*ItemMetrics, error) {
+func (p *parser) parseItemMetrics(n *html.Node) (*ItemMetrics, error) {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {
-		t = cleanStringFromHtmlSymbols(t)
+		t = cleanStringFromSpecialSymbols(t)
 		if len(t) > 0 {
 			clearTexts = append(clearTexts, t)
 		}
@@ -29,15 +29,15 @@ func (p *parserHtml) parseItemMetrics(n *html.Node) (*ItemMetrics, error) {
 		VisitorCounter:  clearTexts[4],
 		ApprovedCounter: clearTexts[5],
 
-		ReadFromHtmlKey: "info pd20",
+		DebugReadFromElementClass: "info pd20",
 	}, nil
 }
 
-func (p *parserHtml) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) error {
+func (p *parser) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) error {
 	clearTexts := make([]string, 0, 10)
 	texts := getAllChildTextData(n)
 	for _, t := range texts {
-		t = cleanStringFromHtmlSymbols(t)
+		t = cleanStringFromSpecialSymbols(t)
 		if len(t) > 0 {
 			clearTexts = append(clearTexts, t)
 		}
@@ -55,7 +55,7 @@ func (p *parserHtml) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) 
 		//VisitorCounter:  clearTexts[4],
 		//ApprovedCounter: clearTexts[5],
 
-		ReadFromHtmlKey: "info pd20",
+		DebugReadFromElementClass: "info pd20",
 	}
 
 	updatedType := clearTexts[4]
@@ -67,7 +67,7 @@ func (p *parserHtml) parseItemMetricsFromCategoryPage(n *html.Node, item *Item) 
 		item.Updated.SeedLastPresenceDate = p.dateFromAnimelayerDate(clearTexts[5])
 	}
 
-	item.Updated.ReadFromHtmlKey = "info pd20"
+	item.Updated.DebugReadFromElementClass = "info pd20"
 
 	return nil
 }

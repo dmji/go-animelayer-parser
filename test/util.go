@@ -61,8 +61,8 @@ func isEqualItemMetrics(got, expected *animelayer.ItemMetrics) error {
 		return fmt.Errorf("expected Metrics.ApprovedCounter='%s', but got='%s", expected.ApprovedCounter, got.ApprovedCounter)
 	}
 
-	if got.ReadFromHtmlKey != expected.ReadFromHtmlKey {
-		return fmt.Errorf("expected Metrics.ReadFromHtmlKey='%s', but got='%s", expected.ReadFromHtmlKey, got.ReadFromHtmlKey)
+	if got.DebugReadFromElementClass != expected.DebugReadFromElementClass {
+		return fmt.Errorf("expected Metrics.ReadFromHtmlKey='%s', but got='%s", expected.DebugReadFromElementClass, got.DebugReadFromElementClass)
 	}
 
 	return nil
@@ -95,8 +95,8 @@ func isEqualItemUpdate(got, expected *animelayer.ItemUpdate) error {
 		return fmt.Errorf("expected Updated.SeedLastPresenceDate='%s', but got='%s", expected.SeedLastPresenceDate, got.SeedLastPresenceDate)
 	}
 
-	if got.ReadFromHtmlKey != expected.ReadFromHtmlKey {
-		return fmt.Errorf("expected Updated.ReadFromHtmlKey='%s', but got='%s", expected.ReadFromHtmlKey, got.ReadFromHtmlKey)
+	if got.DebugReadFromElementClass != expected.DebugReadFromElementClass {
+		return fmt.Errorf("expected Updated.ReadFromHtmlKey='%s', but got='%s", expected.DebugReadFromElementClass, got.DebugReadFromElementClass)
 	}
 
 	return nil
@@ -149,11 +149,11 @@ func isValidItem(got *animelayer.Item, bTarget bool) error {
 		return fmt.Errorf("expected not empty Title")
 	}
 
-	if len(got.Metrics.ReadFromHtmlKey) == 0 {
+	if len(got.Metrics.DebugReadFromElementClass) == 0 {
 		return fmt.Errorf("expected not empty Metrics.ReadFromHtmlKey")
 	}
 
-	if len(got.Updated.ReadFromHtmlKey) == 0 {
+	if len(got.Updated.DebugReadFromElementClass) == 0 {
 		return fmt.Errorf("expected not empty Updated.ReadFromHtmlKey")
 	}
 

@@ -4,17 +4,19 @@ import (
 	"context"
 )
 
-type Parser interface {
+// ItemProvider - interface of main package object
+type ItemProvider interface {
 	GetItemByIdentifier(ctx context.Context, identifier string) (*Item, error)
 	GetItemsFromCategoryPages(ctx context.Context, category Category, iPage int) ([]Item, error)
 }
 
 type service struct {
-	client HtmlDocGetter
-	parser parserHtml
+	client DocGetter
+	parser parser
 }
 
-func New(client HtmlDocGetter, ServiceOptionsApplier ...ServiceOptionsApplier) *service {
+// New - create main package object
+func New(client DocGetter, ServiceOptionsApplier ...ServiceOptionsApplier) ItemProvider {
 	s := &service{
 		client: client,
 	}

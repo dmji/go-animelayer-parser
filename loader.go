@@ -8,15 +8,18 @@ import (
 	"golang.org/x/net/html"
 )
 
-type HtmlDocGetter interface {
+// DocGetter - Interface for html loader
+type DocGetter interface {
 	Get(utl string) (*html.Node, error)
 }
 
-type HttpClientWrapper struct {
+// ClientWrapper - Default wrapper over http.Client
+type ClientWrapper struct {
 	client *http.Client
 }
 
-func (c *HttpClientWrapper) Get(utl string) (*html.Node, error) {
+// Get - method implementation
+func (c *ClientWrapper) Get(utl string) (*html.Node, error) {
 	resp, err := c.client.Get(utl)
 
 	if err != nil {
@@ -32,11 +35,12 @@ func (c *HttpClientWrapper) Get(utl string) (*html.Node, error) {
 	return doc, nil
 }
 
-func NewHttpClientWrapper(client *http.Client) *HttpClientWrapper {
-	return &HttpClientWrapper{client}
+// NewClientWrapper - Create default wrapper over http.Client
+func NewClientWrapper(client *http.Client) *ClientWrapper {
+	return &ClientWrapper{client}
 }
 
-func loadHtmlDocument(client HtmlDocGetter, urlString string) (*html.Node, error) {
+func loadDocument(client DocGetter, urlString string) (*html.Node, error) {
 
 	doc, err := client.Get(urlString)
 	if err != nil {

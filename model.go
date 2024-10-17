@@ -4,14 +4,16 @@ import (
 	"time"
 )
 
+// ItemUpdate - data from update dates block
 type ItemUpdate struct {
 	UpdatedDate          *time.Time
 	CreatedDate          *time.Time
 	SeedLastPresenceDate *time.Time
 
-	ReadFromHtmlKey string
+	DebugReadFromElementClass string `json:"ReadFromHtmlKey"`
 }
 
+// ItemMetrics - data from metrics block
 type ItemMetrics struct {
 	Uploads         string
 	Downloads       string
@@ -20,9 +22,10 @@ type ItemMetrics struct {
 	VisitorCounter  string
 	ApprovedCounter string
 
-	ReadFromHtmlKey string
+	DebugReadFromElementClass string `json:"ReadFromHtmlKey"`
 }
 
+// Item - main item of package
 type Item struct {
 	Identifier  string
 	Title       string

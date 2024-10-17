@@ -9,7 +9,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserHtml) parseItemTitle(n *html.Node, item *Item) error {
+func (p *parser) parseItemTitle(n *html.Node, item *Item) error {
 
 	ref := getFirstChildHrefNode(n)
 	if ref == nil {
@@ -42,7 +42,7 @@ func (p *parserHtml) parseItemTitle(n *html.Node, item *Item) error {
 	return nil
 }
 
-func (p *parserHtml) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
+func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
 
 	switch val {
 
@@ -73,7 +73,7 @@ func (p *parserHtml) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val str
 	return false, nil
 }
 
-func (p *parserHtml) traverseHtmlCardNodes(ctx context.Context, n *html.Node, item *Item) error {
+func (p *parser) traverseCardNodes(ctx context.Context, n *html.Node, item *Item) error {
 
 	// cart title
 	if isExistAttrWithTargetKeyValue(n, "h3", "class", "h2 m0") {
@@ -104,7 +104,7 @@ func (p *parserHtml) traverseHtmlCardNodes(ctx context.Context, n *html.Node, it
 		case <-ctx.Done():
 			return ctx.Err()
 		default:
-			err := p.traverseHtmlCardNodes(ctx, c, item)
+			err := p.traverseCardNodes(ctx, c, item)
 			if err != nil {
 				return err
 			}
@@ -119,7 +119,7 @@ type itemWithError struct {
 	Error error
 }
 
-func (p *parserHtml) parseCategoryPageChans(ctx context.Context, n *html.Node, chItems chan<- itemWithError, wg *sync.WaitGroup) {
+func (p *parser) parseCategoryPageChans(ctx context.Context, n *html.Node, chItems chan<- itemWithError, wg *sync.WaitGroup) {
 
 	if isExistAttrWithTargetKeyValue(n, "li", "class", "torrent-item torrent-item-medium panel") {
 
@@ -128,7 +128,7 @@ func (p *parserHtml) parseCategoryPageChans(ctx context.Context, n *html.Node, c
 			defer wg.Done()
 
 			item := &Item{}
-			err := p.traverseHtmlCardNodes(ctx, n, item)
+			err := p.traverseCardNodes(ctx, n, item)
 
 			if err != nil {
 				chItems <- itemWithError{
@@ -157,14 +157,14 @@ func (p *parserHtml) parseCategoryPageChans(ctx context.Context, n *html.Node, c
 	}
 }
 
-func (p *parserHtml) ParseCategoryPage(ctx context.Context, category *html.Node) ([]Item, error) {
+func (p *parser) ParseCategoryPage(ctx context.Context, page *html.Node) ([]Item, error) {
 
 	chItems := make(chan itemWithError, 20)
 
 	go func() {
 		defer close(chItems)
 		wg := &sync.WaitGroup{}
-		p.parseCategoryPageChans(ctx, category, chItems, wg)
+		p.parseCategoryPageChans(ctx, page, chItems, wg)
 		wg.Wait()
 	}()
 

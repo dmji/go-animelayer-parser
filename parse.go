@@ -2,13 +2,13 @@ package animelayer
 
 import "strings"
 
-type parserHtml struct {
+type parser struct {
 	NotePlaintTextElementInterceptor      string
 	NotePlaintTextElementClassInterceptor string
 }
 
-func (p *parserHtml) grabTitleWithCompletedStatus(name string) (string, bool) {
-	title := cleanStringFromHtmlSymbols(name)
+func (p *parser) grabTitleWithCompletedStatus(name string) (string, bool) {
+	title := cleanStringFromSpecialSymbols(name)
 	bCompleted := false
 
 	if titleCuted, bFound := strings.CutSuffix(title, " Complete"); bFound {

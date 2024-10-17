@@ -7,12 +7,14 @@ import (
 	"net/url"
 )
 
+// Credentials - Animelayer data for loging request
 type Credentials struct {
 	Login    string
 	Password string
 }
 
-func HttpClientWithAuth(cred Credentials) (*http.Client, error) {
+// DefaultClientWithAuth - http.Client with auth to AnimeLayer
+func DefaultClientWithAuth(cred Credentials) (*http.Client, error) {
 	jarc, err := cookiejar.New(nil)
 	if err != nil {
 		return nil, err
@@ -22,12 +24,12 @@ func HttpClientWithAuth(cred Credentials) (*http.Client, error) {
 		Jar: jarc,
 	}
 
-	hostUrl, err := url.Parse(baseUrl)
+	hostURL, err := url.Parse(baseURL)
 	if err != nil {
 		return nil, err
 	}
-	loginUrl, _ := hostUrl.Parse("/auth/login/")
-	login := loginUrl.String()
+	loginURL, _ := hostURL.Parse("/auth/login/")
+	login := loginURL.String()
 	_, err = client.PostForm(
 		login,
 		url.Values{
@@ -36,8 +38,8 @@ func HttpClientWithAuth(cred Credentials) (*http.Client, error) {
 		},
 	)
 
-	if len(client.Jar.Cookies(hostUrl)) < 3 {
-		return nil, fmt.Errorf("error on login to '%s'", hostUrl.Host)
+	if len(client.Jar.Cookies(hostURL)) < 3 {
+		return nil, fmt.Errorf("error on login to '%s'", hostURL.Host)
 	}
 
 	if err != nil {

@@ -14,7 +14,7 @@ func TestGetItemsFromCategoryPages(t *testing.T) {
 
 	ctx := context.Background()
 
-	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
+	client, err := animelayer.DefaultClientWithAuth(animelayer.Credentials{
 		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
 		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
@@ -23,7 +23,7 @@ func TestGetItemsFromCategoryPages(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	p := animelayer.New(animelayer.NewHttpClientWrapper(client))
+	p := animelayer.New(animelayer.NewClientWrapper(client))
 
 	for _, params := range testParamss {
 

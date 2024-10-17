@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func (p *parserHtml) dateFromAnimelayerDate(t string) *time.Time {
+func (p *parser) dateFromAnimelayerDate(t string) *time.Time {
 
 	t = strings.ReplaceAll(t, "января", "01")
 	t = strings.ReplaceAll(t, "февраля", "02")

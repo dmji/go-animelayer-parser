@@ -6,7 +6,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func (p *parserHtml) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
+func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
 
 	switch val {
 
@@ -25,7 +25,7 @@ func (p *parserHtml) tryReadNodeAsDivClass(n *html.Node, item *Item, val string)
 		}
 
 		item.Updated = *update
-		item.Updated.ReadFromHtmlKey = "info pd20 b0"
+		item.Updated.DebugReadFromElementClass = "info pd20 b0"
 		return true, nil
 	case "description pd20 panel widget": // cart description
 		note, err := p.parseItemNotes(n)
@@ -54,7 +54,7 @@ func (p *parserHtml) tryReadNodeAsDivClass(n *html.Node, item *Item, val string)
 	return false, nil
 }
 
-func (p *parserHtml) traverseHtmlItemNodes(ctx context.Context, n *html.Node, item *Item) error {
+func (p *parser) traverseItemNodes(ctx context.Context, n *html.Node, item *Item) error {
 
 	if isExistAttrWithTargetKeyValue(n, "meta", "property", "og:title") {
 		val, bFound := getAttrByKey(n, "content")
@@ -86,16 +86,16 @@ func (p *parserHtml) traverseHtmlItemNodes(ctx context.Context, n *html.Node, it
 		case <-ctx.Done():
 			return ctx.Err()
 		default:
-			p.traverseHtmlItemNodes(ctx, c, item)
+			p.traverseItemNodes(ctx, c, item)
 		}
 	}
 
 	return nil
 }
 
-func (p *parserHtml) ParseItem(ctx context.Context, doc *html.Node, identifier string) (*Item, error) {
+func (p *parser) ParseItem(ctx context.Context, doc *html.Node, identifier string) (*Item, error) {
 
 	item := &Item{Identifier: identifier}
-	err := p.traverseHtmlItemNodes(ctx, doc, item)
+	err := p.traverseItemNodes(ctx, doc, item)
 	return item, err
 }

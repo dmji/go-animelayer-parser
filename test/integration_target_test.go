@@ -14,7 +14,7 @@ func TestGetTargetItem(t *testing.T) {
 
 	ctx := context.Background()
 
-	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
+	client, err := animelayer.DefaultClientWithAuth(animelayer.Credentials{
 		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
 		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
@@ -25,7 +25,7 @@ func TestGetTargetItem(t *testing.T) {
 
 	for _, params := range testParamss {
 
-		p := animelayer.New(animelayer.NewHttpClientWrapper(client), animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
+		p := animelayer.New(animelayer.NewClientWrapper(client), animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
 
 		item, err := p.GetItemByIdentifier(ctx, params.Identifier)
 		if err != nil {

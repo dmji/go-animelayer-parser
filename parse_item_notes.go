@@ -12,7 +12,7 @@ type nodeWithParent struct {
 	next *html.Node
 }
 
-func (p *parserHtml) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
+func (p *parser) collectTextWithoudTags(root *html.Node, childsToReplace chan<- nodeWithParent) {
 
 	for c := root.FirstChild; c != nil; c = c.NextSibling {
 		if c.FirstChild == nil && c.Type == html.TextNode && c.Parent.Data == "div" {
@@ -25,7 +25,7 @@ func (p *parserHtml) collectTextWithoudTags(root *html.Node, childsToReplace cha
 
 }
 
-func (p *parserHtml) parseItemNotes(n *html.Node) (string, error) {
+func (p *parser) parseItemNotes(n *html.Node) (string, error) {
 
 	if len(p.NotePlaintTextElementInterceptor) > 0 {
 		childsToReplaceChan := make(chan nodeWithParent, 10)
@@ -66,7 +66,7 @@ func (p *parserHtml) parseItemNotes(n *html.Node) (string, error) {
 				}
 				sib2 := sib.NextSibling
 
-				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode && len(cleanStringFromHtmlSymbols(sib2.Data)) > 0 {
+				if isElementNodeData(sib, "br") && sib2.Type == html.TextNode && len(cleanStringFromSpecialSymbols(sib2.Data)) > 0 {
 					n.RemoveChild(sib)
 					n.RemoveChild(sib2)
 					//div.AppendChild(sib)
@@ -90,5 +90,5 @@ func (p *parserHtml) parseItemNotes(n *html.Node) (string, error) {
 
 	}
 
-	return cleanStringFromHtmlSymbols(b.String()), nil
+	return cleanStringFromSpecialSymbols(b.String()), nil
 }

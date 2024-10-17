@@ -6,7 +6,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func cleanStringFromHtmlSymbols(t string) string {
+func cleanStringFromSpecialSymbols(t string) string {
 	t = html.UnescapeString(t)
 	t = strings.ReplaceAll(t, "\n", "")
 	t = strings.ReplaceAll(t, "\t", "")
