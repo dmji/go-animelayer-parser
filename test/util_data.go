@@ -1,8 +1,6 @@
 package animelayer_test
 
 import (
-	"errors"
-
 	"github.com/dmji/go-animelayer-parser"
 )
 
@@ -127,7 +125,7 @@ func testCategoryPages() []TestParseFirstPageParams {
 		{
 			Category:      animelayer.Categories.Anime(),
 			Page:          1500,
-			ExpectedError: errors.New("empty document"),
+			ExpectedError: animelayer.ErrorEmptyPage,
 		},
 	}
 
