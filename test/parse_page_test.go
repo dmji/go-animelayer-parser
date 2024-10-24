@@ -67,7 +67,7 @@ func TestParsePage(t *testing.T) {
 
 			err = isEqualItem(&items[i], &expectedItems[iExam])
 			if err != nil {
-				t.Fatal(testFileExam, err)
+				t.Fatal(items[i].Identifier, expectedItems[iExam].Identifier, testFileExam, err)
 			}
 
 		}
