@@ -12,12 +12,20 @@ var Categories = categories{}
 func (categories) Anime() Category {
 	return "/torrents/anime/"
 }
+
+// AnimeHentai category
+//
+// Deprecated: The category AnimeHentai no more presented by Animelayer
 func (categories) AnimeHentai() Category {
 	return "/torrents/anime/hentai/"
 }
 func (categories) Manga() Category {
 	return "/torrents/manga/"
 }
+
+// MangaHentai category
+//
+// Deprecated: The category MangaHentai no more presented by Animelayer
 func (categories) MangaHentai() Category {
 	return "/torrents/manga/hentai/"
 }
@@ -26,6 +34,10 @@ func (categories) Music() Category {
 }
 func (categories) Dorama() Category {
 	return "/torrents/dorama/"
+}
+
+func (categories) All() Category {
+	return ""
 }
 
 const baseURL = "https://animelayer.ru"
