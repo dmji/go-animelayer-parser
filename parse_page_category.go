@@ -60,6 +60,7 @@ func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string)
 		}
 
 		item.Notes = note
+		item.NotesSematizied = tryGetSomthingSemantizedFromNotes(note)
 		return true, nil
 	case "pd20": // cart cover image
 		ref := getFirstChildImgNode(n)

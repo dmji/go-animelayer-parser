@@ -2,11 +2,13 @@ package main
 
 import (
 	"context"
-	"log"
+	"encoding/json"
 	"net/http"
 	"os"
 	"os/signal"
+	"path"
 	"syscall"
+	"time"
 
 	"github.com/dmji/go-animelayer-parser"
 )
@@ -28,8 +30,22 @@ func main() {
 		panic(err)
 	}
 
-	for i, item := range items {
-		log.Printf("%d: %v", i, item)
+	os.Mkdir("~dump", 0777)
+	outfile := path.Join("~dump", time.Now().Format("2006-01-02T15:04")+".json")
+	file, err := os.Create(outfile)
+	if err != nil {
+		panic(err)
 	}
 
+	/*
+			for i := range len(items) {
+			items[i].Notes = ""
+		}
+	*/
+
+	encoder := json.NewEncoder(file)
+	err = encoder.Encode(&items)
+	if err != nil {
+		panic(err)
+	}
 }

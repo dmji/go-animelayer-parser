@@ -34,6 +34,7 @@ func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bo
 		}
 
 		item.Notes = note
+		item.NotesSematizied = tryGetSomthingSemantizedFromNotes(note)
 		return true, nil
 	case "cover": // cart cover image
 		ref := getFirstChildImgNode(n)
