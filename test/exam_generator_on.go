@@ -12,7 +12,7 @@ import (
 
 func GenerateInitialItemExams(testFileHtml, testFileExam string, ctx context.Context, params TestGetItemParams) error {
 
-	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
+	client, err := animelayer.DefaultClientWithAuth(animelayer.Credentials{
 		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
 		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
@@ -21,7 +21,7 @@ func GenerateInitialItemExams(testFileHtml, testFileExam string, ctx context.Con
 		return err
 	}
 
-	pReal := animelayer.New(&ClientHtmlSaveToFile{File: testFileHtml, Client: animelayer.NewHttpClientWrapper(client)}, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
+	pReal := animelayer.New(&ClientHtmlSaveToFile{File: testFileHtml, Client: animelayer.NewClientWrapper(client)}, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
 
 	item, err := pReal.GetItemByIdentifier(ctx, params.Identifier)
 	if err != nil {
@@ -37,7 +37,7 @@ func GenerateInitialItemExams(testFileHtml, testFileExam string, ctx context.Con
 
 func GenerateInitialPageExams(testFileHtml, testFileExam string, ctx context.Context, params TestParseFirstPageParams) error {
 
-	client, err := animelayer.HttpClientWithAuth(animelayer.Credentials{
+	client, err := animelayer.DefaultClientWithAuth(animelayer.Credentials{
 		Login:    os.Getenv("ANIME_LAYER_LOGIN"),
 		Password: os.Getenv("ANIME_LAYER_PASSWORD"),
 	})
@@ -46,7 +46,7 @@ func GenerateInitialPageExams(testFileHtml, testFileExam string, ctx context.Con
 		return err
 	}
 
-	p := animelayer.New(&ClientHtmlSaveToFile{File: testFileHtml, Client: animelayer.NewHttpClientWrapper(client)}, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
+	p := animelayer.New(&ClientHtmlSaveToFile{File: testFileHtml, Client: animelayer.NewClientWrapper(client)}, animelayer.WithNoteClassOverride(params.NoteElem, params.NoteClass))
 
 	items, err := p.GetItemsFromCategoryPages(ctx, params.Category, params.Page)
 	if err != nil {

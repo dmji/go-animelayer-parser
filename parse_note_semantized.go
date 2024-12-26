@@ -69,7 +69,7 @@ func extractDivSpoiler(text string) (string, NotesSematizied) {
 		vals = slices.DeleteFunc(vals, func(e string) bool { return len(e) == 0 })
 		if len(vals) != 2 {
 			if len(removeHTMLTags(s)) > 0 {
-				result.Untagged = append(result.Untagged, s)
+				result.Untaged = append(result.Untaged, s)
 			}
 			continue
 		}
@@ -125,7 +125,7 @@ func strongLinesToNoteItems(strongLines []notesSplitted) *NotesSematizied {
 	for _, line := range strongLines {
 		if len(line.Others) > 0 {
 			if len(removeHTMLTags(line.Others)) > 0 {
-				result.Untagged = append(result.Untagged, line.Others)
+				result.Untaged = append(result.Untaged, line.Others)
 			}
 			continue
 		}

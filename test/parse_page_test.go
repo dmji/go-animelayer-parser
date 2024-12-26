@@ -13,14 +13,14 @@ import (
 
 func nameForTestPageDataFile(p TestParseFirstPageParams) string {
 	if p.NoteClass == "" && p.NoteElem == "" {
-		return fmt.Sprintf("page_%s%d", p.Category, p.Page)
+		return fmt.Sprintf("page_%s_%d", p.Category, p.Page)
 	}
 
 	if p.NoteClass == "" && p.NoteElem != "" {
-		return fmt.Sprintf("page_%s%d#%s", p.Category, p.Page, p.NoteElem)
+		return fmt.Sprintf("page_%s_%d#%s", p.Category, p.Page, p.NoteElem)
 	}
 
-	return fmt.Sprintf("page_%s%d#%s_%s", p.Category, p.Page, p.NoteElem, p.NoteClass)
+	return fmt.Sprintf("page_%s_%d#%s_%s", p.Category, p.Page, p.NoteElem, p.NoteClass)
 }
 
 func TestParsePage(t *testing.T) {

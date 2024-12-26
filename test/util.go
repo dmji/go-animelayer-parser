@@ -102,6 +102,19 @@ func isEqualItemUpdate(got, expected *animelayer.ItemUpdate) error {
 	return nil
 }
 
+func isEqualNotesSematizied(got, expected *animelayer.NotesSematizied) error {
+
+	if len(got.Taged) != len(expected.Taged) {
+		return fmt.Errorf("expected Taged Len='%d', but got='%d'", len(got.Taged), len(expected.Taged))
+	}
+
+	if len(got.Untaged) != len(expected.Untaged) {
+		return fmt.Errorf("expected Untaged Len='%d', but got='%d'", len(got.Untaged), len(expected.Untaged))
+	}
+
+	return nil
+}
+
 func isEqualItem(got, expected *animelayer.Item) error {
 
 	if got.Identifier != expected.Identifier {
@@ -130,6 +143,10 @@ func isEqualItem(got, expected *animelayer.Item) error {
 
 	if err := isEqualItemUpdate(&got.Updated, &expected.Updated); err != nil {
 		return err
+	}
+
+	if string(got.Category) != string(expected.Category) {
+		return fmt.Errorf("expected Category='%s', but got='%s", expected.Category, got.Category)
 	}
 
 	if got.Notes != expected.Notes {

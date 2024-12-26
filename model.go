@@ -44,16 +44,16 @@ type Item struct {
 }
 
 type NotesSematizied struct {
-	Taged    []NotesSematiziedItem `json:"Taged,omitempty"`
-	Untagged []string              `json:"Untagged,omitempty"`
+	Taged   []NotesSematiziedItem `json:"Taged,omitempty"`
+	Untaged []string              `json:"Untaged,omitempty"`
 }
 
 func (n *NotesSematizied) Extend(from *NotesSematizied) {
 	for _, t := range from.Taged {
 		n.Taged = append(n.Taged, t)
 	}
-	for _, t := range from.Untagged {
-		n.Untagged = append(n.Untagged, t)
+	for _, t := range from.Untaged {
+		n.Untaged = append(n.Untaged, t)
 	}
 }
 
