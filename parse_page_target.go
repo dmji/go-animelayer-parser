@@ -2,57 +2,81 @@ package animelayer
 
 import (
 	"context"
+	"errors"
 
 	"golang.org/x/net/html"
 )
 
-func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
+type loopExitStatus bool
 
+const (
+	continueLoopExitStatus = false
+	breakLoopExitStatus    = true
+)
+
+func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (loopExitStatus, error) {
+
+	var err error
 	switch val {
 
 	case "info pd20": // cart status
 		metrics, err := p.parseItemMetrics(n)
 		if err != nil {
-			return false, err
+			return continueLoopExitStatus, err
 		}
 
 		item.Metrics = *metrics
-		return true, nil
+		return breakLoopExitStatus, nil
 	case "info pd20 b0": // cart status date
 		update, err := p.parseItemUpdate(n)
 		if err != nil {
-			return false, err
+			return continueLoopExitStatus, err
 		}
 
 		item.Updated = *update
 		item.Updated.DebugReadFromElementClass = "info pd20 b0"
-		return true, nil
+		return breakLoopExitStatus, nil
 	case "description pd20 panel widget": // cart description
 		note, err := p.parseItemNotes(n)
 		if err != nil {
-			return false, err
+			return continueLoopExitStatus, err
 		}
 
 		item.Notes = note
 		item.NotesSematizied = tryGetSomthingSemantizedFromNotes(note)
-		return true, nil
+		return breakLoopExitStatus, nil
 	case "cover": // cart cover image
+		href := getFirstChildHrefNode(n)
+		if href == nil {
+			return continueLoopExitStatus, errors.New("not found href in cover div")
+		}
+		categoryPresentation, bFound := getFirstChildTextData(href)
+		if bFound {
+			item.Category, err = categoryFromPresentationString(categoryPresentation)
+			if err != nil {
+				return continueLoopExitStatus, err
+			}
+		}
+
 		ref := getFirstChildImgNode(n)
+		if ref == nil {
+			return continueLoopExitStatus, errors.New("not found image in cover div")
+		}
 		val, bFound := getAttrByKey(ref, "src")
 		if bFound {
 			item.RefImageCover = val
-			return true, nil
+			return breakLoopExitStatus, nil
 		}
 	case "panel widget pd20": // cart additional image
 		ref := getFirstChildHrefNode(n)
 		val, bFound := getAttrByKey(ref, "href")
 		if bFound {
 			item.RefImagePreview = val
-			return true, nil
+			return breakLoopExitStatus, nil
 		}
 	}
 
-	return false, nil
+	return continueLoopExitStatus, nil
 }
 
 func (p *parser) traverseItemNodes(ctx context.Context, n *html.Node, item *Item) error {

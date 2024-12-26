@@ -44,6 +44,7 @@ func (p *parser) parseItemTitle(n *html.Node, item *Item) error {
 
 func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
 
+	var err error
 	switch val {
 
 	case "info pd20": // cart status
@@ -67,7 +68,18 @@ func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string)
 		val, bFound := getAttrByKey(ref, "data-original")
 		if bFound {
 			item.RefImageCover = val
-			return false, nil
+		}
+
+		href := ref.PrevSibling.PrevSibling
+		if href == nil {
+			return continueLoopExitStatus, errors.New("not found href in cover div")
+		}
+		categoryPresentation, bFound := getFirstChildTextData(href)
+		if bFound {
+			item.Category, err = categoryFromPresentationString(categoryPresentation)
+			if err != nil {
+				return continueLoopExitStatus, err
+			}
 		}
 	}
 

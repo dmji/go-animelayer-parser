@@ -37,6 +37,8 @@ type Item struct {
 	RefImagePreview string
 	RefImageCover   string
 
+	Category Category
+
 	Notes           string
 	NotesSematizied *NotesSematizied
 }

@@ -25,23 +25,21 @@ func main() {
 
 	p := animelayer.New(animelayer.NewClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
-	items, err := p.GetItemsFromCategoryPages(ctx, animelayer.Categories.Anime(), 1)
+	items, err := p.GetItemsFromCategoryPages(ctx, animelayer.Categories.Anime, 1)
 	if err != nil {
 		panic(err)
 	}
 
 	os.Mkdir("~dump", 0777)
-	outfile := path.Join("~dump", time.Now().Format("2006-01-02T15:04")+".json")
+	outfile := path.Join("~dump", time.Now().Format("2006-01-02T15:04:05")+".json")
 	file, err := os.Create(outfile)
 	if err != nil {
 		panic(err)
 	}
 
-	/*
-			for i := range len(items) {
-			items[i].Notes = ""
-		}
-	*/
+	for i := range len(items) {
+		items[i].Notes = ""
+	}
 
 	encoder := json.NewEncoder(file)
 	err = encoder.Encode(&items)

@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"os"
 	"slices"
-	"strings"
 	"testing"
 
 	"github.com/dmji/go-animelayer-parser"
@@ -14,14 +13,14 @@ import (
 
 func nameForTestPageDataFile(p TestParseFirstPageParams) string {
 	if p.NoteClass == "" && p.NoteElem == "" {
-		return strings.ReplaceAll(fmt.Sprintf("page_%s%d", p.Category, p.Page), "/", "_")
+		return fmt.Sprintf("page_%s%d", p.Category, p.Page)
 	}
 
 	if p.NoteClass == "" && p.NoteElem != "" {
-		return strings.ReplaceAll(fmt.Sprintf("page_%s%d#%s", p.Category, p.Page, p.NoteElem), "/", "_")
+		return fmt.Sprintf("page_%s%d#%s", p.Category, p.Page, p.NoteElem)
 	}
 
-	return strings.ReplaceAll(fmt.Sprintf("page_%s%d#%s_%s", p.Category, p.Page, p.NoteElem, p.NoteClass), "/", "_")
+	return fmt.Sprintf("page_%s%d#%s_%s", p.Category, p.Page, p.NoteElem, p.NoteClass)
 }
 
 func TestParsePage(t *testing.T) {
