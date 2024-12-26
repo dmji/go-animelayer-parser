@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ru"><head>
+<!DOCTYPE html><html lang="ru" data-theme="dark"><head>
 	<title>Abenobashi Mahou Shoutengai / Абэнобаси: Волшебный торговый квартал (13 из 13) Complete торрент</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 				<meta name="description" content="Скачать торрент Abenobashi Mahou Shoutengai / Абэнобаси: Волшебный торговый квартал (13 из 13) Complete на Animelayer"/>
@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_6710df4688efa" class="clearfix">
+			<div id="stars_676d39e49b672" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 100%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -134,15 +134,15 @@ require.config({
 							<div class="star star-4 "></div>
 							<div class="star star-5 "></div>
 						</div>
-	<div class="stars-rating-count pull-left ml10 gray">(<span class="js-stars-rating-count">6</span> оценок)</div>
+	<div class="stars-rating-count pull-left ml10 gray">(<span class="js-stars-rating-count">9</span> оценок)</div>
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_6710df4688efa'), {
+	new Stars(document.getElementById('stars_676d39e49b672'), {
 		url: '/mark/torrent/670ad89197553b37b913cea8/',
 		rating: Number('5'),
-		sum: Number('30'),
-		count: Number('6'),
+		sum: Number('45'),
+		count: Number('9'),
 		mark: Number('0'),
 		max: Number('5')
 	});
@@ -151,14 +151,14 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 7			<span class="gray"> | </span>
-			<i class="icon s-icons-download"></i> 0			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 6			<span class="gray"> | </span>
+			<i class="icon s-icons-download"></i> 1			<span class="gray"> | </span>
 			13.03 GB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1a8fce1cf68e25e8d63d2/" class="invisible"><i class="icon s-icons-user"></i> Viruson</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 861			
+			<i class="icon s-icons-eye"></i> 1309			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
@@ -206,11 +206,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg"><img id="screenlist_6710df4689768" data-zoom-image="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" width="320" height="201" src="//images.animelayer.ru/vSzis9o2ZRDoPD9Pg7OxwA/320x201/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg"><img id="screenlist_676d39e49bef5" data-zoom-image="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" width="320" height="201" src="//images.animelayer.ru/vSzis9o2ZRDoPD9Pg7OxwA/320x201/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_6710df4689768')).elevateZoom({
+		$(document.getElementById('screenlist_676d39e49bef5')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -283,7 +283,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_6710df46898cf">
+	<div class="comments-container btop" id="comments_676d39e49c115">
 		<div class="comments-tree "><ul class="comments-list list-reset">
 	<li data-id="670b9062532a0f79472f70d4" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -419,7 +419,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_6710df46898cf'));
+		var comments = new Comments(document.getElementById('comments_676d39e49c115'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {

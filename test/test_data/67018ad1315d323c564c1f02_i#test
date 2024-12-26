@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="ru"><head>
-	<title>Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2) торрент</title>
+<!DOCTYPE html><html lang="ru" data-theme="dark"><head>
+	<title>Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete торрент</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-				<meta name="description" content="Скачать торрент Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2) на Animelayer"/>
+				<meta name="description" content="Скачать торрент Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete на Animelayer"/>
 				<meta name="keywords" content=""/>
 					<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta http-equiv="revisit-after" content="7 days"/>
@@ -18,7 +18,7 @@ require.config({
 	paths: {'socket.io': '//comet2.animelayer.ru/socket.io/socket.io'}
 });
 </script>    		<meta property="og:site_name" content="Animelayer"/>
-    		<meta property="og:title" content="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2)"/>
+    		<meta property="og:title" content="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete"/>
     		<meta property="og:image:type" content="og:image:type"/>
     		<meta property="og:image:width" content="800"/>
     		<meta property="og:image:height" content="400"/>
@@ -26,7 +26,7 @@ require.config({
     		<meta property="og:url" content="https://animelayer.ru/torrent/67018ad1315d323c564c1f02/"/>
     		<meta property="twitter:site" content="Animelayer"/>
     		<meta property="twitter:card" content="summary_large_image"/>
-    		<meta property="twitter:title" content="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2)"/>
+    		<meta property="twitter:title" content="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete"/>
     		<meta property="twitter:image" content="https://images.animelayer.ru/KO6EwmsJfBSiQ7cy1Fh5bQ/240x360/1/crop/15/7e/67018ad1315d323c564c1f02_67018ad203f13.jpg"/>
     </head>
 <body class="">
@@ -92,7 +92,7 @@ require.config({
 		<div class="panel widget pd5">
 			<div class="cover">
 				<a href="/torrents/anime/" class="category">аниме</a>
-				<img width="240" height="360" src="//images.animelayer.ru/KO6EwmsJfBSiQ7cy1Fh5bQ/240x360/1/crop/15/7e/67018ad1315d323c564c1f02_67018ad203f13.jpg" alt="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2)"/>
+				<img width="240" height="360" src="//images.animelayer.ru/KO6EwmsJfBSiQ7cy1Fh5bQ/240x360/1/crop/15/7e/67018ad1315d323c564c1f02_67018ad203f13.jpg" alt="Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete"/>
 			</div>
 		</div>
 
@@ -118,15 +118,15 @@ require.config({
 				<div class="torrent-item torrent-info">
 	<div class="panel widget">
 		<div class="pd20">
-						<h1 class="h1">Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (1—2)</h1>
+						<h1 class="h1">Party kara Tsuihou Sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki / Целитель оказался сильнейшим (12 из 12) Complete</h1>
 		</div>
 	</div>
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_6710df4713ca0" class="clearfix">
+			<div id="stars_676d39e590b0c" class="clearfix">
 	<div class="stars stars-hovered pull-left">
-		<div class="stars-rating" style="width: 70%;"></div>
+		<div class="stars-rating" style="width: 60%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
 									<div class="star star-1 "></div>
 							<div class="star star-2 "></div>
@@ -134,15 +134,15 @@ require.config({
 							<div class="star star-4 "></div>
 							<div class="star star-5 "></div>
 						</div>
-	<div class="stars-rating-count pull-left ml10 gray">(<span class="js-stars-rating-count">2</span> оценки)</div>
+	<div class="stars-rating-count pull-left ml10 gray">(<span class="js-stars-rating-count">7</span> оценок)</div>
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_6710df4713ca0'), {
+	new Stars(document.getElementById('stars_676d39e590b0c'), {
 		url: '/mark/torrent/67018ad1315d323c564c1f02/',
-		rating: Number('3.5'),
-		sum: Number('7'),
-		count: Number('2'),
+		rating: Number('3'),
+		sum: Number('21'),
+		count: Number('7'),
 		mark: Number('0'),
 		max: Number('5')
 	});
@@ -151,19 +151,19 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 10			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 7			<span class="gray"> | </span>
 			<i class="icon s-icons-download"></i> 0			<span class="gray"> | </span>
-			2.67 GB
+			15.98 GB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 543			
+			<i class="icon s-icons-eye"></i> 3789			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
 			<!--noindex-->
-						<span class="gray">Обновлён:</span> <span class="date-updated">12 октября в 22:16</span>
+						<span class="gray">Обновлён:</span> <span class="date-updated">21 декабря в 23:19</span>
 			<span class="gray"> | </span>
 			
 						<span class="gray">Cоздан:</span> <span class="date-created">5 октября в 21:52</span>
@@ -191,7 +191,7 @@ require(['stars'], function(Stars){
 <strong>Язык: </strong>японский<br/>
 <br/>
 <strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 2 эпизод и русские субтитры к нему.
+Причина: Добавлены 12 эпизод и русские субтитры к нему.
 					<div class="spoiler mt20">
 				<div class="spoiler-title"><span data-action="files" class="spoiler-toggle js-ajax-toggle">Список файлов</span><span class="loader loader-small loader-small-spoilter middle hidden"></span></div>
 				<div class="spoiler-content hide">
@@ -202,11 +202,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg"><img id="screenlist_6710df471470a" data-zoom-image="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" width="320" height="208" src="//images.animelayer.ru/PHnSizrre1rpeiRvb_ScOQ/320x208/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg"><img id="screenlist_676d39e592d56" data-zoom-image="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" width="320" height="208" src="//images.animelayer.ru/PHnSizrre1rpeiRvb_ScOQ/320x208/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_6710df471470a')).elevateZoom({
+		$(document.getElementById('screenlist_676d39e592d56')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -279,7 +279,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_6710df47148e5">
+	<div class="comments-container btop" id="comments_676d39e592f09">
 		<div class="comments-tree "></div>
 
 				<div class="comments-list comments-form">
@@ -305,7 +305,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_6710df47148e5'));
+		var comments = new Comments(document.getElementById('comments_676d39e592f09'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {

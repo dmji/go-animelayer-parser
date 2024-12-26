@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ru"><head>
+<!DOCTYPE html><html lang="ru" data-theme="dark"><head>
 	<title>Supernatural Investigation Department (1-71 главы) торрент</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 				<meta name="description" content="Скачать торрент Supernatural Investigation Department (1-71 главы) на Animelayer"/>
@@ -97,11 +97,12 @@ require.config({
 		</div>
 
 		<div class="widget">
-																		<a href="/torrent/5786907de1cf68975f8b4568/download/" class="button button-large button-block button-green">Скачать торрент</a>
-					
-					
-											<a href="/torrent/5786907de1cf68975f8b4568/bookmark/" class="button button-large button-block button-primary mt10 js-bookmark" rel="nofollow">Добавить в закладки</a>
-														</div>
+							<!-- noindex -->
+				<div class="panel pd20 h2 text-center">
+					Торрент удалён
+				</div>
+				<!--/noindex-->
+					</div>
 	</div>
 </div>
 <script>
@@ -124,7 +125,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_6710df42875bf" class="clearfix">
+			<div id="stars_676d39e05a0d6" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 100%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +139,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_6710df42875bf'), {
+	new Stars(document.getElementById('stars_676d39e05a0d6'), {
 		url: '/mark/torrent/5786907de1cf68975f8b4568/',
 		rating: Number('5'),
 		sum: Number('10'),
@@ -158,7 +159,7 @@ require(['stars'], function(Stars){
 			<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 2674			
+			<i class="icon s-icons-eye"></i> 2729			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 199		</div>
 		<div class="info pd20 b0">
@@ -199,11 +200,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg"><img id="screenlist_6710df4287e33" data-zoom-image="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" width="320" height="5448" src="//images.animelayer.ru/Ea12nec7ADCQhU4kFwImQw/320x5448/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg"><img id="screenlist_676d39e05ad9b" data-zoom-image="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" width="320" height="5448" src="//images.animelayer.ru/Ea12nec7ADCQhU4kFwImQw/320x5448/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_6710df4287e33')).elevateZoom({
+		$(document.getElementById('screenlist_676d39e05ad9b')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -276,8 +277,8 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_6710df4287fbb">
-		<div class="comments-tree "><ul class="comments-list list-reset">
+	<div class="comments-container btop" id="comments_676d39e05af46">
+		<div class="comments-tree disable-reply"><ul class="comments-list list-reset">
 	<li data-id="5794e1c7e1cf682c2e8b4569" class="comments-item  clearfix">
 	<div class="comment-container">
 		<div class="comment-controls pull-right">
@@ -392,37 +393,11 @@ require(['stars'], function(Stars){
 </ul>
 </div>
 
-				<div class="comments-list comments-form">
-			<img src="//static.animelayer.ru/img/placeholder/avatar_40x40.jpg" width="40" height="40" class="avatar mr10 pull-left" alt=""/>
-			<strong class="username"></strong>
-			<span class="gray date"></span>
-			<div class="oh">
-				<form action="/comment/post/" method="post" class="form">
-					<input type="hidden" name="owner_type" value="torrent"/>
-					<input type="hidden" name="owner_id" value="5786907de1cf68975f8b4568"/>
-					<input type="hidden" name="parent_id" value=""/>
-					<div class="form-group">
-						<textarea class="textarea fluid" name="text" required="required" autocomplete="off"></textarea>
-					</div>
-					<div class="mt10">
-						<input type="submit" class="button button-primary" value="Отправить"/>
-						<button class="button button-red ml10 comment-cancel">Отмена</button>
-					</div>
-				</form>
-			</div>
-		</div>
 			</div>
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_6710df4287fbb'));
-				var form = new Form(comments.form, {
-			autofocus: false,
-			onSubmit: function(R) {
-				if(!R.s) return;
-				comments.add(R.d);
-			}
-		});
+		var comments = new Comments(document.getElementById('comments_676d39e05af46'));
 			});
 </script>
 			</div>

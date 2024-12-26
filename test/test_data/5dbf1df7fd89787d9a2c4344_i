@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ru"><head>
+<!DOCTYPE html><html lang="ru" data-theme="dark"><head>
 	<title>Psycho-Pass: Sinners of the System Case.3 Onshuu no Kanata ni / Психопаспорт: Грешники системы (фильм третий) (1 из 1) Complete торрент</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 				<meta name="description" content="Скачать торрент Psycho-Pass: Sinners of the System Case.3 Onshuu no Kanata ni / Психопаспорт: Грешники системы (фильм третий) (1 из 1) Complete на Animelayer"/>
@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_6710df447ed7a" class="clearfix">
+			<div id="stars_676d39e25c7f2" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 95%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +138,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_6710df447ed7a'), {
+	new Stars(document.getElementById('stars_676d39e25c7f2'), {
 		url: '/mark/torrent/5dbf1df7fd89787d9a2c4344/',
 		rating: Number('4.75'),
 		sum: Number('19'),
@@ -151,14 +151,14 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 0			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 1			<span class="gray"> | </span>
 			<i class="icon s-icons-download"></i> 0			<span class="gray"> | </span>
 			4.08 GB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 1604			
+			<i class="icon s-icons-eye"></i> 1675			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
@@ -167,9 +167,6 @@ require(['stars'], function(Stars){
 						<span class="gray">Cоздан:</span> <span class="date-created">3 ноября 2019 в 21:35</span>
 						<!--/noindex-->
 
-						<!--noindex-->
-			<span class="gray"> | </span>
-			<span class="gray">Раздающий был:</span> 12 октября в 15:34			<!--/noindex-->
 					</div>
 	</div>
 
@@ -201,11 +198,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/0WOipiFitjdXGZTfwoUbJA/1280x840/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg"><img id="screenlist_6710df448044d" data-zoom-image="//images.animelayer.ru/0WOipiFitjdXGZTfwoUbJA/1280x840/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg" width="320" height="210" src="//images.animelayer.ru/kbj3ZEy12ENnYMQrd8vA0Q/320x210/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/0WOipiFitjdXGZTfwoUbJA/1280x840/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg"><img id="screenlist_676d39e25d0f7" data-zoom-image="//images.animelayer.ru/0WOipiFitjdXGZTfwoUbJA/1280x840/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg" width="320" height="210" src="//images.animelayer.ru/kbj3ZEy12ENnYMQrd8vA0Q/320x210/1/crop/40/7e/5dbf1df7fd89787d9a2c4344_5dbf1dfaceecd.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_6710df448044d')).elevateZoom({
+		$(document.getElementById('screenlist_676d39e25d0f7')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -278,7 +275,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_6710df44805fb">
+	<div class="comments-container btop" id="comments_676d39e25d262">
 		<div class="comments-tree "><ul class="comments-list list-reset">
 	<li data-id="5dbf2955fd89787edd2e2502" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -408,7 +405,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_6710df44805fb'));
+		var comments = new Comments(document.getElementById('comments_676d39e25d262'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {
