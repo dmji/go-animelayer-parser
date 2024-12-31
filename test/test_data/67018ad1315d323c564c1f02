@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_676d39deb5f23" class="clearfix">
+			<div id="stars_67746423b2fb6" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 60%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +138,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_676d39deb5f23'), {
+	new Stars(document.getElementById('stars_67746423b2fb6'), {
 		url: '/mark/torrent/67018ad1315d323c564c1f02/',
 		rating: Number('3'),
 		sum: Number('21'),
@@ -151,22 +151,22 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 7			<span class="gray"> | </span>
-			<i class="icon s-icons-download"></i> 0			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 10			<span class="gray"> | </span>
+			<i class="icon s-icons-download"></i> 1			<span class="gray"> | </span>
 			15.98 GB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 3787			
+			<i class="icon s-icons-eye"></i> 3967			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
 			<!--noindex-->
-						<span class="gray">Обновлён:</span> <span class="date-updated">21 декабря в 23:19</span>
+						<span class="gray">Обновлён:</span> <span class="date-updated">21 декабря 2024 в 23:19</span>
 			<span class="gray"> | </span>
 			
-						<span class="gray">Cоздан:</span> <span class="date-created">5 октября в 21:52</span>
+						<span class="gray">Cоздан:</span> <span class="date-created">5 октября 2024 в 21:52</span>
 						<!--/noindex-->
 
 					</div>
@@ -202,11 +202,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg"><img id="screenlist_676d39deb68d2" data-zoom-image="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" width="320" height="208" src="//images.animelayer.ru/PHnSizrre1rpeiRvb_ScOQ/320x208/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg"><img id="screenlist_67746423b5455" data-zoom-image="//images.animelayer.ru/TMkrcba4XCpi9MGKB5ecmg/1280x830/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" width="320" height="208" src="//images.animelayer.ru/PHnSizrre1rpeiRvb_ScOQ/320x208/1/crop/23/3a/67018ad1315d323c564c1f02_67018ad222301.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_676d39deb68d2')).elevateZoom({
+		$(document.getElementById('screenlist_67746423b5455')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -279,7 +279,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_676d39deb6ab9">
+	<div class="comments-container btop" id="comments_67746423b5594">
 		<div class="comments-tree "></div>
 
 				<div class="comments-list comments-form">
@@ -305,7 +305,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_676d39deb6ab9'));
+		var comments = new Comments(document.getElementById('comments_67746423b5594'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {
@@ -326,7 +326,7 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

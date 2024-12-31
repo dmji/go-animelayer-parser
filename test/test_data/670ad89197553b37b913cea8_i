@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_676d39e16b6a8" class="clearfix">
+			<div id="stars_677464272f363" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 100%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +138,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_676d39e16b6a8'), {
+	new Stars(document.getElementById('stars_677464272f363'), {
 		url: '/mark/torrent/670ad89197553b37b913cea8/',
 		rating: Number('5'),
 		sum: Number('45'),
@@ -151,22 +151,22 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 6			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 7			<span class="gray"> | </span>
 			<i class="icon s-icons-download"></i> 1			<span class="gray"> | </span>
 			13.03 GB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1a8fce1cf68e25e8d63d2/" class="invisible"><i class="icon s-icons-user"></i> Viruson</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 1308			
+			<i class="icon s-icons-eye"></i> 1343			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
 			<!--noindex-->
-						<span class="gray">Обновлён:</span> <span class="date-updated">15 октября в 16:06</span>
+						<span class="gray">Обновлён:</span> <span class="date-updated">15 октября 2024 в 16:06</span>
 			<span class="gray"> | </span>
 			
-						<span class="gray">Cоздан:</span> <span class="date-created">12 октября в 23:14</span>
+						<span class="gray">Cоздан:</span> <span class="date-created">12 октября 2024 в 23:14</span>
 						<!--/noindex-->
 
 					</div>
@@ -206,11 +206,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg"><img id="screenlist_676d39e16be3b" data-zoom-image="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" width="320" height="201" src="//images.animelayer.ru/vSzis9o2ZRDoPD9Pg7OxwA/320x201/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg"><img id="screenlist_6774642730f79" data-zoom-image="//images.animelayer.ru/n7PKzpTE-xYNuooHk8msew/1080x677/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" width="320" height="201" src="//images.animelayer.ru/vSzis9o2ZRDoPD9Pg7OxwA/320x201/1/crop/b6/e8/670ad89197553b37b913cea8_670ad89175bc0.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_676d39e16be3b')).elevateZoom({
+		$(document.getElementById('screenlist_6774642730f79')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -283,7 +283,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_676d39e16bfbc">
+	<div class="comments-container btop" id="comments_677464273114c">
 		<div class="comments-tree "><ul class="comments-list list-reset">
 	<li data-id="670b9062532a0f79472f70d4" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -298,7 +298,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			13 октября в 12:18		</span>
+			13 октября 2024 в 12:18		</span>
 
 		<div class="oh">
 			<div class="comment-text">Ооооо, вот это подгон))) <br/>
@@ -324,7 +324,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			15 октября в 2:26		</span>
+			15 октября 2024 в 2:26		</span>
 
 		<div class="oh">
 			<div class="comment-text">круть! <br/>
@@ -352,7 +352,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			15 октября в 12:25		</span>
+			15 октября 2024 в 12:25		</span>
 
 		<div class="oh">
 			<div class="comment-text">В графе разрешение напиши какой эпизод 1280x720. В списке файлов во всех эпизодах написано 1080.</div>
@@ -376,7 +376,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			15 октября в 16:06		</span>
+			15 октября 2024 в 16:06		</span>
 
 		<div class="oh">
 			<div class="comment-text">нет резона, я нашёл исправный 1080р и заменил его в контейнере на исправный.</div>
@@ -419,7 +419,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_676d39e16bfbc'));
+		var comments = new Comments(document.getElementById('comments_677464273114c'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {
@@ -440,7 +440,7 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

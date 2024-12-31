@@ -534,10 +534,16 @@ require.config({
 									<span>экшен</span>
 								</label>
 							</li>
+													<li>
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox" name="f[57b4da8a3bf39a6036000029]" value="1"/>
+									<span>этти</span>
+								</label>
+							</li>
 											</ul>
 										<div class="mt10 js-showmore-container">
 						
-						<a href="#" rel="nofollow" class="dashed js-showmore">Показать ещё 42</a>
+						<a href="#" rel="nofollow" class="dashed js-showmore">Показать ещё 43</a>
 					</div>
 									</dd>
 			</dl>
@@ -650,7 +656,7 @@ require(['jquery'], function($){
 
 	
 </div>
-	<div id="torrents_676d39eb82742" class="widget">
+	<div id="torrents_6774643031d7d" class="widget">
 		<div class="panel widget oh clearfix">
 							<div class="torrents-sort pull-left">
 					<ul class="list-reset">
@@ -684,21 +690,1423 @@ require(['jquery'], function($){
 	<div class="pd1020">
 		<div class="title">
 			<h3 class="h2 m0">
+									<a href="/torrent/67744999cefa8245dd1f1813/">Fate/Strange Fake / Судьба: Странная подделка [ТВ] — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		337.21 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Добавлен:</span> 31 декабря 2024 в 22:44				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/67744999cefa8245dd1f1813/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/OPTbXFcainmg0F6p_qTiGg/240x360/1/crop/70/d2/67744999cefa8245dd1f1813_67744999a6e10.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Fate/Strange Fake / Судьба: Странная подделка [ТВ] — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2025<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Энокидо Сюн<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Сноуфилд — тихий американский городок, расположенный на западе страны, к северу от Лас-Вегаса. Окружённый с одной стороны лесами и озёрами, а с другой — пустыней и ущельями, город не является популярной туристической точкой. Что может произойти в такой глуши?<br/>
+Ассоциация магов Соединённых Штатов тайно проводила исследования ритуала призыва Святого Грааля. Семьдесят лет спустя они решили действовать. Выбрав Сноуфилд как место проведения ритуала американцы положили начало новой Войне за Святой Грааль, ошибочно скопировав её с Третьей войны Святого Грааля в Фуюки. Не являясь полноценной, американская война за Грааль претерпела некоторые изменения, включая отсутствие слуги класса Сэйбeр и возможность призыва гибридных слуг, неявляющихся легендарными героями из мифов и легенд, из-за чего само понятие слова «герой» в этой войне имеет размытое определение.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Всех с Новым годом! :)</strong>				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6774498a31da737acf3d3a43/">Fate/Strange Fake / Судьба: Странная подделка [ТВ] — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		252.68 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 31 декабря 2024 в 22:44				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6774498a31da737acf3d3a43/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/2MS55ec9vugTwvnJh3aTTQ/240x360/1/crop/58/86/6774498a31da737acf3d3a43_6774498b081f8.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Fate/Strange Fake / Судьба: Странная подделка [ТВ] — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2025<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Энокидо Сюн<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Сноуфилд — тихий американский городок, расположенный на западе страны, к северу от Лас-Вегаса. Окружённый с одной стороны лесами и озёрами, а с другой — пустыней и ущельями, город не является популярной туристической точкой. Что может произойти в такой глуши?<br/>
+Ассоциация магов Соединённых Штатов тайно проводила исследования ритуала призыва Святого Грааля. Семьдесят лет спустя они решили действовать. Выбрав Сноуфилд как место проведения ритуала американцы положили начало новой Войне за Святой Грааль, ошибочно скопировав её с Третьей войны Святого Грааля в Фуюки. Не являясь полноценной, американская война за Грааль претерпела некоторые изменения, включая отсутствие слуги класса Сэйбeр и возможность призыва гибридных слуг, неявляющихся легендарными героями из мифов и легенд, из-за чего само понятие слова «герой» в этой войне имеет размытое определение.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677447d8fc72f30ae021f692/">Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		1.35 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Добавлен:</span> 31 декабря 2024 в 22:36				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677447d8fc72f30ae021f692/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/MiyZX-WyE3e8RA2HfqY9xA/240x360/1/crop/6a/e5/677447d8fc72f30ae021f692_677447d869ccd.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2025<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Кимура Рюити<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Один раз съев так называемый фрукт навыков, человек приобретает особую способность, которая остаётся с ним до конца его жизни. Но стоит съесть второй такой фрукт — и смерть тебе гарантирована! Так, вкусив этот чудодейственный плод, молодой парнишка Лайт получает навык &#34;Мастер фруктов&#34;, который оказывается абсолютно бесполезным в бою. Чтобы найти ему достойное применение, наш герой становится фермером, даже не подозревая о скрытой силе своей способности. И вот, по воле случая, Лайт съедает ещё один фрукт навыков и, к большому на то удивлению, не только остаётся в живых, но и получает новую способность! Теперь, осознавая весь потенциал &#34;Мастера фруктов&#34;, Лайт наконец-то превратится из простого фермера в сильнейшего воина, обладающего целым арсеналом могущественных навыков!<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677447d038d9420f9129967a/">Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 7		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		704.92 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Добавлен:</span> 31 декабря 2024 в 22:36				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677447d038d9420f9129967a/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/p2KSzPU0CuUkwOIgWAUuoA/240x360/1/crop/2d/9c/677447d038d9420f9129967a_6774585e60397.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2025<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Кимура Рюити<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Один раз съев так называемый фрукт навыков, человек приобретает особую способность, которая остаётся с ним до конца его жизни. Но стоит съесть второй такой фрукт — и смерть тебе гарантирована! Так, вкусив этот чудодейственный плод, молодой парнишка Лайт получает навык &#34;Мастер фруктов&#34;, который оказывается абсолютно бесполезным в бою. Чтобы найти ему достойное применение, наш герой становится фермером, даже не подозревая о скрытой силе своей способности. И вот, по воле случая, Лайт съедает ещё один фрукт навыков и, к большому на то удивлению, не только остаётся в живых, но и получает новую способность! Теперь, осознавая весь потенциал &#34;Мастера фруктов&#34;, Лайт наконец-то превратится из простого фермера в сильнейшего воина, обладающего целым арсеналом могущественных навыков!<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677447c038d9420f91299672/">Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 15		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 4		<span class="gray"> | </span>
+		282.58 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Добавлен:</span> 31 декабря 2024 в 22:36				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677447c038d9420f91299672/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/jLRXZ5n3FSxxWYdsMvp00Q/240x360/1/crop/c9/49/677447c038d9420f91299672_67745874b09b7.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hazure Skill &#34;Kinomi Master&#34;: Skill no Mi (Tabetara Shinu) o Mugen ni Taberareru You ni Natta Ken ni Tsuite — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2025<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Кимура Рюити<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Один раз съев так называемый фрукт навыков, человек приобретает особую способность, которая остаётся с ним до конца его жизни. Но стоит съесть второй такой фрукт — и смерть тебе гарантирована! Так, вкусив этот чудодейственный плод, молодой парнишка Лайт получает навык &#34;Мастер фруктов&#34;, который оказывается абсолютно бесполезным в бою. Чтобы найти ему достойное применение, наш герой становится фермером, даже не подозревая о скрытой силе своей способности. И вот, по воле случая, Лайт съедает ещё один фрукт навыков и, к большому на то удивлению, не только остаётся в живых, но и получает новую способность! Теперь, осознавая весь потенциал &#34;Мастера фруктов&#34;, Лайт наконец-то превратится из простого фермера в сильнейшего воина, обладающего целым арсеналом могущественных навыков!<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6703f7be954414362c08e564/">Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (13 из 13) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 6		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		2.97 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 30 декабря 2024 в 19:08				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6703f7be954414362c08e564/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/U044l3A7DA8JoswLrwWCFA/240x360/1/crop/50/4c/6703f7be954414362c08e564_671fc9b2d16cb.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (13 из 13) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>детектив, комедия<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>13 эп<br/>
+<strong>Режиссер: </strong>Ибата Сёта<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Любого преступника непременно ждёт наказание. И пускай особо хитрые из них могут попытаться спрятаться, от гениального сыщика Рона Камонохаси и его помощника Тотомару Исики не укрыться никому. Они уже не раз доказали, что их дуэту под силу раскрыть любое преступление! В новом сезоне нас ждут новые жестокие убийства, неожиданные развязки и, конечно, ответ на вопрос, кто и зачем много лет назад решил повесить на Рона преступление, отобравшее у него его любимую работу.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6703f7aa71b2c31aae409734/">Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (13 из 13) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 23		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		2.37 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 30 декабря 2024 в 19:07				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6703f7aa71b2c31aae409734/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/r_0uDWivLaxOpA6dbpDMNw/240x360/1/crop/e0/d7/6703f7aa71b2c31aae409734_671fc8db52a7c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (13 из 13) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>детектив, комедия<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>13 эп<br/>
+<strong>Режиссер: </strong>Ибата Сёта<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Любого преступника непременно ждёт наказание. И пускай особо хитрые из них могут попытаться спрятаться, от гениального сыщика Рона Камонохаси и его помощника Тотомару Исики не укрыться никому. Они уже не раз доказали, что их дуэту под силу раскрыть любое преступление! В новом сезоне нас ждут новые жестокие убийства, неожиданные развязки и, конечно, ответ на вопрос, кто и зачем много лет назад решил повесить на Рона преступление, отобравшее у него его любимую работу.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677016f92c8a55490f4eb7ca/">S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 14		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		912.49 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 20:13				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677016f92c8a55490f4eb7ca/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/tlUMdPAsTVPBn1SA_XSzXQ/240x360/1/crop/78/62/677016f92c8a55490f4eb7ca_677016f987fd0.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, этти<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Хиракава Тэцуо<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Гордый рыцарь, павший в бою, неожиданно перерождается в теле свирепого и могущественного Бегемота — демона обжорства и сладострастия. И так сбитый с толку подобным поворотом событий, он ещё и узнаёт, что детёныши Бегемота выглядят совсем как маленькие очаровательные котята! Даже если остальной мир видит его милым и пушистым, в нём всё ещё теплится честь благородного воина, к которой прибавилась сила неудержимого монстра ранга S. И вскоре оба эти качества будут подвергнуты суровому испытанию, ведь ему придётся встать на защиту прекрасной эльфийки, которая приютила его у себя, приняв за маленького ласкового питомца.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены русские субтитры и шрифт.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677016eb2c8a55490f4eb7c2/">S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 10		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		498.31 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 20:13				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677016eb2c8a55490f4eb7c2/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/lu4hTIx4VJyJIpDpWdIXLg/240x360/1/crop/11/9e/677016eb2c8a55490f4eb7c2_677016ebbf1e4.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, этти<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Хиракава Тэцуо<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Гордый рыцарь, павший в бою, неожиданно перерождается в теле свирепого и могущественного Бегемота — демона обжорства и сладострастия. И так сбитый с толку подобным поворотом событий, он ещё и узнаёт, что детёныши Бегемота выглядят совсем как маленькие очаровательные котята! Даже если остальной мир видит его милым и пушистым, в нём всё ещё теплится честь благородного воина, к которой прибавилась сила неудержимого монстра ранга S. И вскоре оба эти качества будут подвергнуты суровому испытанию, ведь ему придётся встать на защиту прекрасной эльфийки, которая приютила его у себя, приняв за маленького ласкового питомца.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены русские субтитры и шрифт.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/677016de62c8eb2aa01dd052/">S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 33		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		257.24 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 20:13				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/677016de62c8eb2aa01dd052/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/g_nuXvtz9U-M1CrF2ITO9g/240x360/1/crop/5c/fa/677016de62c8eb2aa01dd052_677016de6677b.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="S Rank Monster no Behemoth Dakedo, Neko to Machigawarete Elf Musume no Pet to Shite Kurashitemasu / Я Бегемот — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, этти<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;12 эп<br/>
+<strong>Режиссер: </strong>Хиракава Тэцуо<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Гордый рыцарь, павший в бою, неожиданно перерождается в теле свирепого и могущественного Бегемота — демона обжорства и сладострастия. И так сбитый с толку подобным поворотом событий, он ещё и узнаёт, что детёныши Бегемота выглядят совсем как маленькие очаровательные котята! Даже если остальной мир видит его милым и пушистым, в нём всё ещё теплится честь благородного воина, к которой прибавилась сила неудержимого монстра ранга S. И вскоре оба эти качества будут подвергнуты суровому испытанию, ведь ему придётся встать на защиту прекрасной эльфийки, которая приютила его у себя, приняв за маленького ласкового питомца.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Английские субтитры заменены на русские. Добавлен шрифт.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6703da7d55f3ac7293212702/">Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 9		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		17.52 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 18:45				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6703da7d55f3ac7293212702/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/g6rd70pJDoNuQ6xOScGCTw/240x360/1/crop/ab/91/6703da7d55f3ac7293212702_6703da7db5c8c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>драма, приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>13 эп<br/>
+<strong>Режиссер: </strong>Такэути Кадзуёси<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong> История начинается спустя шесть лет после драмы, разыгравшейся на финальном тесте второго этажа. Нас знакомят с новым героем: один из Избранных, Ча Ван Нан, застрял на 20-м этаже и никак не может пройти тест админов. Но, несмотря на огромный долг по баллам, сдаваться он не собирается. Ведь Ван Нан уверен, что на самом деле он — принц Захарда, которому суждено покорить Башню Бога. Но разве истинный сын Короля Башни может быть таким неудачником? Тем временем на сцену выходит доселе неизвестный, но невероятно сильный Избранный по имени Джу Виоле Грейс. Его цель, прошлое и личность окутаны зловещим туманом; более того, он утверждает, что является новым кандидатом в убийцы от опасной преступной группировки. Но действительно ли он злодей? Или же кто-то очень-очень знакомый?<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6703da6be88ce0607f4e8e12/">Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		8.95 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 18:45				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6703da6be88ce0607f4e8e12/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/Ay_R7H6Q8W8fUgrzJEF1ZA/240x360/1/crop/11/1e/6703da6be88ce0607f4e8e12_6703da6ba0bae.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>драма, приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>13 эп<br/>
+<strong>Режиссер: </strong>Такэути Кадзуёси<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong> История начинается спустя шесть лет после драмы, разыгравшейся на финальном тесте второго этажа. Нас знакомят с новым героем: один из Избранных, Ча Ван Нан, застрял на 20-м этаже и никак не может пройти тест админов. Но, несмотря на огромный долг по баллам, сдаваться он не собирается. Ведь Ван Нан уверен, что на самом деле он — принц Захарда, которому суждено покорить Башню Бога. Но разве истинный сын Короля Башни может быть таким неудачником? Тем временем на сцену выходит доселе неизвестный, но невероятно сильный Избранный по имени Джу Виоле Грейс. Его цель, прошлое и личность окутаны зловещим туманом; более того, он утверждает, что является новым кандидатом в убийцы от опасной преступной группировки. Но действительно ли он злодей? Или же кто-то очень-очень знакомый?<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6703da5a7e286d3b214f2862/">Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 36		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 3		<span class="gray"> | </span>
+		3.44 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 18:45				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6703da5a7e286d3b214f2862/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/f7jFsc6eqwZMrO--qy2u6Q/240x360/1/crop/c3/76/6703da5a7e286d3b214f2862_6703da5b05825.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kami no Tou: Koubou-sen / Tower of God: Workshop Battle / Башня Бога [ТВ-2, часть 2] (13 из 13) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>драма, приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>13 эп<br/>
+<strong>Режиссер: </strong>Такэути Кадзуёси<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong> История начинается спустя шесть лет после драмы, разыгравшейся на финальном тесте второго этажа. Нас знакомят с новым героем: один из Избранных, Ча Ван Нан, застрял на 20-м этаже и никак не может пройти тест админов. Но, несмотря на огромный долг по баллам, сдаваться он не собирается. Ведь Ван Нан уверен, что на самом деле он — принц Захарда, которому суждено покорить Башню Бога. Но разве истинный сын Короля Башни может быть таким неудачником? Тем временем на сцену выходит доселе неизвестный, но невероятно сильный Избранный по имени Джу Виоле Грейс. Его цель, прошлое и личность окутаны зловещим туманом; более того, он утверждает, что является новым кандидатом в убийцы от опасной преступной группировки. Но действительно ли он злодей? Или же кто-то очень-очень знакомый?<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670bcdbb525a1d7b84074722/">Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 13		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		11.33 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 16:58				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670bcdbb525a1d7b84074722/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/v1puI75zeSFkwZ-feLT4vw/240x360/1/crop/f8/1a/670bcdbb525a1d7b84074722_670bcdbb51a8c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, сёнен, фантастика, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;25 эп<br/>
+<strong>Режиссер: </strong>Кубоока Тосиюки<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Мечты об ММО с полным погружением всегда занимали умы геймеров. Красивые миры, где можно найти всё, что угодно и делать всё, что вздумается, будоражат воображение как простых отаку, так и любителей устроить себе нереальный челлендж. Рубеж Шангри-Ла, новая VR игра, стала настоящим апогеем этой мечты. А что касается новоявленной гильдии «Волчья стая», которую создали трое хардкорных игроков после победы над Уэзермоном, то эти ребята всего-то решили победить семь колоссов — семерых уникальных боссов, сильнейших во всей игре, убийство которых напрямую влияет на ход игровой истории. Это вам не какой-то там дарк соулс на бананах пройти, тут всё куда круче...<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670bcdad83dd601ea0346413/">Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 12		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		5.81 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 16:58				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670bcdad83dd601ea0346413/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/p9-a5l3B1hDzhmn00FFiRQ/240x360/1/crop/25/10/670bcdad83dd601ea0346413_670bcdad694dd.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, сёнен, фантастика, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;25 эп<br/>
+<strong>Режиссер: </strong>Кубоока Тосиюки<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Мечты об ММО с полным погружением всегда занимали умы геймеров. Красивые миры, где можно найти всё, что угодно и делать всё, что вздумается, будоражат воображение как простых отаку, так и любителей устроить себе нереальный челлендж. Рубеж Шангри-Ла, новая VR игра, стала настоящим апогеем этой мечты. А что касается новоявленной гильдии «Волчья стая», которую создали трое хардкорных игроков после победы над Уэзермоном, то эти ребята всего-то решили победить семь колоссов — семерых уникальных боссов, сильнейших во всей игре, убийство которых напрямую влияет на ход игровой истории. Это вам не какой-то там дарк соулс на бананах пройти, тут всё куда круче...<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670bcda0d1ea3963da52fb74/">Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 38		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		5.45 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 29 декабря 2024 в 16:58				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670bcda0d1ea3963da52fb74/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/jGeScb74Psv3EqjcopJpCw/240x360/1/crop/5d/8f/670bcda0d1ea3963da52fb74_670bcda0bc71f.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Shangri-La Frontier: Kusogee Hunter, Kamige ni Idoman to Su 2nd Season / Фронтир Шангри-Ла [ТВ-2] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, сёнен, фантастика, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>&gt;25 эп<br/>
+<strong>Режиссер: </strong>Кубоока Тосиюки<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Мечты об ММО с полным погружением всегда занимали умы геймеров. Красивые миры, где можно найти всё, что угодно и делать всё, что вздумается, будоражат воображение как простых отаку, так и любителей устроить себе нереальный челлендж. Рубеж Шангри-Ла, новая VR игра, стала настоящим апогеем этой мечты. А что касается новоявленной гильдии «Волчья стая», которую создали трое хардкорных игроков после победы над Уэзермоном, то эти ребята всего-то решили победить семь колоссов — семерых уникальных боссов, сильнейших во всей игре, убийство которых напрямую влияет на ход игровой истории. Это вам не какой-то там дарк соулс на бананах пройти, тут всё куда круче...<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670aaa5b7a9af77c0a2d902c/">Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 11		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		15.92 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 21:43				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670aaa5b7a9af77c0a2d902c/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/PaqMzWcMN9HaMugV2AojDw/240x360/1/crop/d9/0e/670aaa5b7a9af77c0a2d902c_670aaa5b67bc2.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>фантастика, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>12 эп<br/>
+<strong>Режиссер: </strong>Андо Рё<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Пав от руки героя пять столетий назад, Король демонов Велтол, наконец-то возвращается к жизни, и готов вновь установить своё господство уже в новой эпохе. Однако это совсем не тот мир, который когда-то покорил Велтол. За пять сотен лет смесь магии и технологий превратила средневековые ландшафты в самый настоящий киберпанк с огромными небоскрёбами, неоновыми вывесками и прочими прелестями жанра. Но амбиций Велтола это не остановит. Пусть пока что наследие некогда могущественного демона сводится лишь к нескольким параграфам в учебниках истории, заблуждаться не стоит: очень скоро этот дивный новый мир будет снова у его ног.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670aaa4b7a9af77c0a2d9024/">Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 13		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		8.12 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 21:43				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670aaa4b7a9af77c0a2d9024/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/CK9p-DAo4-pTOFODbVbiag/240x360/1/crop/4c/e1/670aaa4b7a9af77c0a2d9024_670aabbfe8066.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>фантастика, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>12 эп<br/>
+<strong>Режиссер: </strong>Андо Рё<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Пав от руки героя пять столетий назад, Король демонов Велтол, наконец-то возвращается к жизни, и готов вновь установить своё господство уже в новой эпохе. Однако это совсем не тот мир, который когда-то покорил Велтол. За пять сотен лет смесь магии и технологий превратила средневековые ландшафты в самый настоящий киберпанк с огромными небоскрёбами, неоновыми вывесками и прочими прелестями жанра. Но амбиций Велтола это не остановит. Пусть пока что наследие некогда могущественного демона сводится лишь к нескольким параграфам в учебниках истории, заблуждаться не стоит: очень скоро этот дивный новый мир будет снова у его ног.<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670aaa3a49f3377d0e219893/">Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 65		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 5		<span class="gray"> | </span>
+		3.95 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 21:43				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670aaa3a49f3377d0e219893/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/1zlD9i0WN0toILXA_T4LGg/240x360/1/crop/e9/d8/670aaa3a49f3377d0e219893_670aaa3ac30f1.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Maou 2099 / Повелитель демонов 2099 (12 из 12) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>фантастика, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>12 эп<br/>
+<strong>Режиссер: </strong>Андо Рё<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Пав от руки героя пять столетий назад, Король демонов Велтол, наконец-то возвращается к жизни, и готов вновь установить своё господство уже в новой эпохе. Однако это совсем не тот мир, который когда-то покорил Велтол. За пять сотен лет смесь магии и технологий превратила средневековые ландшафты в самый настоящий киберпанк с огромными небоскрёбами, неоновыми вывесками и прочими прелестями жанра. Но амбиций Велтола это не остановит. Пусть пока что наследие некогда могущественного демона сводится лишь к нескольким параграфам в учебниках истории, заблуждаться не стоит: очень скоро этот дивный новый мир будет снова у его ног.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/6701747e3cc2991c8609c443/">Blue Lock vs. U-20 Japan / Синяя тюрьма: Блю Лок [ТВ-2] (14 из 14) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 15		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 4		<span class="gray"> | </span>
+		7.94 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 21:23				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/6701747e3cc2991c8609c443/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/G4_3kQHCQ1tppifVYDhYuA/240x360/1/crop/a6/87/6701747e3cc2991c8609c443_6701747e81d10.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Blue Lock vs. U-20 Japan / Синяя тюрьма: Блю Лок [ТВ-2] (14 из 14) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>спорт<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>14 эп<br/>
+<strong>Режиссер: </strong>Инокава Синтаро<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Чтобы выиграть Чемпионат мира, японская футбольная ассоциация решает нанять загадочного и эксцентричного тренера Дзимпати Эго. Тот в уверенности, что в Японии нет хороших нападающих, создаёт Блю Лок — тюрьму, где триста юных талантливых футболистов соревнуются друг с другом. Победитель получит право стать нападающим национальной сборной, а проигравшим навсегда запретят играть за сборную. И вот, осталось только 35 человек, которые в суровом отборе отточили свои навыки и завоевали право называться лучшими. Но впереди их ждёт состязание с молодёжной сборной Японии, которое определит, будет ли проект «Синяя тюрьма» существовать дальше.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 13-14 эпизоды и русские субтитры к ним.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/67016f2708c198308e359323/">Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 9		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		15.27 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 18:52				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/67016f2708c198308e359323/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/ahvxtfLrS1BhtT1PCWqH0g/240x360/1/crop/89/e3/67016f2708c198308e359323_67016f274df6b.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>14 эп<br/>
+<strong>Режиссер: </strong>Тагути Томохиса<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Битва Нулевого отряда с элитным отрядом защитников Яхве становится все ожесточеннее. И вот, в самый разгар боя Кириндзи, Хикифунэ и Нимайя жертвуют собой для того, чтобы Сэндзюмару Сютара смогла использовать свой мощный банкай и загнать квинси в тупик. Между тем Хёсубэ в бою с Яхве обращает короля квинси в ничтожного муравья. Квинси оказываются в критическом положении, а бой оборачивается в пользу синигами. Но так ли это на самом деле? Чем же закончится оборона дворца Короля Душ?<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизоды и русские субтитры к ему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/67016f1853aac836164ffbc3/">Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		6.43 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 18:52				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/67016f1853aac836164ffbc3/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/LfJQhPgjdu8oRFKQMGxfRg/240x360/1/crop/d6/74/67016f1853aac836164ffbc3_67016f18382d0.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>14 эп<br/>
+<strong>Режиссер: </strong>Тагути Томохиса<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Битва Нулевого отряда с элитным отрядом защитников Яхве становится все ожесточеннее. И вот, в самый разгар боя Кириндзи, Хикифунэ и Нимайя жертвуют собой для того, чтобы Сэндзюмару Сютара смогла использовать свой мощный банкай и загнать квинси в тупик. Между тем Хёсубэ в бою с Яхве обращает короля квинси в ничтожного муравья. Квинси оказываются в критическом положении, а бой оборачивается в пользу синигами. Но так ли это на самом деле? Чем же закончится оборона дворца Короля Душ?<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизоды и русские субтитры к ему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/67016f0abb69850de8250142/">Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 24		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		5.35 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 28 декабря 2024 в 18:52				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/67016f0abb69850de8250142/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/y1iY7bH9wa6TbZdWoUbFXA/240x360/1/crop/ef/59/67016f0abb69850de8250142_67016f0aa3a6a.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Bleach: Sennen Kessen Hen — Soukoku Tan / Блич [ТВ-2, часть 3] (1—12)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>приключения, фэнтези, экшен<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>14 эп<br/>
+<strong>Режиссер: </strong>Тагути Томохиса<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Битва Нулевого отряда с элитным отрядом защитников Яхве становится все ожесточеннее. И вот, в самый разгар боя Кириндзи, Хикифунэ и Нимайя жертвуют собой для того, чтобы Сэндзюмару Сютара смогла использовать свой мощный банкай и загнать квинси в тупик. Между тем Хёсубэ в бою с Яхве обращает короля квинси в ничтожного муравья. Квинси оказываются в критическом положении, а бой оборачивается в пользу синигами. Но так ли это на самом деле? Чем же закончится оборона дворца Короля Душ?<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизоды и русские субтитры к ему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/676ed325fb966d313d3a6274/">Link Click: Bridon Arc / Shiguang Dailiren: Yingdu Pian / Агент времени: Глава Инду — 01</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 10		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		702.35 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Добавлен:</span> 27 декабря 2024 в 19:17				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/676ed325fb966d313d3a6274/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/GllDbHuZtWvEZO7S8n3LLw/240x360/1/crop/8c/01/676ed325fb966d313d3a6274_676ed32544069.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Link Click: Bridon Arc / Shiguang Dailiren: Yingdu Pian / Агент времени: Глава Инду — 01"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Китай<br/>
+<strong>Тип: </strong>ONA<br/>
+<strong>Жанр: </strong>драма, сверхъестественное<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>8 эп<br/>
+<strong>Режиссер: </strong>Ли Хаолин<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Чтобы спасти погибшего Чэна Сяоши, Лу Гуан возвращается к началу, повторяя путь судьбы. Однако в «Time Photo Studio» появляется фотография, содержащая подсказки о родителях Чэна Сяоши. Чтобы раскрыть правду, Лу Гуан отправляется в Брайдон с Чэном Сяоши. Дружелюбная топ-модель Ся Фэй, эксцентричный лидер Чайнатауна Вейн и таинственно появляющийся Лю Сяо... Столкнувшись с людьми, у которых разные мотивы, сможет ли Лу Гуан выйти из тупика судьбы?<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>китайский				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670d2de08b1f8c15eb37d513/">Goukon ni Ittara Onna ga Inakatta Hanashi / Как я пришёл на вечеринку (12 из 12) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 7		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		5.38 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 26 декабря 2024 в 16:59				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670d2de08b1f8c15eb37d513/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/-V2PgQOmoVoiIrA1J2pu9A/240x360/1/crop/a2/7e/670d2de08b1f8c15eb37d513_670d2de08c4c9.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Goukon ni Ittara Onna ga Inakatta Hanashi / Как я пришёл на вечеринку (12 из 12) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>комедия, романтика<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>12 эп<br/>
+<strong>Режиссер: </strong>Кога Кадзуоми<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Студента Токиву неожиданно пригласили на свидание вслепую. Для ровного счёта, ведь девушек будет трое, он прихватил с собой двоих друзей, и, предвкушая незабываемый вечер, они отправились на место рандеву. Каково же было их удивление, когда за столом их встретили не какие-нибудь симпатичные девушки, а трое ослепительно красивых парней! Слава богу, вскоре выяснилось, что эти мужчины на самом деле девушки, просто работают они в кроссдрессинг-баре и просто-напросто не успели переодеться. Правда, это знание нашим героям помогает не сильно, ведь выглядят-то они всё равно как парни! Что подумают окружающие, если у них всё зайдёт слишком далеко?<br/>
+<br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1280x720<br/>
+<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/670d2dd51ad4832b7c7ab532/">Goukon ni Ittara Onna ga Inakatta Hanashi / Как я пришёл на вечеринку (12 из 12) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 32		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		2.01 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 26 декабря 2024 в 16:58				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/670d2dd51ad4832b7c7ab532/" class="cover">
+						<label class="category">аниме</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/_gghopo-QxAbthmFh8o-Zg/240x360/1/crop/25/d5/670d2dd51ad4832b7c7ab532_670d2dd58d0a0.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Goukon ni Ittara Onna ga Inakatta Hanashi / Как я пришёл на вечеринку (12 из 12) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация об аниме</u><br/>
+<strong>Страна: </strong>Япония<br/>
+<strong>Тип: </strong>ТВ<br/>
+<strong>Жанр: </strong>комедия, романтика<br/>
+<strong>Год выхода: </strong>2024<br/>
+<strong>Кол серий: </strong>12 эп<br/>
+<strong>Режиссер: </strong>Кога Кадзуоми<br/>
+<strong>Продолжительность: </strong>25 мин<br/>
+<strong>Описание: </strong>Студента Токиву неожиданно пригласили на свидание вслепую. Для ровного счёта, ведь девушек будет трое, он прихватил с собой двоих друзей, и, предвкушая незабываемый вечер, они отправились на место рандеву. Каково же было их удивление, когда за столом их встретили не какие-нибудь симпатичные девушки, а трое ослепительно красивых парней! Слава богу, вскоре выяснилось, что эти мужчины на самом деле девушки, просто работают они в кроссдрессинг-баре и просто-напросто не успели переодеться. Правда, это знание нашим героям помогает не сильно, ведь выглядят-то они всё равно как парни! Что подумают окружающие, если у них всё зайдёт слишком далеко?<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit<br/>
+Перевод: YakuSub</div></div><br/>
+<u>Дополнительно</u><br/>
+<strong>Формат: </strong>mkv<br/>
+<strong>Разрешение: </strong>1920x1080<br/>
+<strong>Субтитры: </strong>русские (софтсаб)<br/>
+<strong>Язык: </strong>японский<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
 									<a href="/torrent/66980e07d3d06b0622725f48/">Sengoku Youko 2 / Ёко из Сэнгоку [ТВ-2] (22 из 22) Complete</a>
 							</h3>
 		</div>
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 18		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 19		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		7.43 GB
 				<span class="gray"> | </span>
 		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 20:25				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 20:25				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -745,7 +2153,7 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 6		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
 		16.17 GB
 				<span class="gray"> | </span>
@@ -753,7 +2161,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:15				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:15				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -809,7 +2217,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:14				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:14				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -857,7 +2265,7 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 42		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 44		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 5		<span class="gray"> | </span>
 		2.65 GB
 				<span class="gray"> | </span>
@@ -865,7 +2273,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:14				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:14				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -915,14 +2323,14 @@ require(['jquery'], function($){
 
 	<div class="info pd20">
 		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		4.91 GB
 				<span class="gray"> | </span>
 		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:14				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:14				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -968,15 +2376,15 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 15		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 12		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		3.7 GB
 				<span class="gray"> | </span>
 		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:13				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:13				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -1023,7 +2431,7 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 5		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
 		3.16 GB
 				<span class="gray"> | </span>
@@ -1031,7 +2439,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:12				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:12				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -1077,15 +2485,15 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 14		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 20		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		2.28 GB
 				<span class="gray"> | </span>
 		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:12				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:12				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -1132,7 +2540,7 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 17		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 20		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
 		1.1 GB
 				<span class="gray"> | </span>
@@ -1140,7 +2548,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:12				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:12				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -1198,7 +2606,7 @@ require(['jquery'], function($){
 		
 		<span class="gray"> | </span>
 		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:12				<!--/noindex-->
+					<span class="gray">Обновлён:</span> 25 декабря 2024 в 19:12				<!--/noindex-->
 	</div>
 
 	<div class="pd20">
@@ -1238,1439 +2646,6 @@ require(['jquery'], function($){
 		</div>
 	</div>
 </li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/66fc13fe195eaa7f8f0dfaa3/">Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 9		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		8.93 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 25 декабря в 19:11				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/66fc13fe195eaa7f8f0dfaa3/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/jIAwhxTKYuqZIuW6t_hxMg/240x360/1/crop/99/5c/66fc13fe195eaa7f8f0dfaa3_66fc13fe4f123.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, комедия, романтика, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>13 эп<br/>
-<strong>Режиссер: </strong>Янасэ Юдзи<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Девушка, которая никогда не любила образ «хорошей девочки» в героинях, переродилась в Алисию, злодейку из её любимой отомэ-игры. Теперь её задача ясна: назло всем любителям положительных героинь она собирается войти в историю как самая злая злодейка в мире! Однако, легче сказать, чем сделать. Чтобы прослыть настоящим злодеем, нужно действительно потрудиться: натренировать своё тело, хорошо отучиться, постоянно оттачивать свою магию, да и совершать злодеяния тоже надо уметь. Правда, у Алисии проблема другая: чем больше она старается творить всякие гадости, тем больше она нравится окружающим...<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены русские субтитры к 13 эпизоду.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/66fc140f2674924d0e7b09b6/">Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 10		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		17.51 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/66fc140f2674924d0e7b09b6/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/0VlwKqYaVxDk_OWk5J7NUw/240x360/1/crop/b3/e9/66fc140f2674924d0e7b09b6_66fc140fa3d6c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, комедия, романтика, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>13 эп<br/>
-<strong>Режиссер: </strong>Янасэ Юдзи<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Девушка, которая никогда не любила образ «хорошей девочки» в героинях, переродилась в Алисию, злодейку из её любимой отомэ-игры. Теперь её задача ясна: назло всем любителям положительных героинь она собирается войти в историю как самая злая злодейка в мире! Однако, легче сказать, чем сделать. Чтобы прослыть настоящим злодеем, нужно действительно потрудиться: натренировать своё тело, хорошо отучиться, постоянно оттачивать свою магию, да и совершать злодеяния тоже надо уметь. Правда, у Алисии проблема другая: чем больше она старается творить всякие гадости, тем больше она нравится окружающим...<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/66fc13ef4d09ba6a2a082c63/">Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 42		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 4		<span class="gray"> | </span>
-		2.05 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/66fc13ef4d09ba6a2a082c63/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/V-6ZX98RLZtVc1TjGV8eGg/240x360/1/crop/14/1e/66fc13ef4d09ba6a2a082c63_66fc13ef54ca0.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Rekishi ni Nokoru Akujo ni Naru zo / Я стану злодейкой, которая войдёт в историю (13 из 13) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, комедия, романтика, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>13 эп<br/>
-<strong>Режиссер: </strong>Янасэ Юдзи<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Девушка, которая никогда не любила образ «хорошей девочки» в героинях, переродилась в Алисию, злодейку из её любимой отомэ-игры. Теперь её задача ясна: назло всем любителям положительных героинь она собирается войти в историю как самая злая злодейка в мире! Однако, легче сказать, чем сделать. Чтобы прослыть настоящим злодеем, нужно действительно потрудиться: натренировать своё тело, хорошо отучиться, постоянно оттачивать свою магию, да и совершать злодеяния тоже надо уметь. Правда, у Алисии проблема другая: чем больше она старается творить всякие гадости, тем больше она нравится окружающим...<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/670550f0be3ee27a6f2b8922/">Youkai Gakkou no Sensei Hajimemashita! / Я стал учителем в школе монстров! (1—12)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		4.96 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/670550f0be3ee27a6f2b8922/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/bBZ5O2dxHC9aGcIraYyqew/240x360/1/crop/af/1f/670550f0be3ee27a6f2b8922_670550f0b4b92.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Youkai Gakkou no Sensei Hajimemashita! / Я стал учителем в школе монстров! (1—12)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>комедия, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>&gt;24 эп<br/>
-<strong>Режиссер: </strong>Оно Кацуми<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Новоиспечённый учитель Харуаки Абэ — самый настоящий трусишка! В прошлой школе им помыкали все, кому не лень: и его ехидные коллеги, и даже сами ученики. Поэтому он с радостью сбежал оттуда и устроился в Академию Хякки, расположенную далеко-далеко на островах. Вот только эта академия оказалась не совсем обычной. В первый же день работы наш герой с ужасом обнаружил, что вместо детей здесь учатся юные ёкаи. Вампиры, скелеты, упыри, демоны — вот кто ждал его за партами. Так что теперь даже непонятно, как наш трусливый учитель сможет справиться с таким классом...<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/670550dcd933461d1949ec82/">Youkai Gakkou no Sensei Hajimemashita! / Я стал учителем в школе монстров! (1—12)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 13		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		4.43 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/670550dcd933461d1949ec82/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/ZVmrjS8pWff5ojg4zcKyyA/240x360/1/crop/dd/c8/670550dcd933461d1949ec82_670550dcb5ad1.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Youkai Gakkou no Sensei Hajimemashita! / Я стал учителем в школе монстров! (1—12)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>комедия, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>&gt;24 эп<br/>
-<strong>Режиссер: </strong>Оно Кацуми<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Новоиспечённый учитель Харуаки Абэ — самый настоящий трусишка! В прошлой школе им помыкали все, кому не лень: и его ехидные коллеги, и даже сами ученики. Поэтому он с радостью сбежал оттуда и устроился в Академию Хякки, расположенную далеко-далеко на островах. Вот только эта академия оказалась не совсем обычной. В первый же день работы наш герой с ужасом обнаружил, что вместо детей здесь учатся юные ёкаи. Вампиры, скелеты, упыри, демоны — вот кто ждал его за партами. Так что теперь даже непонятно, как наш трусливый учитель сможет справиться с таким классом...<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/66fc1c660857b6714439b847/">Amagami-san Chi no Enmusubi / Брачные узы с семьёй Амагами (1—13)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 10		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		3.93 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/66fc1c660857b6714439b847/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/iiKFGPvbLI_2oGQ0fUW1FQ/240x360/1/crop/c9/80/66fc1c660857b6714439b847_66fc1c6701e1b.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Amagami-san Chi no Enmusubi / Брачные узы с семьёй Амагами (1—13)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>гарем, комедия, романтика<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>24 эп<br/>
-<strong>Режиссер: </strong>Абэ Юдзиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Беззаботная жизнь в уютном святилище с тремя прекрасными девушками — о чём ещё может мечтать японский школьник? Выросший в приюте, наш герой, старшеклассник Урю Камихатэ, попадает под опеку настоятеля святилища Амагами. Правда, бесплатно занимать жилплощадь ему никто не позволит. Чтобы прописаться по новому адресу на законных основаниях, ему нужно... жениться на одной из трёх дочерей настоятеля и унаследовать святилище! В общем, пожелаем парню удачи, ведь выбор ему предстоит не из лёгких.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/66fc1c5b8cb5cf26802d8286/">Amagami-san Chi no Enmusubi / Брачные узы с семьёй Амагами (1—13)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 15		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		2.63 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 24 декабря в 20:30				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/66fc1c5b8cb5cf26802d8286/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/R7aYW0j1AULDo0aFYHt4Vg/240x360/1/crop/cb/fd/66fc1c5b8cb5cf26802d8286_66fc1c5b3b8af.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Amagami-san Chi no Enmusubi / Брачные узы с семьёй Амагами (1—13)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>гарем, комедия, романтика<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>24 эп<br/>
-<strong>Режиссер: </strong>Абэ Юдзиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Беззаботная жизнь в уютном святилище с тремя прекрасными девушками — о чём ещё может мечтать японский школьник? Выросший в приюте, наш герой, старшеклассник Урю Камихатэ, попадает под опеку настоятеля святилища Амагами. Правда, бесплатно занимать жилплощадь ему никто не позволит. Чтобы прописаться по новому адресу на законных основаниях, ему нужно... жениться на одной из трёх дочерей настоятеля и унаследовать святилище! В общем, пожелаем парню удачи, ведь выбор ему предстоит не из лёгких.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 13 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6704199cd5f808150f1c3bc4/">Natsume Yuujinchou Shichi / Тетрадь дружбы Нацумэ [ТВ-7] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
-		2.74 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:33				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6704199cd5f808150f1c3bc4/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/0l7baKtjN9-KYbP96cmd8Q/240x360/1/crop/34/18/6704199cd5f808150f1c3bc4_6704199cd3cf5.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Natsume Yuujinchou Shichi / Тетрадь дружбы Нацумэ [ТВ-7] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>мистика, повседневность<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Омори Такахиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Такаси Нацумэ обладает весьма редким даром — он может видеть духов. Этот «подарок» парень унаследовал от своей бабушки Рэйко, которая храбро сражалась с духами и подчиняла их себе. Побеждённые писали своё имя в «тетради дружбы», вследствие чего были вынуждены служить ей, пока их имя не исчезнет из тетради. Эту самую тетрадь Нацумэ однажды и находит, а вместе с ней и крупные неприятности. Однажды пленённые духи хотят быть свободными и всеми силами пытаются отобрать у парня злосчастную тетрадку. При этом в ход идёт всё: зубы, когти, рога, устрашение, магия... Чтобы хоть как-то защититься от назойливых и очень даже опасных потусторонних существ, Нацумэ заключает договор с ёкаем Мадарой, которого он случайно освобождает из заточения.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6704198d8a5a027246764052/">Natsume Yuujinchou Shichi / Тетрадь дружбы Нацумэ [ТВ-7] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 16		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
-		2.24 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:33				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6704198d8a5a027246764052/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/5V4u-OZBfoUKJi6rBbQjrA/240x360/1/crop/1d/57/6704198d8a5a027246764052_6704198db40e3.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Natsume Yuujinchou Shichi / Тетрадь дружбы Нацумэ [ТВ-7] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>мистика, повседневность<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Омори Такахиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Такаси Нацумэ обладает весьма редким даром — он может видеть духов. Этот «подарок» парень унаследовал от своей бабушки Рэйко, которая храбро сражалась с духами и подчиняла их себе. Побеждённые писали своё имя в «тетради дружбы», вследствие чего были вынуждены служить ей, пока их имя не исчезнет из тетради. Эту самую тетрадь Нацумэ однажды и находит, а вместе с ней и крупные неприятности. Однажды пленённые духи хотят быть свободными и всеми силами пытаются отобрать у парня злосчастную тетрадку. При этом в ход идёт всё: зубы, когти, рога, устрашение, магия... Чтобы хоть как-то защититься от назойливых и очень даже опасных потусторонних существ, Нацумэ заключает договор с ёкаем Мадарой, которого он случайно освобождает из заточения.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6704203e2231507dec7fc8f4/">Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 7		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		16.28 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:32				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6704203e2231507dec7fc8f4/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/QEDOpnd54FhbCA_lXRnRTw/240x360/1/crop/1f/23/6704203e2231507dec7fc8f4_6704203eaec87.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, приключения, романтика, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Ямасаки Осаму<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Продолжение истории японского студента Харуто, который попал в другой мир в тело мальчика по имени Рио. После своего перерождения наш герой успел повидать многое. Детство он провёл в трущобах; затем, пробудив магические способности, он попал в Королевскую Академию магии, где он столкнулся с ужасной дискриминацией, но познакомился с замечательной учительницей Селией; после этого сбежал из страны, попутно подружившись с девочкой-лисичкой Латифой, которая тоже когда-то жила в Японии; потом он побывал на родине своих здешних родителей, а ещё сорвал политическую свадьбу Селии. Ну и, конечно, самое главное: он нашёл в этом мире Михару — подругу детства, в которую был влюблён ещё будучи в Японии. А как же сложится их дальнейшая судьба, мы узнаем в новом сезоне.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6704202fe695dd42b831b724/">Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 11		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		8.29 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:32				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6704202fe695dd42b831b724/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/AD7Iv7nhPfnoZmv37zweUQ/240x360/1/crop/f2/7e/6704202fe695dd42b831b724_6704202f8bae4.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, приключения, романтика, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Ямасаки Осаму<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Продолжение истории японского студента Харуто, который попал в другой мир в тело мальчика по имени Рио. После своего перерождения наш герой успел повидать многое. Детство он провёл в трущобах; затем, пробудив магические способности, он попал в Королевскую Академию магии, где он столкнулся с ужасной дискриминацией, но познакомился с замечательной учительницей Селией; после этого сбежал из страны, попутно подружившись с девочкой-лисичкой Латифой, которая тоже когда-то жила в Японии; потом он побывал на родине своих здешних родителей, а ещё сорвал политическую свадьбу Селии. Ну и, конечно, самое главное: он нашёл в этом мире Михару — подругу детства, в которую был влюблён ещё будучи в Японии. А как же сложится их дальнейшая судьба, мы узнаем в новом сезоне.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6704201e9badc04e1f754632/">Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 38		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		3.11 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:32				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6704201e9badc04e1f754632/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/2q46j-cGSa6tX26EFLlkMw/240x360/1/crop/fd/94/6704201e9badc04e1f754632_6704201ebead6.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Seirei Gensouki 2 / Духовные хроники [ТВ-2] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>исекай, приключения, романтика, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Ямасаки Осаму<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Продолжение истории японского студента Харуто, который попал в другой мир в тело мальчика по имени Рио. После своего перерождения наш герой успел повидать многое. Детство он провёл в трущобах; затем, пробудив магические способности, он попал в Королевскую Академию магии, где он столкнулся с ужасной дискриминацией, но познакомился с замечательной учительницей Селией; после этого сбежал из страны, попутно подружившись с девочкой-лисичкой Латифой, которая тоже когда-то жила в Японии; потом он побывал на родине своих здешних родителей, а ещё сорвал политическую свадьбу Селии. Ну и, конечно, самое главное: он нашёл в этом мире Михару — подругу детства, в которую был влюблён ещё будучи в Японии. А как же сложится их дальнейшая судьба, мы узнаем в новом сезоне.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/668a87d2ef927a5b0579da82/">Fairy Tail: 100 Years Quest / Фейри Тейл: Столетний квест (1—24)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 15		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		6.99 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 22:31				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/668a87d2ef927a5b0579da82/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/MUHFUQXuih4roe95YrtHqA/240x360/1/crop/c2/ff/668a87d2ef927a5b0579da82_668a87d2dfe2b.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Fairy Tail: 100 Years Quest / Фейри Тейл: Столетний квест (1—24)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>приключения, сёнен, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>25 эп<br/>
-<strong>Режиссер: </strong>Исихира Синдзи<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Уже прошёл год с момента гибели тёмного мага Зерефа и дракона-бедствия Акнологии, и теперь Нацу и его друзей из гильдии &#34;Хвост Феи&#34; ждёт новое грандиозное путешествие! На этот раз они отправятся на северный континент Гильтина, где им предстоит выполнить так называемый &#34;Столетний Квест&#34; — задание, с которым никто не может справиться уже больше века. А тем временем в &#34;Хвосте Феи&#34; пополнение: к ребятам присоединяется дружелюбная и жизнерадостная девушка по имени Тока. Она утверждает, что вступила в гильдию, потому что влюблена в Нацу, но её истинные мотивы героям ещё только предстоит узнать...<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 24 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703fbbf9648627f73667fbc/">Raise wa Tanin ga Ii / Незнакомцы в другой жизни (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 11		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
-		3.2 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 20:17				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703fbbf9648627f73667fbc/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/x-hJ5Vr5EfOkNseSPptPnw/240x360/1/crop/bb/f2/6703fbbf9648627f73667fbc_6728fcf29018a.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Raise wa Tanin ga Ii / Незнакомцы в другой жизни (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>драма, романтика, сейнен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Кавасэ Тосифуми<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>В былые времена браки по расчёту для укрепления статуса или ради денежной выгоды являлись обыденностью, в современном же мире подобные договорённости стали встречаться всё реже и реже, но, увы, не исчезли полностью. Вот и два мощных клана якудза решили вспомнить старые деньки и покончить с многолетней враждой посредством женитьбы. Благо, для этого как раз нашлись идеальные кандидатуры: внуки глав группировок, Ёсино Сомэи и Кирисима Мияма. И, раз новость о предстоящей свадьбе уже напечатана в газетах, а Рэндзи Сомэи договорился о переезде внучки в Токио к будущему мужу, девушке не осталось ничего другого, как поддаться судьбе.<br/>
-Жених Ёсино оказался улыбчивым, обходительным и добрым парнем, пользующимся популярностью в школе, и девушка мало-помалу начала привыкать к новому положению, но как отреагирует Ёсино, когда узнает, что у её благоверного есть и тёмная сторона, а лучшие качества Кирисимы — маска?<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703fbae9648627f73667fb4/">Raise wa Tanin ga Ii / Незнакомцы в другой жизни (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 30		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		2.24 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 20:17				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703fbae9648627f73667fb4/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/qLFX5RNqT3CtOmUy7VVkbg/240x360/1/crop/5c/5a/6703fbae9648627f73667fb4_6703fbaea72c6.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Raise wa Tanin ga Ii / Незнакомцы в другой жизни (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>драма, романтика, сейнен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Кавасэ Тосифуми<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>В былые времена браки по расчёту для укрепления статуса или ради денежной выгоды являлись обыденностью, в современном же мире подобные договорённости стали встречаться всё реже и реже, но, увы, не исчезли полностью. Вот и два мощных клана якудза решили вспомнить старые деньки и покончить с многолетней враждой посредством женитьбы. Благо, для этого как раз нашлись идеальные кандидатуры: внуки глав группировок, Ёсино Сомэи и Кирисима Мияма. И, раз новость о предстоящей свадьбе уже напечатана в газетах, а Рэндзи Сомэи договорился о переезде внучки в Токио к будущему мужу, девушке не осталось ничего другого, как поддаться судьбе.<br/>
-Жених Ёсино оказался улыбчивым, обходительным и добрым парнем, пользующимся популярностью в школе, и девушка мало-помалу начала привыкать к новому положению, но как отреагирует Ёсино, когда узнает, что у её благоверного есть и тёмная сторона, а лучшие качества Кирисимы — маска?<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/670d3985fe7cf2687c2df745/">Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		13.47 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 20:16				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/670d3985fe7cf2687c2df745/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/19DQLo026dz0Y4HNSmPqNg/240x360/1/crop/d4/88/670d3985fe7cf2687c2df745_670d39854bfa4.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>гарем, исекай, приключения, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>16 эп<br/>
-<strong>Режиссер: </strong>Иванага Акира<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Хаджиме и его команда одержали победу над апостолом Бога и защитили королевство Хайлайх от надвигающейся угрозы. Однако, отложив зачистку двух оставшихся великих лабиринтов, они вместе с принцессой Лилианой отправляются в имперскую столицу Хелшар за помощью для пострадавшего королевства. На своём пути герои сталкиваются с племенем Хауров, отчаянно сражающихся с имперскими солдатами. Узнав о ситуации в Фербергене, где демоны и имперские войска угрожают выживанию племени Шии, Хаджиме клянётся помочь ей всеми силами!<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 10 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/670d39798df65c2d1838ed62/">Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		6.87 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 20:16				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/670d39798df65c2d1838ed62/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/6lKVR6otWFCnUHJpNDk-gw/240x360/1/crop/d7/bc/670d39798df65c2d1838ed62_670d3979308c2.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>гарем, исекай, приключения, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>16 эп<br/>
-<strong>Режиссер: </strong>Иванага Акира<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Хаджиме и его команда одержали победу над апостолом Бога и защитили королевство Хайлайх от надвигающейся угрозы. Однако, отложив зачистку двух оставшихся великих лабиринтов, они вместе с принцессой Лилианой отправляются в имперскую столицу Хелшар за помощью для пострадавшего королевства. На своём пути герои сталкиваются с племенем Хауров, отчаянно сражающихся с имперскими солдатами. Узнав о ситуации в Фербергене, где демоны и имперские войска угрожают выживанию племени Шии, Хаджиме клянётся помочь ей всеми силами!<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 10 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/670d396a3c065e6b74418d33/">Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 34		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		2.64 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 20:16				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/670d396a3c065e6b74418d33/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/zrpLKNcauS-pyYEW18hjHA/240x360/1/crop/fb/69/670d396a3c065e6b74418d33_670d396a84342.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Arifureta Shokugyou de Sekai Saikyou Season 3 / Арифурэта [ТВ-3] (1—10)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>гарем, исекай, приключения, фэнтези, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>16 эп<br/>
-<strong>Режиссер: </strong>Иванага Акира<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Хаджиме и его команда одержали победу над апостолом Бога и защитили королевство Хайлайх от надвигающейся угрозы. Однако, отложив зачистку двух оставшихся великих лабиринтов, они вместе с принцессой Лилианой отправляются в имперскую столицу Хелшар за помощью для пострадавшего королевства. На своём пути герои сталкиваются с племенем Хауров, отчаянно сражающихся с имперскими солдатами. Узнав о ситуации в Фербергене, где демоны и имперские войска угрожают выживанию племени Шии, Хаджиме клянётся помочь ей всеми силами!<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 10 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703f7be954414362c08e564/">Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (1—12)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 4		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
-		2.71 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 19:11				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703f7be954414362c08e564/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/U044l3A7DA8JoswLrwWCFA/240x360/1/crop/50/4c/6703f7be954414362c08e564_671fc9b2d16cb.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (1—12)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>детектив, комедия<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>13 эп<br/>
-<strong>Режиссер: </strong>Ибата Сёта<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Любого преступника непременно ждёт наказание. И пускай особо хитрые из них могут попытаться спрятаться, от гениального сыщика Рона Камонохаси и его помощника Тотомару Исики не укрыться никому. Они уже не раз доказали, что их дуэту под силу раскрыть любое преступление! В новом сезоне нас ждут новые жестокие убийства, неожиданные развязки и, конечно, ответ на вопрос, кто и зачем много лет назад решил повесить на Рона преступление, отобравшее у него его любимую работу.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703f7aa71b2c31aae409734/">Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (1—12)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 9		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		2.16 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 19:10				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703f7aa71b2c31aae409734/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/r_0uDWivLaxOpA6dbpDMNw/240x360/1/crop/e0/d7/6703f7aa71b2c31aae409734_671fc8db52a7c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kamonohashi Ron no Kindan Suiri 2nd Season / Безумные расследования Рона Камонохаси 2 (1—12)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>детектив, комедия<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>13 эп<br/>
-<strong>Режиссер: </strong>Ибата Сёта<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Любого преступника непременно ждёт наказание. И пускай особо хитрые из них могут попытаться спрятаться, от гениального сыщика Рона Камонохаси и его помощника Тотомару Исики не укрыться никому. Они уже не раз доказали, что их дуэту под силу раскрыть любое преступление! В новом сезоне нас ждут новые жестокие убийства, неожиданные развязки и, конечно, ответ на вопрос, кто и зачем много лет назад решил повесить на Рона преступление, отобравшее у него его любимую работу.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703f1b0e535991b826fba75/">Hoshi Furu Oukoku no Nina / Нина в королевстве звёзд (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 9		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
-		3.29 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 18:50				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703f1b0e535991b826fba75/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/wAGb6QlSBVbSl7VT5rTlow/240x360/1/crop/57/ce/6703f1b0e535991b826fba75_6703f1b0c0f90.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hoshi Furu Oukoku no Nina / Нина в королевстве звёзд (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>дзёсей, романтика, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Комая Кэнъитиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Детство Нины было тяжёлым. Чтобы выжить, ей приходилось идти на крайности и воровать, но ничего её не уберегло: в конце концов собственный брат продал её в рабство. К удивлению, на девушку быстро нашёлся покупатель: им оказался не кто иной, как принц Азур. С этого дня Нине предписано жить жизнью недавно умершей принцессы-жрицы Алиши.<br/>
-Подарок судьбы или проклятье? Новая жизнь полна проблем, и Нина не сдастся им без боя, но сможет ли она противостоять зарождающимся чувствам к принцу, зная, что должна выйти замуж за другого?<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703f1a0fff1e6784e1916e8/">Hoshi Furu Oukoku no Nina / Нина в королевстве звёзд (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 20		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		2.15 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 декабря в 18:50				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703f1a0fff1e6784e1916e8/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/4j1tQVKT2cezLxF36oQTHg/240x360/1/crop/14/3c/6703f1a0fff1e6784e1916e8_6703f1a0b74cf.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hoshi Furu Oukoku no Nina / Нина в королевстве звёзд (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>дзёсей, романтика, фэнтези<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Комая Кэнъитиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Детство Нины было тяжёлым. Чтобы выжить, ей приходилось идти на крайности и воровать, но ничего её не уберегло: в конце концов собственный брат продал её в рабство. К удивлению, на девушку быстро нашёлся покупатель: им оказался не кто иной, как принц Азур. С этого дня Нине предписано жить жизнью недавно умершей принцессы-жрицы Алиши.<br/>
-Подарок судьбы или проклятье? Новая жизнь полна проблем, и Нина не сдастся им без боя, но сможет ли она противостоять зарождающимся чувствам к принцу, зная, что должна выйти замуж за другого?<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6702c45b92490563452743d2/">Puniru wa Kawaii Slime / Пуниру - милая слизь (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 17		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		3.3 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 22 декабря в 21:50				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6702c45b92490563452743d2/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/qjkRrOrgqDvvXLz_edA_EQ/240x360/1/crop/10/47/6702c45b92490563452743d2_6702c45b89f96.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Puniru wa Kawaii Slime / Пуниру - милая слизь (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>комедия, романтика<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Ибэ Юси<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Это история о мальчике, который смог создать настоящего гомункула! В ходе эксперимента ему удалось получить живую слизь, принявшую форму очаровательного пингвинчика, и они очень быстро стали друзьями. Время шло, мальчик рос, и слизь эволюционировала вместе с ним, в итоге превратившись в миловидную девчонку с озорным характером. Теперь эта задорная мармеладка ходит с ним в одну школу, где постоянно ради смеха ставит его в самые неловкие ситуации.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703dc4df33d65189a579942/">Kabushikigaisha Magilumiere / Компания Маги-Люмьер (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 6		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		5.34 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 22 декабря в 21:49				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703dc4df33d65189a579942/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/dGYqKpGN2eDroTKFbKWUgA/240x360/1/crop/f2/bb/6703dc4df33d65189a579942_6703ddcf89cf5.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kabushikigaisha Magilumiere / Компания Маги-Люмьер (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>махо-сёдзе, сёнен, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Хираока Масахиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Чудесная трансформация в девочку-волшебницу теперь уже не феномен из области мечтаний и фантастики, а вполне реальная часть общества. А точнее, обыкновенная работа! Существуют целые агенства девочек-волшебниц, сотрудницы которых борются со сверхъестественными существами под названием «кайи».<br/>
-Крохотное агенство «Маги-Люмьер» с трудом держится на плаву, ведь у него в штате всего одна волшебная девочка — Хитоми Косигая. Хотя Хитоми — смелая, бойкая и умелая воительница, всё же её возможности не безграничны и ей крайне необходима надёжная напарница.<br/>
-Волею случая ею становится довольно заурядная Кана Сакураги, нехитрые таланты которой заключаются в большом трудолюбии и хорошей памяти. На её счастье, современным волшебницам не нужны ни магические способности, ни опыт работы, ведь они сражаются с помощью последних достижений науки и техники.<br/>
-Вот тебе, Кана, метла, волшебная палочка, флешка и инструкции по использованию. Вперёд!<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">1-2, 4-12 - Anilibria<br/>
-3 - MedusaSub</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.<br/>
-<strong>Анонсирован 2 сезон.</strong>				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6703dc40a6b7202e9661beb3/">Kabushikigaisha Magilumiere / Компания Маги-Люмьер (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 21		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 2		<span class="gray"> | </span>
-		4.75 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 22 декабря в 21:49				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6703dc40a6b7202e9661beb3/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/TU6NfCXpMk_FU3Q7h3N-Tg/240x360/1/crop/dd/b3/6703dc40a6b7202e9661beb3_6703dde02fb72.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Kabushikigaisha Magilumiere / Компания Маги-Люмьер (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>махо-сёдзе, сёнен, экшен<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Хираока Масахиро<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>Чудесная трансформация в девочку-волшебницу теперь уже не феномен из области мечтаний и фантастики, а вполне реальная часть общества. А точнее, обыкновенная работа! Существуют целые агенства девочек-волшебниц, сотрудницы которых борются со сверхъестественными существами под названием «кайи».<br/>
-Крохотное агенство «Маги-Люмьер» с трудом держится на плаву, ведь у него в штате всего одна волшебная девочка — Хитоми Косигая. Хотя Хитоми — смелая, бойкая и умелая воительница, всё же её возможности не безграничны и ей крайне необходима надёжная напарница.<br/>
-Волею случая ею становится довольно заурядная Кана Сакураги, нехитрые таланты которой заключаются в большом трудолюбии и хорошей памяти. На её счастье, современным волшебницам не нужны ни магические способности, ни опыт работы, ведь они сражаются с помощью последних достижений науки и техники.<br/>
-Вот тебе, Кана, метла, волшебная палочка, флешка и инструкции по использованию. Вперёд!<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">х265; 10bit<br/>
-1-2, 4-12 - Anilibria<br/>
-3 - MedusaSub</div></div><br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1920x1080<br/>
-<strong>Субтитры: </strong>русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.<br/>
-<strong>Анонсирован 2 сезон.</strong>				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/6702c16c3f654632d63013b7/">MF Ghost (2024) / MF Призрак [ТВ-2] (12 из 12) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 8		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		5.78 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 22 декабря в 21:48				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/6702c16c3f654632d63013b7/" class="cover">
-						<label class="category">аниме</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/WFCetIbZ7_AmMEc3Ie2PZw/240x360/1/crop/2b/7c/6702c16c3f654632d63013b7_6702c16c38630.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="MF Ghost (2024) / MF Призрак [ТВ-2] (12 из 12) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация об аниме</u><br/>
-<strong>Страна: </strong>Япония<br/>
-<strong>Тип: </strong>ТВ<br/>
-<strong>Жанр: </strong>сейнен, спорт<br/>
-<strong>Год выхода: </strong>2024<br/>
-<strong>Кол серий: </strong>12 эп<br/>
-<strong>Режиссер: </strong>Нака Томохито<br/>
-<strong>Продолжительность: </strong>25 мин<br/>
-<strong>Описание: </strong>В мире, где практически не осталось классических машин с ДэВэЭсами, а на дорогах их заменили аппараты с гибридными и электрическими двигателями, всё так же популярны японские спортивные автогонки, в которых настоящие, как они считают, водители соревнуются друг с другом на бензиновых автомобилях. Гениальный юный гонщик с английскими корнями Каната Ливингтон, к которому приковано всеобщее внимание, всё ещё не отказался от идеи отыскать своего отца. Однако это тернистый путь, на котором ему придётся столкнуться не только с победами, интересными открытиями и новыми друзьями, но и с потерями, поражениями и разочарованиями.<br/>
-<br/>
-<u>Дополнительно</u><br/>
-<strong>Формат: </strong>mkv<br/>
-<strong>Разрешение: </strong>1280x720<br/>
-<strong>Субтитры: </strong>английские (полухардсаб), русские (софтсаб)<br/>
-<strong>Язык: </strong>японский<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: Добавлены 12 эпизод и русские субтитры к нему.<br/>
-<strong>Анонсирован 3 сезон.</strong>				</div>
-			</div>
-		</div>
-	</div>
-</li>
 		</ul>
 					<!--noindex-->
 			<div class="panel widget ">
@@ -2678,7 +2653,7 @@ require(['jquery'], function($){
 				<a rel="nofollow" href="?page=2" class="button button-gray button-large button-block button-next js-showMore">Показать ещё</a>
 			</div>
 
-			<div class="torrents-paging"><div class="paging mt20" data-total="102">
+			<div class="torrents-paging"><div class="paging mt20" data-total="108">
 	<a rel="nofollow" href="/torrents/anime/?page=" class="page-item prev disabled">←</a>
 	<a rel="nofollow" href="/torrents/anime/?page=2" class="page-item next ">→</a>
 	<ul class="list-reset">
@@ -2699,7 +2674,7 @@ require(['jquery'], function($){
 			</div>
 	<script>
 		require(['catalog'], function(Catalog){
-			new Catalog(document.getElementById('torrents_676d39eb82742'), {
+			new Catalog(document.getElementById('torrents_6774643031d7d'), {
 				namespace: '/torrents/',
 				query: '',
 				showMore: 1,
@@ -2707,7 +2682,7 @@ require(['jquery'], function($){
 				sort: 'date',
 				kind: 'medium',
 				page: '1',
-				total: '102',
+				total: '108',
 				url: '/torrents/anime/',
 				action: 'list'
 			});
@@ -2724,7 +2699,7 @@ require(['jquery'], function($){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

@@ -125,7 +125,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_676d39e37281f" class="clearfix">
+			<div id="stars_6774642a45438" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 100%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -139,7 +139,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_676d39e37281f'), {
+	new Stars(document.getElementById('stars_6774642a45438'), {
 		url: '/mark/torrent/5786907de1cf68975f8b4568/',
 		rating: Number('5'),
 		sum: Number('10'),
@@ -159,7 +159,7 @@ require(['stars'], function(Stars){
 			<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 2730			
+			<i class="icon s-icons-eye"></i> 2742			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 199		</div>
 		<div class="info pd20 b0">
@@ -172,7 +172,7 @@ require(['stars'], function(Stars){
 
 						<!--noindex-->
 			<span class="gray"> | </span>
-			<span class="gray">Раздающий был:</span> 12 октября в 15:35			<!--/noindex-->
+			<span class="gray">Раздающий был:</span> 12 октября 2024 в 15:35			<!--/noindex-->
 					</div>
 	</div>
 
@@ -200,11 +200,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg"><img id="screenlist_676d39e37315d" data-zoom-image="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" width="320" height="5448" src="//images.animelayer.ru/Ea12nec7ADCQhU4kFwImQw/320x5448/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg"><img id="screenlist_6774642a462fa" data-zoom-image="//images.animelayer.ru/bXwYKYvd_pYi5zhtF3WYcQ/690x11746/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" width="320" height="5448" src="//images.animelayer.ru/Ea12nec7ADCQhU4kFwImQw/320x5448/1/crop/30/ec/5786907de1cf68975f8b4568_5786907e2b1f0.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_676d39e37315d')).elevateZoom({
+		$(document.getElementById('screenlist_6774642a462fa')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -277,7 +277,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_676d39e3733b5">
+	<div class="comments-container btop" id="comments_6774642a46497">
 		<div class="comments-tree disable-reply"><ul class="comments-list list-reset">
 	<li data-id="5794e1c7e1cf682c2e8b4569" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -397,7 +397,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_676d39e3733b5'));
+		var comments = new Comments(document.getElementById('comments_6774642a46497'));
 			});
 </script>
 			</div>
@@ -411,7 +411,7 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

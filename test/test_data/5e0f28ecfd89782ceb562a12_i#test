@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_676d39e826db9" class="clearfix">
+			<div id="stars_6774642e08e69" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 94.545454545455%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +138,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_676d39e826db9'), {
+	new Stars(document.getElementById('stars_6774642e08e69'), {
 		url: '/mark/torrent/5e0f28ecfd89782ceb562a12/',
 		rating: Number('4.7272727272727'),
 		sum: Number('52'),
@@ -158,7 +158,7 @@ require(['stars'], function(Stars){
 			<a rel="nofollow" href="/user/56c1aa72e1cf68e25e8e1ca0/" class="invisible"><i class="icon s-icons-user"></i> andromeda88</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 5937			
+			<i class="icon s-icons-eye"></i> 5951			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
@@ -202,11 +202,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bJbtLxt1PnZ5uOMBGnwM4w/1270x830/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg"><img id="screenlist_676d39e827613" data-zoom-image="//images.animelayer.ru/bJbtLxt1PnZ5uOMBGnwM4w/1270x830/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg" width="320" height="210" src="//images.animelayer.ru/7XWsDP_CYhhHLM8riRvJAw/320x210/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/bJbtLxt1PnZ5uOMBGnwM4w/1270x830/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg"><img id="screenlist_6774642e097bb" data-zoom-image="//images.animelayer.ru/bJbtLxt1PnZ5uOMBGnwM4w/1270x830/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg" width="320" height="210" src="//images.animelayer.ru/7XWsDP_CYhhHLM8riRvJAw/320x210/1/crop/12/93/5e0f28ecfd89782ceb562a12_5e212d397a4f3.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_676d39e827613')).elevateZoom({
+		$(document.getElementById('screenlist_6774642e097bb')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -279,7 +279,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_676d39e82777d">
+	<div class="comments-container btop" id="comments_6774642e099de">
 		<div class="comments-tree "><ul class="comments-list list-reset">
 	<li data-id="5e0f4d55fd897849ae5f47c3" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -587,7 +587,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_676d39e82777d'));
+		var comments = new Comments(document.getElementById('comments_6774642e099de'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {
@@ -608,7 +608,7 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

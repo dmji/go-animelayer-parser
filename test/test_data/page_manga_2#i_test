@@ -307,10 +307,16 @@ require.config({
 									<span>экшен</span>
 								</label>
 							</li>
+													<li>
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox" name="f[57b4da8a3bf39a6036000029]" value="1"/>
+									<span>этти</span>
+								</label>
+							</li>
 											</ul>
 										<div class="mt10 js-showmore-container">
 						
-						<a href="#" rel="nofollow" class="dashed js-showmore">Показать ещё 24</a>
+						<a href="#" rel="nofollow" class="dashed js-showmore">Показать ещё 25</a>
 					</div>
 									</dd>
 			</dl>
@@ -411,7 +417,7 @@ require(['jquery'], function($){
 
 	
 </div>
-	<div id="torrents_676d39ef8c3bb" class="widget">
+	<div id="torrents_67746433ca75c" class="widget">
 		<div class="panel widget oh clearfix">
 							<div class="pd10 pull-left">
 					<span class="gray">Сортировка:</span> Дата				</div>
@@ -431,13 +437,582 @@ require(['jquery'], function($){
 	<div class="pd1020">
 		<div class="title">
 			<h3 class="h2 m0">
-									<a href="/torrent/56c1b764e1cf6851038bc0c8/">Ansatsu Kyoushitsu / Класс убийц (20 из 20 томов) Complete</a>
+									<a href="/torrent/59082022e1cf68df4f8b4567/">DICE: The Cube that Changes Everything (0-167 глав)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		1.6 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a8d7e1cf68e25e8d4ea0/" class="invisible"><i class="icon s-icons-user"></i> Hinto</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 17 июля 2017 в 5:48				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/59082022e1cf68df4f8b4567/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/EUjKmSDjz9r3PrHbmB_7Ew/240x360/1/crop/0b/59/59082022e1cf68df4f8b4567_590820722caee.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="DICE: The Cube that Changes Everything (0-167 глав)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong> Южная Корея<br/>
+<strong>Жанр: </strong>психологическое, романтика, сверхъестественное, фантастика, приключения<br/>
+<strong>Год выхода: </strong>  2013<br/>
+<strong>Кол-во томов: </strong> 3<br/>
+<strong>Автор: </strong>	﻿Yunhyunseok<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Главный герой — неудачник, стоящий на самой нижней ступени школьной иерархии. Он тайно влюблен в первую красавицу школы, которая отказывает всем в школе, но не решается даже заговорить с ней. Неожиданно в классе появляется новенький, который является полной противоположностью главного героя: он умен, красив, хороший спортсмен и силен. Новенький предлагает главному герою возможность полностью изменить жизнь — сыграть в игру, в которой надо выполнять квесты и получать за них награду.<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 164-167 главы				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b646e1cf6851038baff7/">Madan no Ou to Vanadis (1-27 главы + экстра)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 2		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		448.08 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 7 мая 2017 в 7:41				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b646e1cf6851038baff7/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/qdaGjTnr4QaYSoV_ZLH_Og/240x360/1/crop/50/eb/56c1b646e1cf6851038baff7_56c1b646755df.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Madan no Ou to Vanadis (1-27 главы + экстра)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>романтика, приключения, гарем, этти, фэнтези, история<br/>
+<strong>Год выхода: </strong>2011<br/>
+<strong>Кол-во томов: </strong>&gt;4<br/>
+<strong>Автор: </strong>Нобухико Янаи, Цукаса Хиираги<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Прекрасная богиня войны покровительствует сильнейшим бойцам, Ванадис. Семь Ванадис правят семью княжествами, объединенными в одно государство под названием “Зочт”. Небогатый дворянин Тигра, единственным талантом которого является хорошее владение луком, был повержен в бою одной из Ванадис, Эллен. И теперь в обмен на жизнь Тигра становится ее личным слугой.<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 27 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b4cde1cf6851038b9a07/">Gate - Jietai Kare no Chi nite, Kaku Tatakeri / Врата: там бьются наши воины (1-60 глава)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 2		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		939.24 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 17 апреля 2017 в 13:50				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b4cde1cf6851038b9a07/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/9ah2FykQk_jk3OLgfIr1GQ/240x360/1/crop/fb/72/56c1b4cde1cf6851038b9a07_56c1b4cdd1efb.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Gate - Jietai Kare no Chi nite, Kaku Tatakeri / Врата: там бьются наши воины (1-60 глава)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>япония<br/>
+<strong>Жанр: </strong>приключения, сэйнэн, фэнтези<br/>
+<strong>Год выхода: </strong>2011<br/>
+<strong>Кол-во томов: </strong>&gt;9<br/>
+<strong>Автор: </strong>Янай Такуми, Сао Сатору<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>События разворачиваются в 21-м веке В один прекрасный день в центре района Гинза (Токио) раскрылись врата, из них повалили солдаты и странные создания, и вскоре Гинза превратилась в ад, вероятно эти врата соединяют Японию и параллельный мир, мир, где вся сила в руках воинственной империи которую населяют фантастические существа, Японские Силы Самообороны решили отправить туда небольшой разведывательный отряд под предводительством слегка помешанного военного, Разведчики должны выяснить все возможное о чужом мире, людях населяющих его, империи и ее планах. <br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 60 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b62ae1cf6851038baddc/">xxxHolic Rei (1-56 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		160.01 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a88be1cf68e25e8d29a4/" class="invisible"><i class="icon s-icons-user"></i> tachchan</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 2 апреля 2017 в 15:39				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b62ae1cf6851038baddc/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/1U4HB3QaLzwwAusUWNpRng/240x360/1/crop/e2/af/56c1b62ae1cf6851038baddc_56c1b62a25409.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="xxxHolic Rei (1-56 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>сэйнэн, сверхъестественное, мистика, драма, комедия<br/>
+<strong>Год выхода: </strong>2013<br/>
+<strong>Кол-во томов: </strong>&gt;1<br/>
+<strong>Автор: </strong>CLAMP<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Двери магазина, исполняющего желания, всегда открыты для тех, кому что-то требуется.<br/>
+Но ведь вопрос не в том, что получат посетители, а в том, что они готовы за это отдать. А может, стоит убояться исполнения своих желаний? История таинственного магазина продолжается.<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle"><strong>Дополнительная информация:</strong></span></div><div class="spoiler-content" style="display:none;">Альтернативная история <a href="/redirect/?to=http://animelayer.ru/details.php?id=35413" rel="nofollow">xxxHolic</a></div></div><br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 53-56 глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b280e1cf6851038b6499/">Witch Craft Works / Прикладное колдовство (1-56 глава)</a>
 							</h3>
 		</div>
 	</div>
 
 	<div class="info pd20">
 		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		863.05 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 2 апреля 2017 в 7:32				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b280e1cf6851038b6499/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/sv7k1om9pqNIKkaszO9gDA/240x360/1/crop/da/ee/56c1b280e1cf6851038b6499_56c1b280a26a4.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Witch Craft Works / Прикладное колдовство (1-56 глава)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>боевик, сверхъестественное, сёнэн, фэнтези, романтика, школа<br/>
+<strong>Год выхода: </strong>2010<br/>
+<strong>Кол-во томов: </strong>&gt;10<br/>
+<strong>Автор: </strong>Mizunagi Ryuu<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Такамия Хоноко, обычный во всех отношениях студент, примечателен лишь тем, что сидит с Кагари Аякой, звездой и всеобщей любимицей, идеальной во всем. Ее фан-клуб избивает любого кто приблизется к принцессе, из-за этого часто достается и Такамии. Однажды на парня нападает неизвестный, но его спасает величайшая огненная колдунья... Кагари Аяка?!<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 55-56 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b71de1cf6851038bbcd1/">Ark Romancer (3 из 3 томов) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		145.86 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 12 марта 2017 в 17:15				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b71de1cf6851038bbcd1/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/nnitTAwFNWS1YCzRMqKDNA/240x360/1/crop/d1/ef/56c1b71de1cf6851038bbcd1_56c1b71d876fc.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Ark Romancer (3 из 3 томов) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong> меха, психология, романтика, боевик, сэйнэн, драма<br/>
+<strong>Год выхода: </strong>2014<br/>
+<strong>Кол-во томов: </strong>3<br/>
+<strong>Автор: </strong> KIM So-Hoe, Lim Dall Young<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Психическая травма полученная в детстве привела к тому, что Агами Сожди считает себя недостойным любви. Так продолжалось до тех пор пока он не встретил странную девушку. Она ищет человека  который научит её любить. Парень оказывается втянутым в сражение между двумя девушками-воинами называющими себя &#34;Арк Процессор&#34;. Сможет ли он выполнить просьбу незнакомки и показать ей, что такое любовь?! Только время покажет! <br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 10 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b6f2e1cf6851038bba08/">Until Death Do Us Part / Пока смерть не разлучит нас (26 из 26 томов) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		2.38 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 12 марта 2017 в 17:07				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b6f2e1cf6851038bba08/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/mw1gXNfIwehmd6fs949mZg/240x360/1/crop/50/d1/56c1b6f2e1cf6851038bba08_56c1b6f264628.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Until Death Do Us Part / Пока смерть не разлучит нас (26 из 26 томов) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>приключения, драма, фантастика, сэйнэн<br/>
+<strong>Год выхода: </strong>2005<br/>
+<strong>Кол-во томов: </strong>26<br/>
+<strong>Автор: </strong>Такасигэ Хироси, Сон Чи-Хён<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Девочка по имени Харука Тояма обладает даром видеть будущее и телекинезом, поэтому одна преуспевающая компания держит её у себя. Но Харука хочет сбежать, и используя свои способности, находит себе спасителя - слепого парня по имени Мамору Хиджиката, который мастерски владеет мечом. Она просит его стать её телохранителем на немалый срок - &#34;пока смерть не разлучит нас&#34;. Мамору поначалу воспринимает это как шутку 12-летнего ребёнка, но после оказывается, что серьёзный теневой бизнес направил все свои силы на поиски Харуки. Кроме того, как и предсказала девочка, Мамору имеет большой опыт непосредственного участия в подпольном бизнесе, и его не так легко напугать простыми головорезами. Но только ли ради &#34;охраны&#34; Харука выбрала Мамору? Может, есть ещё какие-то причины?<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 210-214 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/587b6cd6e1cf6838098b4567/">Yozakura Quartet / Вишнёвый квартет (1-30 глава)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		379.84 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 12 марта 2017 в 16:50				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/587b6cd6e1cf6838098b4567/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/WHmHDlqBBnsBr9Guc6Z8yQ/240x360/1/crop/7b/fd/587b6cd6e1cf6838098b4567_587b6cd625e5c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Yozakura Quartet / Вишнёвый квартет (1-30 глава)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>боевик, этти, сёнэн, сверхъестественное, комедия<br/>
+<strong>Год выхода: </strong>2006<br/>
+<strong>Кол-во томов: </strong>&gt;19<br/>
+<strong>Автор: </strong>Ushiki Yoshitaka<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>В городе Сакурасин, похожем на обычный современный город, люди и ёкаи живут бок о бок в мире и согласии. Тэнгу, уни, кёси (зомби), заклинатели и многие другие создания, приняв человеческий облик, ходят на работу, учатся и отдыхают, не боясь, что их обидят. Разумеется, они сами не должны причинять вред другим, иначе будут наказаны. За порядком следит команда, возглавляемая Акина из семьи Хиидзуми – только он способен произвести «Настройку», то есть, отослать в потусторонний мир души тех ёкаев, которые утратили контроль над собой и стали опасны. Акина, шеф Офиса Консультации Жизни Ёкай, не слишком рад, что именно он унаследовал дар «Настройки», ведь большая часть его друзей и коллег – не люди. Но иначе город перестанет быть убежищем для ёкай. Эта мистическая история состоит не только из поединков с применением сверхъестественных способностей. Даже юные защитники города предпочитают бездельничать в офисе и заниматься обычными делами, чего уж говорить обо всех остальных жителях Сакурасина! Однако некоторым ёкай покоя не даёт тот факт, что извечные враги сумели примириться…<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 29-30 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/57f17e50e1cf686b4b8b4567/">Tokiwa Kitareri!! (1-13 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		114.4 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 1 февраля 2017 в 21:26				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/57f17e50e1cf686b4b8b4567/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/5dFRorUNWXhmcMV3bA4BGA/240x360/1/crop/ad/59/57f17e50e1cf686b4b8b4567_57f17e5098e90.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Tokiwa Kitareri!! (1-13 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong> Япония<br/>
+<strong>Жанр: </strong>  этти, комедия, боевик, романтика, сёнэн, школа, гарем, драма, сверхъестественное, фантастика<br/>
+<strong>Год выхода: </strong> 2014<br/>
+<strong>Кол-во томов: </strong> 7<br/>
+<strong>Автор: </strong>  Мацуэна Сюн<br/>
+<strong>Язык: </strong> русский<br/>
+<strong>Описание: </strong> Ясака Токива живет в необычные времена. Они влияют на его сны, которые становятся все более странными. С тех пор, как у него был сон про девушку, зовущейся Риин, к нему пришел робот по имени Макина. Они поступили в одну школу - туда же, куда и другие их одноклассники, включая секретного шиноби (Кусанаги Каната) и чародея (Ята Харука). Когда Токива, робот, шиноби и чародей рванули спасать президента студсовета от демонов, парни узнали, что у них был один и тот же сон! Что же происходит с их миром?<br/>
+<br/>
+<strong>Торрент был обновлен</strong> <br/>
+Причина: Добавлена 13 глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b7cae1cf6851038bc78b/">Ao no Exorcist (1-86 + ваншот + экстра)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		837.53 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 1 февраля 2017 в 21:02				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b7cae1cf6851038bc78b/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/sKWF_VSGjuOa2tpMWXRmFw/240x360/1/crop/67/da/56c1b7cae1cf6851038bc78b_56c1b7cb027e5.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Ao no Exorcist (1-86 + ваншот + экстра)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong> Япония<br/>
+<strong>Жанр: </strong>  сёнэн, романтика, комедия, приключения, драма, фэнтези, боевик, сверхъестественное<br/>
+<strong>Год выхода: </strong> 2009<br/>
+<strong>Кол-во томов: </strong> 17<br/>
+<strong>Автор: </strong>  Като Кадзуэ<br/>
+<strong>Язык: </strong> русский<br/>
+<strong>Описание: </strong> Мир разделен на две части: Ассия и Геенна. В первой, живут люди, а во второй Демоны. Два мира, которые разделены так, что перейти из одно в другой простому человеку не по силам. Но демоны имеют возможность перемещаться из одного мира в другой, овладев чем-нибудь принадлежащим Ассии. Наша история крутится возле сына Сатаны, Рина который так же является приемным сыном священика/экзорциста. Сатана хочет использовать своего сына, чтоб воцарить хаус в Ассии, но вот хочет ли этого Рин ? По чьим стопам он пойдет ? Станет ли он примерным сыном сатаны или же Экзорцистом<br/>
+<br/>
+<strong>Торрент был обновлен</strong> <br/>
+Причина: Добавлена 86 глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b745e1cf6851038bbee6/">Drifters (1-64 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		601.32 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 1 февраля 2017 в 20:49				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b745e1cf6851038bbee6/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/vQ_VxMTZUZ3CPVNxo98qpg/240x360/1/crop/49/d4/56c1b745e1cf6851038bbee6_56c1b7456b2e3.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Drifters (1-64 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong> Япония<br/>
+<strong>Жанр: </strong>  приключения, комедия, история, сэйнэн<br/>
+<strong>Год выхода: </strong> 2009<br/>
+<strong>Кол-во томов: </strong> 4<br/>
+<strong>Печаталась: </strong> Shounen Gahousha<br/>
+<strong>Автор: </strong>  Хирано Кота<br/>
+<strong>Язык: </strong> русский<br/>
+<strong>Описание: </strong> События в &#34;Скитальцах&#34; разворачиваются в Японии в период Сенгоку (примерно XV - XVII века), время постоянных войн между провинциями и естественно представляют проблемы, характерные для самурайского жанра. <br/>
+Юный самурай на краю гибели находит себя в другом, фантастическом мире. Как? Почему? Эти вопросы остаются без ответа.<br/>
+Читайте новую работу Кота Хирано, автора &#34;Hellsing&#34;.<br/>
+<br/>
+<strong>Торрент был обновлен</strong> <br/>
+Причина: Добавлена 64-ая глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b1aee1cf6851038b4ccc/">Trinity Blood / Кровь Триединства (1-76 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		1.45 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a6e3e1cf68e25e8c3cf5/" class="invisible"><i class="icon s-icons-user"></i> Annaero</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 31 января 2017 в 16:47				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b1aee1cf6851038b4ccc/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/xaQ2qdQCSmYob-1iauRTkQ/240x360/1/crop/a2/9f/56c1b1aee1cf6851038b4ccc_56c1b1ae0d627.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Trinity Blood / Кровь Триединства (1-76 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>приключения, фэнтези, драма<br/>
+<strong>Год выхода: </strong>2004<br/>
+<strong>Кол-во томов: </strong>&gt;19<br/>
+<strong>Автор: </strong>Ёсида Сунао<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Постапокалиптический мир, погрязший в бесконечной войне с вампирами, извечными врагами рода человеческого. Абель Найтроуд – священник, секретный агент и... загадочное древнее существо – &#34;вампир, пьющий кровь вампиров&#34;, противостоит секретному вампирскому ордену и своим старым врагам...<br/>
+<br/>
+<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">Перевод: Action Manga Team, Juel, SeptimusSensu777</div></div><br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлены главы 17-76				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b764e1cf6851038bc0c8/">Ansatsu Kyoushitsu / Класс убийц (20 из 20 томов) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		1.55 GB
 				<span class="gray"> | </span>
@@ -613,6 +1188,102 @@ require(['jquery'], function($){
 <br/>
 <strong>Торрент был обновлен</strong> <br/>
 Причина: добавлена 25-39-ая глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b6ece1cf6851038bb9bb/">Sekirei ( 18 из 18 томов ) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		1.42 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 21 декабря 2016 в 11:36				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b6ece1cf6851038bb9bb/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/S15HZkjranYr06JnAAWQqQ/240x360/1/crop/be/e6/56c1b6ece1cf6851038bb9bb_56c1b6ec445cd.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Sekirei ( 18 из 18 томов ) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>приключения, комедия, этти, сэйнэн<br/>
+<strong>Год выхода: </strong>2004<br/>
+<strong>Кол-во томов: </strong>18<br/>
+<strong>Автор: </strong>Гокуракуйн Сакурако<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Минато был обычным неудачником: дважды провалил поступление в университет, безработный и, как водится, совершенно непопулярный у девушек. Пока... ему буквально на голову не сваливается красотка Мусуби, убегающая от преследователей! Мало того, девушка заявляет, что она &#34;Сэкирэй&#34; и выбирает Минато своим &#34;Асикаби&#34;! Вот так, нежданно-негаданно, он вступает в битву Сэкирэй, где главный приз - исполнение желания победителя!<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 185-187 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b7d0e1cf6851038bc80e/">Btooom! (1-85 главы + 1 спешл)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		2.3 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 15 декабря 2016 в 21:36				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b7d0e1cf6851038bc80e/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/2GhVCIQrFjiNQd67JG_6WQ/240x360/1/crop/57/ce/56c1b7d0e1cf6851038bc80e_56c1b7d10bc98.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Btooom! (1-85 главы + 1 спешл)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong> Япония<br/>
+<strong>Жанр: </strong> сэйнэн, драма,боевик, игра, этти<br/>
+<strong>Год выхода: </strong> 2009<br/>
+<strong>Кол-во томов: </strong> 17<br/>
+<strong>Автор: </strong> Inoue Junya<br/>
+<strong>Язык: </strong> русский<br/>
+<strong>Описание: </strong> 22-летний Рёта Сакамото ненавидит реальный мир. А что в нём хорошего? Друзья, точнее их отсутствие? Мать, которая постоянно капает на мозги и заставляет искать работу? Нет ничего, что бы могло удержать его от онлайн-игры, в которой Сакамото лидирует в общем рейтинге.<br/>
+Вот только что случится, если виртуальный мир вдруг поменяется местами с реальностью? Что, если однажды утром ты проснешься не в собственной кровати, а на тропическом острове, где есть только одно правило - убей или будь убитым?<br/>
+Сможет ли наш герой выжить и выяснить, кто стоит за этой жестокой выходкой?<br/>
+<br/>
+<strong>Торрент был обновлен</strong> <br/>
+Причина: Добавлена 85 глава				</div>
 			</div>
 		</div>
 	</div>
@@ -998,6 +1669,100 @@ require(['jquery'], function($){
 	<div class="pd1020">
 		<div class="title">
 			<h3 class="h2 m0">
+									<a href="/torrent/56c1b6f3e1cf6851038bba1a/">Shishunki no Iron Maiden / Половая зрелость железной девы (5 из 5 томов) Complete</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		411.43 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 1 ноября 2016 в 15:33				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b6f3e1cf6851038bba1a/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/i3MNF09KSnsIIZbd3ZwXog/240x360/1/crop/05/e0/56c1b6f3e1cf6851038bba1a_56c1b6f3f09ad.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Shishunki no Iron Maiden / Половая зрелость железной девы (5 из 5 томов) Complete"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>этти, школа, сверхъестественное, романтика, сёнэн, комедия<br/>
+<strong>Год выхода: </strong>2012<br/>
+<strong>Кол-во томов: </strong>5<br/>
+<strong>Автор: </strong>Ватанабэ Шизуму<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>Главный герой, Мияма Харуки, с детства был озабочен мистическими секретами девочек: постоянные записочки, секретные выражения, ходьба группами и главная загадка - &#34;Эти Дни&#34;... Ничего бы не мешало его обыденному дуракавалянью и охоте на девчачьи трусики, но однажды у него появился шанс разгадать тайну - у его одноклассницы и старой знакомой Тсукико Химемии начались &#34;Эти Дни&#34;...<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 37-41 глава.				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b4ece1cf6851038b9c24/">Freezing (37-202 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 1		<span class="gray"> | </span>
+		2.82 GB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1b013e1cf68924f8ce28b/" class="invisible"><i class="icon s-icons-user"></i> chyvakkk91</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 24 октября 2016 в 0:47				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b4ece1cf6851038b9c24/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/vDehb3wxUCZRGARDug6HKQ/240x360/1/crop/62/4b/56c1b4ece1cf6851038b9c24_580d300692686.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Freezing (37-202 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония<br/>
+<strong>Жанр: </strong>фантастика,приключения, этти, романтика, мистика ,  сёнэн<br/>
+<strong>Год выхода: </strong>2006<br/>
+<strong>Кол-во томов: </strong>&gt;29<br/>
+<strong>Автор: </strong>Далл Ён Лим, Гван Хён Ким<br/>
+<strong>Язык: </strong>русский<br/>
+<strong>Описание: </strong>В будущем люди столкнулись с необычной проблемой,в разных честях мира хаотически стали возникать странные голема образные существа которые разрушали все на своим пути, в последствии их назвали NOVA, для борьбы с новым невероятна сильным врагом стали создавать супер солдат которые могли использовать часть силы NOVA за стчот вживляемых в их тела специально выращенных кристаллов STIGMA которые были созданы благодаря изучению останков первых уничтоженных NOVA. Казуя Аой новый ученик академии где обучают и тренируют супер солдат,он поступил в академию последовав примеру своей старшей сестры которая стала героем в первых сражениях с NOVA, но толька оказавшись на поле боя он начал осознавать что эта не проста мелкие стычки а настоящая война.<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина:  манга пересобрана, добавлены 153-202  главы				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
 									<a href="/torrent/56cc8892e1cf68ea788b4568/">Mob Psycho 100 (1-97 главы + экстра)</a>
 							</h3>
 		</div>
@@ -1099,7 +1864,7 @@ require(['jquery'], function($){
 	</div>
 
 	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-upload"></i> 2		<span class="gray"> | </span>
 		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
 		2.29 GB
 				<span class="gray"> | </span>
@@ -1181,6 +1946,53 @@ require(['jquery'], function($){
 <br/>
 <strong>Торрент был обновлен</strong><br/>
 Причина: Добавлена 41-ая глава				</div>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="torrent-item torrent-item-medium panel">
+	<div class="pd1020">
+		<div class="title">
+			<h3 class="h2 m0">
+									<a href="/torrent/56c1b6f4e1cf6851038bba33/">Shinmai Maou no Keiyakusha (1-19 главы)</a>
+							</h3>
+		</div>
+	</div>
+
+	<div class="info pd20">
+		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
+		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
+		253.53 MB
+				<span class="gray"> | </span>
+		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
+		
+		<span class="gray"> | </span>
+		<!--noindex-->
+					<span class="gray">Обновлён:</span> 31 августа 2016 в 14:47				<!--/noindex-->
+	</div>
+
+	<div class="pd20">
+		<div class="clearfix">
+			<div class="pull-left mr20">
+									<a href="/torrent/56c1b6f4e1cf6851038bba33/" class="cover">
+						<label class="category">манга</label>
+						<img width="240" height="360" data-original="//images.animelayer.ru/O2K3KgpeSaY0AxBXPkhe6g/240x360/1/crop/eb/54/56c1b6f4e1cf6851038bba33_56c1b6f5018c1.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Shinmai Maou no Keiyakusha (1-19 главы)"/>
+					</a>
+							</div>
+
+			<div class="oh">
+				<div class="description">
+					<u>Информация о манге</u><br/>
+<strong>Производство: </strong>Япония <br/>
+<strong>Жанр: </strong>романтика, этти, фэнтези, сёнэн, боевик<br/>
+<strong>Год выхода: </strong>2013<br/>
+<strong>Кол-во томов: </strong>&gt;3<br/>
+<strong>Автор: </strong>UESU Tetsuto, MIYAKO Kashiwa<br/>
+<strong>Язык: </strong>русский <br/>
+<strong>Описание: </strong>&#34;Послушай, ты же вроде бы хотел , чтобы у тебя была сестра, верно?&#34; - такой фразой отец озадачил своего сына, ученика первого года старшей школы, Тодзё Басару. Более того, эксцентричный отец решил снова жениться и привёл Басаре двух красивых сводных сестёр. Однако, Мио и Мария оказались не обычнми людьми, а Повелительницей демонов и суккубом! Ещё немного и Басара заключил бы контракт и стал рабом Мио, однако, из-за &#34;ошибки&#34; он сам стал хозяином! Более того, из-за контракта Басара постоянно попадает в неловкие и эротичные ситуации! Однако, жизнь Мио омрачают другие демонические кланы! С этого и начинается самая адская и сексуальная история!!!<br/>
+<br/>
+<strong>Торрент был обновлен</strong><br/>
+Причина: добавлена 19 глава.				</div>
 			</div>
 		</div>
 	</div>
@@ -1329,820 +2141,6 @@ require(['jquery'], function($){
 		</div>
 	</div>
 </li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b5c2e1cf6851038ba8eb/">Black Bullet / Чёрная пуля (4 из 4 томов) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		563.31 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 8 июля 2016 в 13:01				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b5c2e1cf6851038ba8eb/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/u4PkDXygV66mXZICRDiNWw/240x360/1/crop/5b/32/56c1b5c2e1cf6851038ba8eb_56c1b5c2d36c4.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Black Bullet / Чёрная пуля (4 из 4 томов) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>япония<br/>
-<strong>Жанр: </strong>боевик, мистика, научная фантастика, сэйнэн<br/>
-<strong>Год выхода: </strong>2012<br/>
-<strong>Кол-во томов: </strong>4<br/>
-<strong>Автор: </strong>Канзаки Шиден, Морино Хон<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>В ближайшем будущем человечество сильно пострадала от вируса Gastrea, Рентаро и его напарница Энджу служат в отделе гражданской безопасности, который занимается отслеживанием и ликвидацией заражонных.<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 20 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b7f4e1cf6851038bc9b0/">Wangpai Yushi (1-23 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		113.28 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 4 июля 2016 в 20:29				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b7f4e1cf6851038bc9b0/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/OopPSc7Wd2EbpSIh3ZxAHA/240x360/1/crop/4d/70/56c1b7f4e1cf6851038bc9b0_56c1b7f44df35.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Wangpai Yushi (1-23 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong> Китай<br/>
-<strong>Жанр: </strong> комедия, фэнтези, сёнэн, школа<br/>
-<strong>Год выхода: </strong> 2014<br/>
-<strong>Кол-во томов: </strong> 6<br/>
-<strong>Автор: </strong> Тун Яо<br/>
-<strong>Язык: </strong> русский<br/>
-<strong>Описание: </strong> В мире, где исчезло равновесие между инь и ян, а ночь слилась с днём, люди и монстры научились сосуществовать. Наши трудолюбивые цензоры должны сделать всё возможное для борьбы с «неукротимыми» монстрами в этой забавной истории.       Предупреждение: ненормативная лексика!<br/>
-<br/>
-<strong>Торрент был обновлен</strong> <br/>
-Причина: добавлена 21-23-ая глава				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b347e1cf6851038b7748/">Blood lad (1-48 глава)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		654.29 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 12 июня 2016 в 14:24				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b347e1cf6851038b7748/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/ctzosUqz2qHfzMRO2zOROQ/240x360/1/crop/18/5a/56c1b347e1cf6851038b7748_56c1b347c01cd.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Blood lad (1-48 глава)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>приключения, комедия, фэнтези, сэйнэн<br/>
-<strong>Год выхода: </strong>2009<br/>
-<strong>Кол-во томов: </strong>&gt;10<br/>
-<strong>Печаталась: </strong>с 2009<br/>
-<strong>Автор: </strong>Кодама Юки<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Действие разворачивается в аду, в городе-призраке, где орудуют банды демонов. Вампир Стаз, босс одного из секторов ада, убежденный вегетарианец и пришибленный отаку… Однажды, правая рука босса, сталкивается со случайно попавшей в их город обычной девушкой Фуюми. При первой же встрече с ней, Стаз испытывает доселе неизвестные ему чувства, и можно уже было свадебку сыграть да детишек нарожать, но к счастью, школьница скоропостижно издохла от рук залетного монстра, и новоявленный клон Сумерек был прихлопнут в зародыше. Отныне Фуюми призраком следует за Стазом, взывая о своем воскрешении. И он уж постарается.<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 48 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b703e1cf6851038bbb3d/">Teppu (1-26 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		448.85 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 29 мая 2016 в 18:48				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b703e1cf6851038bbb3d/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/O3u4lRc76DG8Ou5yUq-0KQ/240x360/1/crop/3e/3a/56c1b703e1cf6851038bbb3d_56c1b70402a89.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Teppu (1-26 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>комедия, боевые искусства, спорт<br/>
-<strong>Год выхода: </strong>2008<br/>
-<strong>Кол-во томов: </strong>&gt;5<br/>
-<strong>Автор: </strong>Futada Moare<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Исидо Нацу - одаренная девушка, способная достичь совершенства в любом спорте! И поэтому ей постоянно становиться скучно... И вот однажды она получает приглашение от веселой девушки присоединиться к клубу боевых искусств. Раздраженная от её счастливого вида, Нацу решает принять её приглашение в качестве предлога для того, чтобы избить её... Но она получает шокирующий сюрприз...<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 26.5 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/57379e24e1cf6835108b4567/">Blade Note / Летопись меча (1-23 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		836.25 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 15 мая 2016 в 0:52				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/57379e24e1cf6835108b4567/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/265cxgAgd0fUMZawHgj_-g/240x360/1/crop/84/4d/57379e24e1cf6835108b4567_57379e24a6995.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Blade Note / Летопись меча (1-23 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong> Корея<br/>
-<strong>Жанр: </strong> экшн, драма <br/>
-<strong>Год выхода: </strong> 2015<br/>
-<strong>Кол-во томов: </strong> 1<br/>
-<strong>Автор: </strong> Юн Джун Сик <br/>
-<strong>Язык: </strong> русский<br/>
-<strong>Описание: </strong> Новая история от художника &#34;Пока смерть не разлучит нас&#34;. Бывают моменты, когда зов клинка обращает страх в гнев... И тогда трепещите, вражины-террористы! По вашу душу идёт юный антигерой со стальной зубочисткой!				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b7b7e1cf6851038bc644/">Enen no Shouboutai (1-18 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		150.27 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b0f7e1cf68924f8d6121/" class="invisible"><i class="icon s-icons-user"></i> Zodik</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 11 мая 2016 в 21:34				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b7b7e1cf6851038bc644/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/AWatB1xPErkPSyAGRiFz4w/240x360/1/crop/67/fd/56c1b7b7e1cf6851038bc644_56c1b7b7b3a99.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Enen no Shouboutai (1-18 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong> Япония<br/>
-<strong>Жанр: </strong> боевик, сверхъестественное, сёнэн<br/>
-<strong>Год выхода: </strong> 2015<br/>
-<strong>Кол-во томов: </strong> 1<br/>
-<strong>Автор: </strong> Ookubo Atsushi<br/>
-<strong>Язык: </strong> русский<br/>
-<strong>Описание: </strong> Обычно, люди умирают от старости, болезней, самоубийств, но в этом мире, больше всего люди бояться сгореть заживо... Встречайте новую мангу от создателя Soul Eater.<br/>
-<br/>
-<br/>
-<strong>Торрент был обновлен</strong> <br/>
-Причина: Добавлены 18 глава				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b553e1cf6851038ba286/">Natsume Yuujinchou (1-73 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		1.01 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b051e1cf68924f8d068a/" class="invisible"><i class="icon s-icons-user"></i> VLSky</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 5 марта 2016 в 3:33				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b553e1cf6851038ba286/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/guzPxZwBjmGit5ejD2v4JQ/240x360/1/crop/f4/3b/56c1b553e1cf6851038ba286_56c1b553d465d.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Natsume Yuujinchou (1-73 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство:</strong> Япония <br/>
-<strong>Жанр:</strong> мистика, комедия, драма, сёдзё<br/>
-<strong>Год выхода:</strong> 2005 <br/>
-<strong>Кол-во томов:</strong> &gt;15<br/>
-<strong>Автор: </strong>Мидорикава Юки<br/>
-<strong>Язык:</strong> русский<br/>
-<strong>Описание:</strong> Нацумэ — обыкновенный мальчик во всём, кроме одного: он унаследовал от своей бабушки Рэйко способность видеть духов. Рэйко запугивала духов и сражалась с ними — побеждённые записывали своё имя в тетрадь дружбы, таким образом заключая с Рэйко контракт, по которому они должны помогать и подчиняться ей. Нацумэ унаследовал эту тетрадь, и теперь ему придётся несладко из-за полчищ желающих её у него отобрать...  <br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">Перевод команд:<br/>
- - до 10й главы - совместный перевод команд Arai Kibou и Jyuukenbu Group<br/>
- - с 11 и до 22 - перевод команды Jyuukenbu Group<br/>
- - 24-26 - перевод Aizen522<br/>
- - 27 и далее - перевод команды Jyuukenbu Group<br/>
-</div></div><br/>
-<strong>Торрент был обновлен<br/>
-Причина: добавлены новые главы</strong>				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56cc0721e1cf686d2e8b456f/">Re: Zero kara Hajimeru Isekai Seikatsu: Daiisshou - Том 1  - Outo no Ichinichi Hen (11 из 11  глав)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		167.72 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b12ce1cf68924f8d81fa/" class="invisible"><i class="icon s-icons-user"></i> NumTemplar</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 23 февраля 2016 в 10:15				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56cc0721e1cf686d2e8b456f/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/TPYIGBLyL2nlKsM0jOJxjQ/240x360/1/crop/a9/ca/56cc0721e1cf686d2e8b456f_56cc072233ab2.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Re: Zero kara Hajimeru Isekai Seikatsu: Daiisshou - Том 1  - Outo no Ichinichi Hen (11 из 11  глав)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>приключения, фэнтези, романтика, сэйнэн<br/>
-<strong>Год выхода: </strong>2014<br/>
-<strong>Кол-во томов: </strong> 2 тома<br/>
-<strong>Автор: </strong>Нагацуки Таппэй, Мацусэ Дайти<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Когда ученик старшей школы, начинающий гопник Субару Накки, возвращается из магазина, с ним случается неприятная неожиданность: он переносится в другой мир. Почти сразу парень ввязывается в разборки с местными коллегами по образу жизни, не отличающимися особой гуманностью, но спасение приходит в лице сребовласой девушки, которая поначалу и помогать-то не собиралась даже. В благодарность за помощь наш герой, конечно же, вызывается помочь незнакомке отыскать воришку, укравшую у неё нечто важное. Но вот незадача, как только им удается напасть на след, их... убивают.<br/>
-Через мгновение после смерти Субару просыпается в том же месте, откуда начал путешествие в другой мир, но уже с приобретенной способностью возврата к одному определенному моменту...				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b797e1cf6851038bc482/">Combat Continent (1-56 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		580.45 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1ae0fe1cf68924f8bc330/" class="invisible"><i class="icon s-icons-user"></i> DEATHNOTE25</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Обновлён:</span> 20 февраля 2016 в 20:54				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b797e1cf6851038bc482/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/INr1-jTXChcXGPeK6i3vAQ/240x360/1/crop/15/63/56c1b797e1cf6851038bc482_56c1b797873df.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Combat Continent (1-56 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Жанр: </strong>боевик, боевые искусства, приключения, сёнэн, фэнтези, романтика<br/>
-<strong>Год выхода: </strong>2011<br/>
-<strong>Кол-во томов: </strong>2 тома, выпуск продолжается<br/>
-<strong>Автор: </strong>Mu Feng Chun, Tang Jia San Shao<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Клан Танг – одна из самых известных школ боевых искусств. Танг Сан, украв одно из секретных учений клана, совершает страшное преступление. Понимая тяжесть содеянного, он прыгает с горы, известной как «Пик Ада». Но он и подумать не мог, что попадет в другой мир, где нет боевых искусств, мир, где всё решают духи - континент Дору. Как Танг Сан выживет в этой неизвестной среде? Чтобы следовать иной дорогой, новая легенда начинается ... <br/>
-<br/>
-<br/>
-<strong>Торрент был обновлен:</strong><br/>
-Причина: добавлена 56 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b28ae1cf6851038b657c/">Re:Birth - The Lunatic Taker ( 7 из 7 томов ) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		674.52 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 1 января 2016 в 4:15				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b28ae1cf6851038b657c/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/jJj1Du_U3OHuMFmfxQ1Nnw/240x360/1/crop/66/24/56c1b28ae1cf6851038b657c_56c1b28ae390f.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Re:Birth - The Lunatic Taker ( 7 из 7 томов ) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>приключения, драма, сёнэн, мистика<br/>
-<strong>Год выхода: </strong>2009<br/>
-<strong>Кол-во томов: </strong>7<br/>
-<strong>Автор: </strong>Далл Ён Лим, Ли Су Хён<br/>
-<strong>Язык: </strong>русский (1-20), английский (21-29)<br/>
-<strong>Описание: </strong>Рэйдзи - обычный ученик средней школы, живущий со старшей сестрой Аякой. Однажды он находит парные браслеты на тротуаре и подбирает их, в надежде вернуть владельцу. В это время он замечает бегущего на него человека. Уже потом, на грани смерти, он слышит голос из браслета: “Если хочешь жить, заключи контракт”. Во что Рэйдзи вовлек себя? И какие последствия этого контракта?<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: перезалита 21 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b4d1e1cf6851038b9a4f/">Denpa Kyoushi (1-135 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 0		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		1.25 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a6a8e1cf68e25e8c1bde/" class="invisible"><i class="icon s-icons-user"></i> tritonik</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 2 ноября 2015 в 16:03				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b4d1e1cf6851038b9a4f/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/a5CxzqiYjIDVmVISvXh-pA/240x360/1/crop/eb/a3/56c1b4d1e1cf6851038b9a4f_56c1b4d11d526.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Denpa Kyoushi (1-135 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong> Япония<br/>
-<strong>Жанр: </strong>комедия, школа, романтика, повседневность<br/>
-<strong>Год выхода: </strong> 2011<br/>
-<strong>Кол-во томов: </strong>&gt;10,выпуск продолжается<br/>
-<strong>Автор: </strong>Азума Такеши<br/>
-<strong>Язык: </strong> русский<br/>
-<strong>Описание: </strong>Кагами Джуничироу был известен как гений физики и даже был издан в журнале &#34;Природа&#34;. Однако, после колледжа, он внезапно потерял весь интерес к науке. Как отаку , он посвятил себя блогу аниме. Он утверждает, что у него есть тяжелая болезнь, названная &#34;НХНД&#34; (Не Хочешь Не Делай).Отчаявшись заставить его что либо делать, его сестра находит ему работу в старой старшей школе на должности учителя физики. Он - конечно, нетрадиционный учитель, но за короткое время он начинает нравиться студентам. После помощи девочке, которую безжалостно запугивали, Кагами находит, что ему фактически нравится преподавать. Он продолжит свою карьеру как странный учитель? Он возвратится в физику? Или он закончит там, где он начал?<br/>
- <br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлены 127-135 главы.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b6f1e1cf6851038bba00/">To Aru Kagaku no Railgun (1-81 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		1015.53 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 11 октября 2015 в 13:03				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b6f1e1cf6851038bba00/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/Z8Fl9k4-drybA16P7Heprg/240x360/1/crop/f4/ba/56c1b6f1e1cf6851038bba00_56c1b6f1c5e8b.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="To Aru Kagaku no Railgun (1-81 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>приключения, комедия, мистика<br/>
-<strong>Год выхода: </strong>2007<br/>
-<strong>Кол-во томов: </strong>&gt;11<br/>
-<strong>Автор: </strong>Фуюкава Мотой, Камати Кадзума, Хаимура Киётака<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Где-то на островах Южной Японии раскинулся Академия Сити - город, большинство жителей которого учатся и работают в школах юных эсперов. Обладатели паранормальных способностей в поте лица трудятся, чтобы познать свой дар и поднять владение им на новую высоту. Гордость школы Токивадай и всего города Мисака Микото – третья по силе среди известных миру эсперов высшего уровня. У «Электрической принцессы» много полезных умений, одно из которых – ручной рейлган, то есть возможность своими электромагнитными способностями разогнать монетку где-то до трех Махов (на другом конце траектории стоять не рекомендуется). Но всех усилий Микото пока не хватает для решения двух насущных задач: отбиться от юрийных домогательств своей подруги Сирай Куроко и разобраться с наглым парнем по имени Камидзё Тома!<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 81 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b574e1cf6851038ba4ce/">Imawabi no Dakini (1-13 глава)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		267.97 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 7 сентября 2015 в 3:18				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b574e1cf6851038ba4ce/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/su1GkGD87D057SwUfcgXdQ/240x360/1/crop/cd/53/56c1b574e1cf6851038ba4ce_56c1b57414e8c.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Imawabi no Dakini (1-13 глава)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<strong>Информация о манге: </strong><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>сверхъестественное, ужасы, сёнэн<br/>
-<strong>Год выхода: </strong>2012<br/>
-<strong>Кол-во томов: </strong>3<br/>
-<strong>Автор: </strong>Sigama<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Фушими и Тоуми были обычными старшеклассниками, до момента когда они наткнулись на призрачную гору, известную в легендах как Гора Хагуре. Еще до того как они успели что-либо понять, Тоуми  была захвачена Дакини, богиней горы Хагуре, исполняющая желания. Когда она спросила у Фушими, чего тот желает, он попросил вернуть Тоуми. Дакини согласилась сделать это, если взамен Фушими станет ее слугой. Однако роль Фушими оказалась гораздо значительнее, чем простого слуги, Справится ли он с заданием?<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 13 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b648e1cf6851038baffe/">World Trigger (1-104 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		1.32 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 28 июня 2015 в 19:31				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b648e1cf6851038baffe/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/l2gFdSS-i5a78HnKXK2dKg/240x360/1/crop/f7/d8/56c1b648e1cf6851038baffe_56c1b648332e7.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="World Trigger (1-104 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>повседневность, школа, сёнэн, сверхъестественное<br/>
-<strong>Год выхода: </strong>2013<br/>
-<strong>Кол-во томов: </strong>&gt;12<br/>
-<strong>Автор: </strong>Ашихара Дайсукэ<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Распахнулись врата в другой измерение, и из них появляются гигантские непобедимой существа, которые угрожают всему человечеству. Единственная защита Земли это таинственная группа воинов, которые оснащены инопланетными технологиями для того, чтобы дать отпор!<br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 103-104 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b21be1cf6851038b59af/">Break Blade / Сломанный Меч (1-75 глав)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		631.78 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1a60ce1cf68e25e8bbfe0/" class="invisible"><i class="icon s-icons-user"></i> torich</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 24 мая 2015 в 11:16				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b21be1cf6851038b59af/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/KlDsyPoe_zUYPpCNbsBEAQ/240x360/1/crop/ac/0b/56c1b21be1cf6851038b59af_56c1b21b57cb7.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Break Blade / Сломанный Меч (1-75 глав)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>приключения, меха, драма, сёнэн<br/>
-<strong>Год выхода: </strong>2006<br/>
-<strong>Кол-во томов: </strong>&gt;13<br/>
-<strong>Автор: </strong>Ёсинага Юносукэ<br/>
-<strong>Язык: </strong>русский (1-75)<br/>
-<strong>Описание: </strong>События оригинальной манги происходят в месте под название &#34;континент Кразона&#34;, где люди рождаются с магическими способностями. Но наш главный герой, конечно же, особенный - у него никаких способностей нет. В это же время на континенте происходят военные действия между двумя королевствами - Королевством Кришны (родина главного героя) и Нацией Афин. Одна из вещей, вокруг которых крутится здешний мир - некие кристаллы, которые могут добывать жители благодаря своим магическим способностям. Но, как было уже сказано ранее, главный герой лишен этой возможности, однако, это не мешает стать ему высококлассным пилотом мехи и вести Королевство Кришны к победе.<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle"><strong>Дополнительная информация</strong></span></div><div class="spoiler-content" style="display:none;"><em>Перевод:</em> Action Manga Team</div></div><br/>
-<br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина: добавлена 72-75 глава.				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b740e1cf6851038bbe85/">Tokyo Ghoul (14 из 14 томов) Complete</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		1.44 GB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1b101e1cf68924f8d66db/" class="invisible"><i class="icon s-icons-user"></i> RomCher1983</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 24 февраля 2015 в 4:07				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b740e1cf6851038bbe85/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/UslXxjJ4yjiCEX-j--s9IQ/240x360/1/crop/22/90/56c1b740e1cf6851038bbe85_56c1b7405139e.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Tokyo Ghoul (14 из 14 томов) Complete"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong> приключения, мистика, драма, сэйнэн<br/>
-<strong>Год выхода: </strong>2011<br/>
-<strong>Кол-во томов: </strong>14<br/>
-<strong>Автор: </strong>Ishida Sui<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>В результате несчастного случая Канеки Кен попадает в операционную, где ему пересаживают чужие органы. Все бы ничего, вот только донором оказывается мертвый гуль - чудовище, питающееся человеческим мясом. Постепенно Канеки замечает странности в своем поведении, которые приводят его в кафе &#34;Антейку&#34;. Подружившись с его обитателями, он открывает для себя доселе неведомый ему опасный и жестокий мир гулей. Невольно герой задумывается над вопросом, а кто же он сам? Чью сторону он примет в непримиримой войне гулей и людей?<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;">Перевод:<br/>
-Flaming Rose &amp; 104 Squad - главы 1-2, 42-143<br/>
-May May - глава 3<br/>
-Flaming Rose - главы 4-41<br/>
-</div></div>				</div>
-			</div>
-		</div>
-	</div>
-</li>
-<li class="torrent-item torrent-item-medium panel">
-	<div class="pd1020">
-		<div class="title">
-			<h3 class="h2 m0">
-									<a href="/torrent/56c1b4a4e1cf6851038b96ab/">Hentai Ouji to Warawanai Neko. (1-24 главы)</a>
-							</h3>
-		</div>
-	</div>
-
-	<div class="info pd20">
-		<i class="icon s-icons-upload"></i> 1		<span class="gray"> | </span>
-		<i class="icon s-icons-download"></i> 0		<span class="gray"> | </span>
-		382.97 MB
-				<span class="gray"> | </span>
-		<a rel="nofollow" href="/user/56c1ae0ce1cf68924f8bc16b/" class="invisible"><i class="icon s-icons-user"></i> nerutik</a>
-		
-		<span class="gray"> | </span>
-		<!--noindex-->
-					<span class="gray">Добавлен:</span> 22 июня 2014 в 18:07				<!--/noindex-->
-	</div>
-
-	<div class="pd20">
-		<div class="clearfix">
-			<div class="pull-left mr20">
-									<a href="/torrent/56c1b4a4e1cf6851038b96ab/" class="cover">
-						<label class="category">манга</label>
-						<img width="240" height="360" data-original="//images.animelayer.ru/t1NaSCWhI89g0TTFYLPP3Q/240x360/1/crop/52/b6/56c1b4a4e1cf6851038b96ab_56c1b4a4383b2.jpg" src="//static.animelayer.ru/img/placeholder/240x360.jpg" alt="Hentai Ouji to Warawanai Neko. (1-24 главы)"/>
-					</a>
-							</div>
-
-			<div class="oh">
-				<div class="description">
-					<u>Информация о манге</u><br/>
-<strong>Производство: </strong>Япония<br/>
-<strong>Жанр: </strong>комедия, романтика, сэйнэн<br/>
-<strong>Год выхода: </strong>2011<br/>
-<strong>Кол-во томов: </strong>2<br/>
-<strong>Автор: </strong>Сагара Со, Окомэкэн, Кантоку<br/>
-<strong>Язык: </strong>русский<br/>
-<strong>Описание: </strong>Ёкодера - старшеклассник, который смело следует своим насущным желаниям. Единственная его проблема в том, что, когда он делает что-либо чтобы удовлетворить их, его действия всегда неправильно понимаются, и он в результате получает &#34;награду&#34;.<br/>
-Самое большое его желание - это отделаться от доброго студенческого &#34;публичного лица&#34; и иметь возможность рассказать о своих настоящих чувствах.<br/>
-Однажды его друг, полный извращенец, полностью преображается и избавляется от своего прозвища &#34;Грязные мыслишки&#34;. В школе существует легенда, что если ты пожертвуешь что-то статуе &#34;Котов, которые не смеются&#34;, то ты получишь что-то взамен.<br/>
-Вот Ёкодера и делает пожертвование статуе, чтобы избавиться от своего дурацкого прозвища. В тоже время, есть девушка, которая всегда открыто выражает свои чувства, что делает её похожей на ребенка. Чтобы выглядеть более взросло, она желает научиться прятать свои настоящие чувства. Вот они напару и молятся за осуществление своих желаний...<br/>
-Исполнятся ли их желания? Или, что более важно, будут ли они рады результатам?<br/>
-<br/>
-<div class="spoiler"><div class="spoiler-title"><span class="spoiler-toggle js-spoiler-toggle">Дополнительная информация</span></div><div class="spoiler-content" style="display:none;"><strong>Перевод: </strong>Pink Tears (1-2), Manga Translation Team [Aki Team] (3-15), ПростоЧел... (16-...)<br/>
-</div></div><br/>
-<strong>Торрент был обновлен</strong><br/>
-Причина : добавил 23-24 главу				</div>
-			</div>
-		</div>
-	</div>
-</li>
 		</ul>
 					<!--noindex-->
 			<div class="panel widget hide">
@@ -2163,7 +2161,7 @@ Flaming Rose - главы 4-41<br/>
 			</div>
 	<script>
 		require(['catalog'], function(Catalog){
-			new Catalog(document.getElementById('torrents_676d39ef8c3bb'), {
+			new Catalog(document.getElementById('torrents_67746433ca75c'), {
 				namespace: '/torrents/',
 				query: '',
 				showMore: 0,
@@ -2188,7 +2186,7 @@ Flaming Rose - главы 4-41<br/>
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>

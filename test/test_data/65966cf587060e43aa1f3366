@@ -124,7 +124,7 @@ require.config({
 
 	<div class="panel widget">
 		<div class="pd1020">
-			<div id="stars_676d39e0e3ae6" class="clearfix">
+			<div id="stars_67746426702b7" class="clearfix">
 	<div class="stars stars-hovered pull-left">
 		<div class="stars-rating" style="width: 80%;"></div>
 		<div class="star-my hide" style="margin-left: 0px;"></div>
@@ -138,7 +138,7 @@ require.config({
 </div>
 <script>
 require(['stars'], function(Stars){
-	new Stars(document.getElementById('stars_676d39e0e3ae6'), {
+	new Stars(document.getElementById('stars_67746426702b7'), {
 		url: '/mark/torrent/65966cf587060e43aa1f3366/',
 		rating: Number('4'),
 		sum: Number('12'),
@@ -151,22 +151,22 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="info pd20">
-			<i class="icon s-icons-upload"></i> 4			<span class="gray"> | </span>
+			<i class="icon s-icons-upload"></i> 3			<span class="gray"> | </span>
 			<i class="icon s-icons-download"></i> 0			<span class="gray"> | </span>
 			260.82 MB
 						<span class="gray"> | </span>
 			<a rel="nofollow" href="/user/56c1a998e1cf68e25e8db437/" class="invisible"><i class="icon s-icons-user"></i> Mirror-Wind</a>
 			
 			<span class="gray"> | </span>
-			<i class="icon s-icons-eye"></i> 1739			
+			<i class="icon s-icons-eye"></i> 1775			
 			<span class="gray"> | </span>
 			<i class="icon s-icons-complete"></i> 0		</div>
 		<div class="info pd20 b0">
 			<!--noindex-->
-						<span class="gray">Обновлён:</span> <span class="date-updated">4 января в 11:31</span>
+						<span class="gray">Обновлён:</span> <span class="date-updated">4 января 2024 в 11:31</span>
 			<span class="gray"> | </span>
 			
-						<span class="gray">Cоздан:</span> <span class="date-created">4 января в 11:31</span>
+						<span class="gray">Cоздан:</span> <span class="date-created">4 января 2024 в 11:31</span>
 						<!--/noindex-->
 
 					</div>
@@ -193,11 +193,11 @@ require(['stars'], function(Stars){
 			</div>
 
 	<div class="panel widget pd20">
-	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/G4a2--iYSkkH-HQLW1sj6A/1295x1812/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg"><img id="screenlist_676d39e0e44ca" data-zoom-image="//images.animelayer.ru/G4a2--iYSkkH-HQLW1sj6A/1295x1812/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg" width="320" height="448" src="//images.animelayer.ru/HdPvNYrtPgGhzltZYGNKLw/320x448/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg" alt=""/></a>
+	<a class="iblock vtop" target="_blank" href="//images.animelayer.ru/G4a2--iYSkkH-HQLW1sj6A/1295x1812/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg"><img id="screenlist_6774642673845" data-zoom-image="//images.animelayer.ru/G4a2--iYSkkH-HQLW1sj6A/1295x1812/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg" width="320" height="448" src="//images.animelayer.ru/HdPvNYrtPgGhzltZYGNKLw/320x448/1/crop/bb/0e/65966cf587060e43aa1f3366_65966cf625617.jpg" alt=""/></a>
 </div>
 <script>
 	require(['elevateZoom'], function(){
-		$(document.getElementById('screenlist_676d39e0e44ca')).elevateZoom({
+		$(document.getElementById('screenlist_6774642673845')).elevateZoom({
 			scrollZoom: true,
 			borderSize: 0,
 			zoomWindowWidth: 320,
@@ -270,7 +270,7 @@ require(['stars'], function(Stars){
 
 <div class="panel widget">
 	<div class="h2 pd1020">Комментарии к торренту</div>
-	<div class="comments-container btop" id="comments_676d39e0e4691">
+	<div class="comments-container btop" id="comments_6774642673955">
 		<div class="comments-tree "><ul class="comments-list list-reset">
 	<li data-id="659675f4621adb011464ef75" class="comments-item  clearfix">
 	<div class="comment-container">
@@ -285,7 +285,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 12:10		</span>
+			4 января 2024 в 12:10		</span>
 
 		<div class="oh">
 			<div class="comment-text">Звучит заманчиво)<br/>
@@ -312,7 +312,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 12:11		</span>
+			4 января 2024 в 12:11		</span>
 
 		<div class="oh">
 			<div class="comment-text">Если б только ещё и раздача была :)</div>
@@ -336,7 +336,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 12:15		</span>
+			4 января 2024 в 12:15		</span>
 
 		<div class="oh">
 			<div class="comment-text">Пожалуйста. )</div>
@@ -360,7 +360,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 16:42		</span>
+			4 января 2024 в 16:42		</span>
 
 		<div class="oh">
 			<div class="comment-text">Очень мрачная, очень атмосферная, очень безумная манга. Как всегда, бессмысленное использование бессмысленной Книжки в начале, но автор - чел креативный. А его перспектива, эти ракурсы - прям жмёт, прям зажимает. И хорошая рисовка, и динамика событий (но не повествования). Блин, теперь охота на это в аниме посмотреть. Мб, это манга по какой-нибудь малобитной новелле-бродилки? Чувствуются вайбы Ib, только на сей раз природа демонической сущности и реальности более понятна, очевидна, как бы жилкой чувствуешь, интуитивно понимаешь. В Ib, конечно, галерея и главный антагонист, и фиг пойми вообще чё за создание и какой природы. Тут же &#34;биологичность&#34; и материальность врага видна невооружённым глазом, и я понимаю, что мог бы оказаться на месте девчонки. <br/>
@@ -386,7 +386,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 17:14		</span>
+			4 января 2024 в 17:14		</span>
 
 		<div class="oh">
 			<div class="comment-text">Поддерживая всё вышесказанное. От себя хочу добавить: очень доставляет, как художник передаёт динамку движений персонажей и придаёт Лавкрафтианский оттенок даже &#34;обычной&#34; человеческой цивилизации, через архитектуру и украшения их зданий, техники и технологий.</div>
@@ -410,7 +410,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 17:46		</span>
+			4 января 2024 в 17:46		</span>
 
 		<div class="oh">
 			<div class="comment-text">Да, да, точняк)))<br/>
@@ -444,7 +444,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 13:05		</span>
+			4 января 2024 в 13:05		</span>
 
 		<div class="oh">
 			<div class="comment-text">Встаньте на раздачу, пожалуйста. Описание манги заинтересовало, не терпится прочитать)</div>
@@ -468,7 +468,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 13:22		</span>
+			4 января 2024 в 13:22		</span>
 
 		<div class="oh">
 			<div class="comment-text">На раздаче стою с момента создания. Просто из-за провайдера проблемы с сидингом. Потерпите - какой-нибудь личер да пробъётся. У меня давно так. (</div>
@@ -492,7 +492,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			4 января в 17:25		</span>
+			4 января 2024 в 17:25		</span>
 
 		<div class="oh">
 			<div class="comment-text">Спасибо!</div>
@@ -520,7 +520,7 @@ require(['stars'], function(Stars){
 
 		<span class="gray">
 			 — 
-			8 февраля в 14:14		</span>
+			8 февраля 2024 в 14:14		</span>
 
 		<div class="oh">
 			<div class="comment-text">Встаньте на раздачу плиз!</div>
@@ -557,7 +557,7 @@ require(['stars'], function(Stars){
 </div>
 <script>
 	require(['comments', 'lib/form'], function(Comments, Form){
-		var comments = new Comments(document.getElementById('comments_676d39e0e4691'));
+		var comments = new Comments(document.getElementById('comments_6774642673955'));
 				var form = new Form(comments.form, {
 			autofocus: false,
 			onSubmit: function(R) {
@@ -578,7 +578,7 @@ require(['stars'], function(Stars){
 		</div>
 
 		<div class="pull-left">
-			<div>Animelayer © 2004–2024</div>
+			<div>Animelayer © 2004–2025</div>
 
 			<div class="clearfix">
 				<div class="pull-left mr40"><a href="/page/disclaimer/" class="u">Пользовательское соглашение</a></div>
