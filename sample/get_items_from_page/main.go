@@ -25,7 +25,7 @@ func main() {
 
 	p := animelayer.New(animelayer.NewClientWrapper(&http.Client{}), animelayer.WithNoteClassOverride("i", ""))
 
-	items, err := p.GetItemsFromCategoryPages(ctx, animelayer.Categories.Anime, 1)
+	items, err := p.GetItemsFromCategoryPages(ctx, animelayer.CategoryAnime, 1)
 	if err != nil {
 		panic(err)
 	}

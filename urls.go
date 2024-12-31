@@ -1,48 +1,39 @@
 package animelayer
 
+//go:generate go-stringer -type=Category -trimprefix=Category -nametransform=snake_case_lower -fromstringgenfn -outputtransform=snake_case_lower
+
 import (
 	"errors"
 	"strconv"
 )
 
 // Category - animelayer category
-type Category string
+type Category int8
 
-// Categories - object to emulate enum class
-var Categories = struct {
-	Anime       Category
-	AnimeHentai Category
-	Manga       Category
-	MangaHentai Category
-	Music       Category
-	Dorama      Category
-	All         Category
-}{
-	Anime:       "anime",
-	AnimeHentai: "anime_hentai",
-	Manga:       "manga",
-	MangaHentai: "manga_henai",
-	Music:       "music",
-	Dorama:      "dorama",
-	All:         "",
-}
+const (
+	CategoryAnime Category = iota
+	CategoryAnimeHentai
+	CategoryManga
+	CategoryMangaHentai
+	CategoryMusic
+	CategoryDorama
+)
 
-func (c *Category) Presentation() string {
-	switch *c {
-	case Categories.Anime:
+func (c Category) Presentation() string {
+
+	switch c {
+	case CategoryAnime:
 		return "аниме"
-	case Categories.AnimeHentai:
+	case CategoryAnimeHentai:
 		return "аниме"
-	case Categories.Manga:
+	case CategoryManga:
 		return "манга"
-	case Categories.MangaHentai:
+	case CategoryMangaHentai:
 		return "манга"
-	case Categories.Music:
+	case CategoryMusic:
 		return "музыка"
-	case Categories.Dorama:
+	case CategoryDorama:
 		return "дорама"
-	case Categories.All:
-		return ""
 	default:
 		return ""
 	}
@@ -50,69 +41,44 @@ func (c *Category) Presentation() string {
 
 func (c *Category) Url() string {
 	switch *c {
-	case Categories.Anime:
+	case CategoryAnime:
 		return "/torrents/anime/"
-	case Categories.AnimeHentai:
+	case CategoryAnimeHentai:
 		return "/torrents/anime/hentai/"
-	case Categories.Manga:
+	case CategoryManga:
 		return "/torrents/manga/"
-	case Categories.MangaHentai:
+	case CategoryMangaHentai:
 		return "/torrents/manga/hentai/"
-	case Categories.Music:
+	case CategoryMusic:
 		return "/torrents/music/"
-	case Categories.Dorama:
+	case CategoryDorama:
 		return "/torrents/dorama/"
-	case Categories.All:
-		return ""
 	default:
 		return ""
 	}
 }
 
-func CategoryFromString(s string) (Category, error) {
-	switch s {
-
-	case string(Categories.Anime):
-		return Categories.Anime, nil
-	case string(Categories.AnimeHentai):
-		return Categories.AnimeHentai, nil
-	case string(Categories.Manga):
-		return Categories.Manga, nil
-	case string(Categories.MangaHentai):
-		return Categories.MangaHentai, nil
-	case string(Categories.Music):
-		return Categories.Music, nil
-	case string(Categories.Dorama):
-		return Categories.Dorama, nil
-	case string(Categories.All):
-		return Categories.All, nil
-	}
-
-	return Categories.Anime, errors.New("string not match any of categories")
-}
-
 func categoryFromPresentationString(s string) (Category, error) {
 	switch s {
 
-	case Categories.Anime.Presentation():
-		return Categories.Anime, nil
-	case Categories.AnimeHentai.Presentation():
-		return Categories.AnimeHentai, nil
-	case Categories.Manga.Presentation():
-		return Categories.Manga, nil
-	case Categories.MangaHentai.Presentation():
-		return Categories.MangaHentai, nil
-	case Categories.Music.Presentation():
-		return Categories.Music, nil
-	case Categories.Dorama.Presentation():
-		return Categories.Dorama, nil
-	case Categories.All.Presentation():
-		return Categories.All, nil
+	case CategoryAnime.Presentation():
+		return CategoryAnime, nil
+	case CategoryAnimeHentai.Presentation():
+		return CategoryAnimeHentai, nil
+	case CategoryManga.Presentation():
+		return CategoryManga, nil
+	case CategoryMangaHentai.Presentation():
+		return CategoryMangaHentai, nil
+	case CategoryMusic.Presentation():
+		return CategoryMusic, nil
+	case CategoryDorama.Presentation():
+		return CategoryDorama, nil
 	}
 
-	return Categories.Anime, errors.New("string not match any of categories")
+	return CategoryAnime, errors.New("string not match any of categories")
 }
 
+// Url heplers
 const baseURL = "https://animelayer.ru"
 
 func formatToItemsPageURL(category Category, iPage int) string {

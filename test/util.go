@@ -145,7 +145,7 @@ func isEqualItem(got, expected *animelayer.Item) error {
 		return err
 	}
 
-	if string(got.Category) != string(expected.Category) {
+	if got.Category != expected.Category {
 		return fmt.Errorf("expected Category='%s', but got='%s", expected.Category, got.Category)
 	}
 

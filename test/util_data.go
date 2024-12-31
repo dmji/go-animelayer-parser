@@ -103,27 +103,27 @@ func testCategoryPages() []TestParseFirstPageParams {
 
 	return []TestParseFirstPageParams{
 		{
-			Category: animelayer.Categories.Anime,
+			Category: animelayer.CategoryAnime,
 			Page:     1,
 		},
 		{
-			Category: animelayer.Categories.Manga,
+			Category: animelayer.CategoryManga,
 			Page:     2,
 		},
 		{
-			Category:  animelayer.Categories.Anime,
+			Category:  animelayer.CategoryAnime,
 			Page:      1,
 			NoteElem:  "i",
 			NoteClass: "test",
 		},
 		{
-			Category:  animelayer.Categories.Manga,
+			Category:  animelayer.CategoryManga,
 			Page:      2,
 			NoteElem:  "i",
 			NoteClass: "test",
 		},
 		{
-			Category:      animelayer.Categories.Anime,
+			Category:      animelayer.CategoryAnime,
 			Page:          1500,
 			ExpectedError: animelayer.ErrorEmptyPage,
 		},
