@@ -1,6 +1,6 @@
 package animelayer
 
-//go:generate go-stringer -type=Category -trimprefix=Category -nametransform=snake_case_lower -fromstringgenfn -outputtransform=snake_case_lower
+//go:generate go-stringer -type=Category -trimprefix=Category -nametransform=snake_case_lower -fromstringgenfn -outputtransform=snake_case_lower -marshaljson
 
 import (
 	"errors"
