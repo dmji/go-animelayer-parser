@@ -18,11 +18,12 @@ func _() {
 	_ = x[CategoryMangaHentai-3]
 	_ = x[CategoryMusic-4]
 	_ = x[CategoryDorama-5]
+	_ = x[CategoryAll-6]
 }
 
-const _Category_name = "animeanime_hentaimangamanga_hentaimusicdorama"
+const _Category_name = "animeanime_hentaimangamanga_hentaimusicdoramaall"
 
-var _Category_index = [...]uint8{0, 5, 17, 22, 34, 39, 45}
+var _Category_index = [...]uint8{0, 5, 17, 22, 34, 39, 45, 48}
 
 func (i Category) String() string {
 	if i < 0 || i >= Category(len(_Category_index)-1) {
@@ -31,7 +32,7 @@ func (i Category) String() string {
 	return _Category_name[_Category_index[i]:_Category_index[i+1]]
 }
 func CategoryFromString(s string) (Category, error) {
-	for i := 0; i < 6; i++ {
+	for i := 0; i < 7; i++ {
 		if e := Category(i + 0); s == e.String() {
 			return e, nil
 		}

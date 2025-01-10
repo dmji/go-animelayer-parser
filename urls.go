@@ -17,10 +17,10 @@ const (
 	CategoryMangaHentai
 	CategoryMusic
 	CategoryDorama
+	CategoryAll
 )
 
 func (c Category) Presentation() string {
-
 	switch c {
 	case CategoryAnime:
 		return "аниме"
@@ -53,6 +53,8 @@ func (c *Category) Url() string {
 		return "/torrents/music/"
 	case CategoryDorama:
 		return "/torrents/dorama/"
+	case CategoryAll:
+		return "/"
 	default:
 		return ""
 	}
@@ -88,6 +90,7 @@ func formatToItemsPageURL(category Category, iPage int) string {
 func formatToItemURL(identifier string) string {
 	return baseURL + "/torrent/" + identifier
 }
+
 func formatToItemDownloadURL(identifier string) string {
 	return baseURL + "/torrent/" + identifier + "/download"
 }
