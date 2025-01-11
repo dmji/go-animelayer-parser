@@ -76,7 +76,7 @@ func extractDivSpoiler(text string) (string, NotesSematizied) {
 
 		result.Taged = append(result.Taged, NotesSematiziedItem{
 			Tag:    vals[0],
-			Childs: tryGetSomthingSemantizedFromNotes(vals[1]),
+			Childs: TryGetSomthingSemantizedFromNotes(vals[1]),
 		})
 	}
 
@@ -139,7 +139,7 @@ func strongLinesToNoteItems(strongLines []notesSplitted) *NotesSematizied {
 	return result
 }
 
-func tryGetSomthingSemantizedFromNotes(text string) *NotesSematizied {
+func TryGetSomthingSemantizedFromNotes(text string) *NotesSematizied {
 	result := &NotesSematizied{}
 
 	text, tagItems := extractDivSpoiler(text)

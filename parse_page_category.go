@@ -10,7 +10,6 @@ import (
 )
 
 func (p *parser) parseItemTitle(n *html.Node, item *Item) error {
-
 	ref := getFirstChildHrefNode(n)
 	if ref == nil {
 		return errors.New("href not found")
@@ -43,7 +42,6 @@ func (p *parser) parseItemTitle(n *html.Node, item *Item) error {
 }
 
 func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string) (bool, error) {
-
 	var err error
 	switch val {
 
@@ -61,7 +59,7 @@ func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string)
 		}
 
 		item.Notes = note
-		item.NotesSematizied = tryGetSomthingSemantizedFromNotes(note)
+		item.NotesSematizied = TryGetSomthingSemantizedFromNotes(note)
 		return true, nil
 	case "pd20": // cart cover image
 		ref := getFirstChildImgNode(n)
@@ -87,7 +85,6 @@ func (p *parser) tryReadCardNodeAsDivClass(n *html.Node, item *Item, val string)
 }
 
 func (p *parser) traverseCardNodes(ctx context.Context, n *html.Node, item *Item) error {
-
 	// cart title
 	if isExistAttrWithTargetKeyValue(n, "h3", "class", "h2 m0") {
 
@@ -133,7 +130,6 @@ type itemWithError struct {
 }
 
 func (p *parser) parseCategoryPageChans(ctx context.Context, n *html.Node, chItems chan<- itemWithError, wg *sync.WaitGroup) {
-
 	if isExistAttrWithTargetKeyValue(n, "li", "class", "torrent-item torrent-item-medium panel") {
 
 		wg.Add(1)
@@ -142,7 +138,6 @@ func (p *parser) parseCategoryPageChans(ctx context.Context, n *html.Node, chIte
 
 			item := &Item{}
 			err := p.traverseCardNodes(ctx, n, item)
-
 			if err != nil {
 				chItems <- itemWithError{
 					Item:  nil,
@@ -171,7 +166,6 @@ func (p *parser) parseCategoryPageChans(ctx context.Context, n *html.Node, chIte
 }
 
 func (p *parser) ParseCategoryPage(ctx context.Context, page *html.Node) ([]Item, error) {
-
 	chItems := make(chan itemWithError, 20)
 
 	go func() {

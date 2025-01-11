@@ -87,15 +87,10 @@ func formatToItemsPageURL(category Category, iPage int) string {
 	return baseURL + category.Url() + "?page=" + strconv.FormatInt(int64(iPage), 10)
 }
 
-func formatToItemURL(identifier string) string {
+func FormatToItemURL(identifier string) string {
 	return baseURL + "/torrent/" + identifier
 }
 
-func formatToItemDownloadURL(identifier string) string {
+func FormatToItemDownloadURL(identifier string) string {
 	return baseURL + "/torrent/" + identifier + "/download"
-}
-
-// GetTorrentURL - direct download link
-func (m *Item) GetTorrentURL() string {
-	return formatToItemURL(m.Identifier)
 }

@@ -5,8 +5,7 @@ import (
 )
 
 func (p *service) GetItemByIdentifier(ctx context.Context, identifier string) (*Item, error) {
-
-	url := formatToItemURL(identifier)
+	url := FormatToItemURL(identifier)
 	doc, err := loadDocument(p.client, url)
 	if err != nil {
 		return nil, err

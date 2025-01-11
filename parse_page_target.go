@@ -15,7 +15,6 @@ const (
 )
 
 func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (loopExitStatus, error) {
-
 	var err error
 	switch val {
 
@@ -43,7 +42,7 @@ func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (lo
 		}
 
 		item.Notes = note
-		item.NotesSematizied = tryGetSomthingSemantizedFromNotes(note)
+		item.NotesSematizied = TryGetSomthingSemantizedFromNotes(note)
 		return breakLoopExitStatus, nil
 	case "cover": // cart cover image
 		href := getFirstChildHrefNode(n)
@@ -80,7 +79,6 @@ func (p *parser) tryReadNodeAsDivClass(n *html.Node, item *Item, val string) (lo
 }
 
 func (p *parser) traverseItemNodes(ctx context.Context, n *html.Node, item *Item) error {
-
 	if isExistAttrWithTargetKeyValue(n, "meta", "property", "og:title") {
 		val, bFound := getAttrByKey(n, "content")
 		if bFound {
@@ -119,7 +117,6 @@ func (p *parser) traverseItemNodes(ctx context.Context, n *html.Node, item *Item
 }
 
 func (p *parser) ParseItem(ctx context.Context, doc *html.Node, identifier string) (*Item, error) {
-
 	item := &Item{Identifier: identifier}
 	err := p.traverseItemNodes(ctx, doc, item)
 	return item, err
