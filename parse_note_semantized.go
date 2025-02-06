@@ -154,14 +154,25 @@ func TryGetSomthingSemantizedFromNotes(text string) *NotesSematizied {
 			s = line.Text
 		}
 
-		strongLines := splitTextByTags(s, "strong")
-		if len(line.Others) > 0 {
-			result.Extend(strongLinesToNoteItems(strongLines))
-		} else {
-			result.Taged = append(result.Taged, NotesSematiziedItem{
-				Tag:    removeHTMLTags(line.Tag),
-				Childs: strongLinesToNoteItems(strongLines),
-			})
+		paragraphs := strings.Split(s, "<br/><br/>")
+		for _, t := range paragraphs {
+
+			strongLines := splitTextByTags(t, "strong")
+			if len(line.Others) > 0 {
+				result.Extend(strongLinesToNoteItems(strongLines))
+			} else {
+				tag := removeHTMLTags(line.Tag)
+				ch := strongLinesToNoteItems(strongLines)
+				if len(tag) == 0 && (ch == nil || (len(ch.Taged) == 0 && len(ch.Untaged) == 0)) {
+					continue
+				}
+
+				result.Taged = append(result.Taged, NotesSematiziedItem{
+					Tag:    tag,
+					Childs: ch,
+				})
+			}
+
 		}
 	}
 
